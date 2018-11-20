@@ -41,6 +41,7 @@ Configuration file example
      - potrefena_husa
      - kulatak
      - budvarka
+     - blox
      - extractor: agata
        place_id: 3
      - extractor: agata
