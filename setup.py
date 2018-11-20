@@ -26,7 +26,7 @@ setup(
         "Programming Language :: Python :: 3 :: Only",
         "Topic :: Utilities",
     ],
-    packages=["poledni_menu"],
+    packages=["poledni_menu", "poledni_menu.extractors"],
     install_requires=[
         "click",
         "lxml",
