@@ -7,22 +7,20 @@ _PLACES = {
     "Pod Juliskou": "http://www.podjuliskou.cz/menu/",
 }
 
-DEFAULT_PLACE = "Pod Juliskou"
+
+def get_name(place_id=None):
+    return place_id or "Pod Juliskou"
 
 
-def get_name(place_id):
-    return place_id
+def get_url(place_id=None):
+    return _PLACES.get(get_name(place_id), "")
 
 
-def get_url(place_id):
-    return _PLACES.get(place_id, "")
-
-
-def get_menu(place_id):
+def get_menu(place_id=None):
     """Menu podle Obědáře"""
 
     url = "http://obedar.fit.cvut.cz/restaurants/{}".format(
-        urllib.parse.quote(place_id),
+        urllib.parse.quote(get_name(place_id)),
     )
     parser = lxml.html.HTMLParser(encoding="utf-8")
     doc = lxml.html.parse(urllib.request.urlopen(url), parser)

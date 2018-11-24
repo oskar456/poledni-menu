@@ -1,23 +1,19 @@
-import urllib.request
 import datetime
 import locale
 
-import lxml.html
+from ..utils import parsed_html_doc
 
 
-DEFAULT_PLACE = ""
-
-
-def get_name(place_id):
+def get_name():
     return "Blox"
 
 
-def get_url(place_id):
+def get_url():
     return "http://www.blox-restaurant.cz/#!/page_obedy"
 
 
-def get_menu(place_id):
-    doc = lxml.html.parse(urllib.request.urlopen(get_url(place_id)))
+def get_menu():
+    doc = parsed_html_doc(get_url())
     locale.setlocale(locale.LC_TIME, 'cs_CZ.UTF8')
     dayname = datetime.date.today().strftime("%A")
     rows = doc.xpath(

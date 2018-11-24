@@ -1,21 +1,23 @@
-import urllib.request
 import datetime
 
-import lxml.html
-
-DEFAULT_PLACE = "na-kotlarce"
+from ..utils import parsed_html_doc
 
 
-def get_name(place_id):
-    return "Bernard Pub Na Kotlářce"
+def get_url(place_id=None):
+    return "https://www.bernardpub.cz/pub/" + (place_id or "na-kotlarce")
 
 
-def get_url(place_id):
-    return "https://www.bernardpub.cz/pub/" + place_id
+def get_name(place_id=None):
+    doc = parsed_html_doc(get_url(place_id))
+    title = doc.find('/head/title')
+    if title is not None:
+        return title.text_content()
+    else:
+        return "Neznámý Bernard Pub"
 
 
-def get_menu(place_id):
-    doc = lxml.html.parse(urllib.request.urlopen(get_url(place_id)))
+def get_menu(place_id=None):
+    doc = parsed_html_doc(get_url(place_id))
     tabs = doc.xpath(
         '//section[@class="daily-menu"]'
         '//ul[@class="day-selection"]/li'

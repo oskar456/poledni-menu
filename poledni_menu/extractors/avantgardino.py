@@ -1,22 +1,18 @@
-import urllib.request
 import datetime
 
-import lxml.html
+from ..utils import parsed_html_doc
 
 
-DEFAULT_PLACE = ""
-
-
-def get_name(place_id):
+def get_name():
     return "Avantgardino"
 
 
-def get_url(place_id):
+def get_url():
     return "http://www.avantgardino.cz/"
 
 
-def get_menu(place_id):
-    doc = lxml.html.parse(urllib.request.urlopen(get_url(place_id)))
+def get_menu():
+    doc = parsed_html_doc(get_url())
     rows = doc.xpath(
         '//div[@class="dennimenu"]'
         '/h3[contains(text(), "{0.day}. {0.month}")]'

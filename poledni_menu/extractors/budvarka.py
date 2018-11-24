@@ -1,21 +1,18 @@
-import urllib.request
 import datetime
 
-import lxml.html
-
-DEFAULT_PLACE = ""
+from ..utils import parsed_html_doc
 
 
-def get_name(place_id):
+def get_name():
     return "Budvarka"
 
 
-def get_url(place_id):
+def get_url():
     return "https://www.pivnice-budvarka.cz/budvarka-dejvice/"
 
 
-def get_menu(place_id):
-    doc = lxml.html.parse(urllib.request.urlopen(get_url(place_id)))
+def get_menu():
+    doc = parsed_html_doc(get_url())
     today = datetime.date.today().strftime("%-d.\xa0%-m.\xa0%Y")
     menus = doc.xpath('//div[@id="dnesniMenu"]//'
                       'table/tr'.format(today))

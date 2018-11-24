@@ -1,23 +1,19 @@
-import urllib.request
 import datetime
 import locale
 
-import lxml.html
+from ..utils import parsed_html_doc
 
 
-DEFAULT_PLACE = ""
-
-
-def get_name(place_id):
+def get_name():
     return "Kulaťák"
 
 
-def get_url(place_id):
+def get_url():
     return "https://www.kulatak.cz/"
 
 
-def get_menu(place_id):
-    doc = lxml.html.parse(urllib.request.urlopen(get_url(place_id)))
+def get_menu():
+    doc = parsed_html_doc(get_url())
     locale.setlocale(locale.LC_TIME, 'cs_CZ.UTF8')
     dayname = datetime.date.today().strftime("%A")
     for meal in doc.xpath('//div[@id="daily_menu"]/table/tbody/tr/td'

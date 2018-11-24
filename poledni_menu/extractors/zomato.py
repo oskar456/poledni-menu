@@ -1,18 +1,39 @@
 import datetime
 import html
-from pathlib import Path
 
 try:
     import requests
 except ImportError:
     raise ValueError("This extractor requires requests package to work")
 
-try:
-    p = Path("~/.config/zomatoapikey.txt").expanduser()
-    api_key = p.read_text().strip()
-except FileNotFoundError:
-    raise ValueError("This extractor requires an API key. Obtain one and "
-                     "put it to {}.".format(p))
+
+def _get_res_id(place_id=None, res_id=None, api_key=None):
+    return res_id or place_id or "18311812"
+
+
+def _parsed_api_call(
+    endpoint="dailymenu", place_id=None,
+    res_id=None, api_key=None,
+):
+    if not hasattr(_parsed_api_call, "cache"):
+        _parsed_api_call.cache = dict()
+    if api_key is None:
+        raise ValueError(
+            "This extractor requires an API key. Obtain one and "
+            "add it as option called 'api_key'.",
+        )
+    res_id = _get_res_id(place_id, res_id)
+    if (endpoint, res_id) not in _parsed_api_call.cache:
+        url = "https://developers.zomato.com/api/v2.1/" + endpoint
+        params = {'res_id': res_id}
+        headers = {
+            'user_key': api_key,
+            'Accept': 'application/json',
+        }
+        _parsed_api_call.cache[(endpoint, res_id)] = requests.get(
+            url, headers=headers, params=params,
+        ).json()
+    return _parsed_api_call.cache[(endpoint, res_id)]
 
 
 _PLACES = {
@@ -21,32 +42,23 @@ _PLACES = {
     "16506914": ("DAP", "http://www.daphotel.cz/"),
 }
 
-DEFAULT_PLACE = "18311812"
+
+def get_name(**kwargs):
+    doc = _parsed_api_call(endpoint="restaurant", **kwargs)
+    return doc.get("name", "Neznámá restaurace")
 
 
-def get_name(place_id):
+def get_url(**kwargs):
+    res_id = _get_res_id(**kwargs)
     try:
-        return _PLACES[place_id][0]
+        return _PLACES[res_id][1]
     except KeyError:
-        return "Neznámá restarurace"
+        doc = _parsed_api_call(endpoint="restaurant", **kwargs)
+        return doc.get("menu_url", "")
 
 
-def get_url(place_id):
-    try:
-        return _PLACES[place_id][1]
-    except KeyError:
-        return ""
-
-
-def get_menu(place_id):
-    url = "https://developers.zomato.com/api/v2.1/dailymenu"
-    params = {'res_id': place_id}
-    headers = {
-        'user_key': api_key,
-        'Accept': 'application/json',
-    }
-    req = requests.get(url, headers=headers, params=params)
-    doc = req.json()
+def get_menu(**kwargs):
+    doc = _parsed_api_call(**kwargs)
     dishes = []
     for menu in doc['daily_menus']:
         sd = menu['daily_menu'].get('start_date')
