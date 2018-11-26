@@ -33,6 +33,8 @@ setup(
         "pyyaml",
         "markdown",
     ],
+    setup_requires=["pytest-runner"],
+    tests_require=["pytest-vcr"],
     entry_points={
         "console_scripts": [
             "poledni-menu-print = poledni_menu.generate:print_menu",

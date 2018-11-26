@@ -1,0 +1,1013 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Connection: [close]
+      Host: [agata.suz.cvut.cz]
+      User-Agent: [Python-urllib/3.6]
+    method: GET
+    uri: https://agata.suz.cvut.cz/jidelnicky/index.php?clPodsystem=5
+  response:
+    body: {string: "<!DOCTYPE html>\n<html lang=\"cs\">\n  <head>    \n    <meta http-equiv=\"Content-Type\"
+        content=\"text/html; charset=UTF-8\">  \n    <title>J\xEDdeln\xED\u010Dky
+        menz \u010CVUT</title>\n    <meta name=\"viewport\" content=\"width=device-width,
+        initial-scale=1.0\">\n    <meta name=\"description\" content=\"Webov\xE9 j\xEDdeln\xED\u010Dky
+        menz \u010CVUT\">\n    <meta name=\"keywords\" content=\"Menzy, j\xEDdeln\xED\u010Dky,
+        \u010CVUT, Restaurace, Strahov, Kladno, Dejvice, Podol\xED\">\n    <meta name=\"author\"
+        content=\"Ka\u0148ovsk\xFD Tom\xE1\u0161\">\n    \n\n    <link rel=\"stylesheet\"
+        title=\"styl\" type=\"text/css\" href=\"css/style.css\" media=\"screen\">\n
+        \   <link rel=\"stylesheet\" type=\"text/css\" href=\"css/tisk.css\" media=\"print\">\n
+        \   \n    \n    <!--[if lt IE 9]>\n      <script src=\"http://html5shim.googlecode.com/svn/trunk/html5.js\"></script>\n
+        \   <![endif]-->\n\n    <!-- favicons -->\n    <link rel=\"shortcut icon\"
+        href=\"favicon.ico\">\n    <link rel=\"icon\" href=\"favicon.ico\">\n    <link
+        rel=\"shortcut icon\" href=\"favicon.png\" type=\"image/png\">  \n  \n<!--
+        javascript code\n================================================================================\n\n-->\n<script
+        type=\"text/javascript\">\nfunction ShowJidelnicek(PodSid){\n  var  OldPodSid
+        = document.getElementById('PodsysActiveID').value;\n   \n  document.getElementById(OldPodSid).className
+        = \"\";\n  document.getElementById('podS'+ PodSid).className = \"active\";\n
+        \ document.getElementById('PodsysActive').value = PodSid;\n  document.getElementById('PodsysActiveID').value
+        = \"podS\"+ PodSid;\n}\n\nfunction SendSection(IDlink){\n  var link = document.getElementById(IDlink).href;\n
+        \ var section = document.getElementById(\"PodsysActive\").value;\n  if (section
+        != 0){\n  if (IDlink == \"litydenh\"){\n    document.getElementById(IDlink).href
+        = link + \"?clPodsystem=\" +  section; \n  }else{\n   document.getElementById(IDlink).href
+        = link + \"#section\" +  section;\n  }\n  }\n}\n\nfunction xPopOver(ID){\n
+        \   $(ID).popover('show');\n}\n\nfunction xToolTip(ID){\n    $(ID).tooltip('show');\n}\n\n\n</script>\n<!--\n================================================================================\nend
+        of javascript code  -->\n     \n </head>\n  <body>\n\n<input type='hidden'
+        id='PodsysActive' value='5'>\n<input type='hidden' id='ActivePage' value='lihome'>\n<input
+        type='hidden' id='PodsysActiveID' value='podS5'>\n\n\n    <div class=\"navbar
+        navbar-fixed-top\">\n      <div class=\"navbar-inner\">\n        <div class=\"container\">\n
+        \         <a class=\"btn btn-navbar\" data-toggle=\"collapse\" data-target=\".nav-collapse\">\n
+        \           <span class=\"icon-bar\"></span>\n            <span class=\"icon-bar\"></span>\n
+        \           <span class=\"icon-bar\"></span>\n          </a>          \n          <div
+        class=\"nav-collapse\">\n            <ul id=\"navmenu\" class=\"nav\">\n              <li
+        id=\"lihome\" class=\"active\"><a href=\"#\">J\xEDdeln\xED\u010Dky</a></li>\n
+        \             <li id=\"lityden\"><a id=\"litydenh\" href=\"indexTyden.php\"
+        onclick=\"SendSection('litydenh');\">T\xFDdenn\xED</a></li>\n              <li
+        id=\"liot\"><a id=\"lioth\" href=\"oteviraci-doby.php\" onclick=\"SendSection('lioth');\">Otev\xEDrac\xED
+        doby</a></li>\n              <li id=\"likontakt\"><a id=\"likontakth\" href=\"kontakty.php\"
+        onclick=\"SendSection('likontakth');\">Kontakty</a></li>\n              <li
+        id=\"lismart\"><a id=\"lismarth\" href=\"aplikace.php\">Aplikace</a></li>\n
+        \             <li id=\"listravnik\"><a id=\"listravnikh\" href=\"stravnik.php\">Str\xE1vn\xEDk</a></li>\n
+        \           </ul>\n          </div><!--/.nav-collapse -->\n          <a class=\"brand\"
+        href=\"index.php\">J\xEDdeln\xED\u010Dky menz \u010CVUT</a>\n        </div>\n
+        \     </div>\n    </div>    \n    <div class=\"container\">\n    <div class=\"row-fluid\">\n
+        \   <div class=\"span2\" id=\"levypruh\">     \n      <div class=\"subnav\"
+        id=\"divmenumenzy\">\n        <ul class=\"nav nav-pills nav-stacked\" id=\"menzy\">
+        \        \n           \n            <li  id=\"podS15\"><a id=\"podSh15\" href=\"?clPodsystem=15\"
+        onclick=\"ShowJidelnicek('15');\">ArchiCaf\xE9</a></li>\n              \n
+        \           <li  id=\"podS5\"><a id=\"podSh5\" href=\"?clPodsystem=5\" onclick=\"ShowJidelnicek('5');\">Masarykova
+        kolej</a></li>\n              \n            <li  id=\"podS12\"><a id=\"podSh12\"
+        href=\"?clPodsystem=12\" onclick=\"ShowJidelnicek('12');\">MEGA BUF FAT</a></li>\n
+        \             \n            <li  id=\"podS9\"><a id=\"podSh9\" href=\"?clPodsystem=9\"
+        onclick=\"ShowJidelnicek('9');\">Menza Kladno</a></li>\n              \n            <li
+        \ id=\"podS4\"><a id=\"podSh4\" href=\"?clPodsystem=4\" onclick=\"ShowJidelnicek('4');\">Menza
+        Podol\xED</a></li>\n              \n            <li  id=\"podS1\"><a id=\"podSh1\"
+        href=\"?clPodsystem=1\" onclick=\"ShowJidelnicek('1');\">Menza Strahov</a></li>\n
+        \             \n            <li  id=\"podS2\"><a id=\"podSh2\" href=\"?clPodsystem=2\"
+        onclick=\"ShowJidelnicek('2');\">Menza Studentsk\xFD d\u016Fm</a></li>\n              \n
+        \           <li style=\"display:none;\" id=\"podS14\"><a id=\"podSh14\" href=\"?clPodsystem=14\"
+        onclick=\"ShowJidelnicek('14');\">Odd\u011Bl\u011Bn\xED spr\xE1vy IT G\xDA</a></li>\n
+        \             \n            <li  id=\"podS10\"><a id=\"podSh10\" href=\"?clPodsystem=10\"
+        onclick=\"ShowJidelnicek('10');\">Pizzerie la fontanella</a></li>\n              \n
+        \           <li  id=\"podS3\"><a id=\"podSh3\" href=\"?clPodsystem=3\" onclick=\"ShowJidelnicek('3');\">Technick\xE1
+        menza</a></li>\n              \n            <li  id=\"podS6\"><a id=\"podSh6\"
+        href=\"?clPodsystem=6\" onclick=\"ShowJidelnicek('6');\">V\xFDdejna Horsk\xE1</a></li>\n
+        \             \n            <li  id=\"podS8\"><a id=\"podSh8\" href=\"?clPodsystem=8\"
+        onclick=\"ShowJidelnicek('8');\">V\xFDdejna Karlovo n\xE1m\u011Bst\xED</a></li>\n
+        \                   \n        </ul>\n      </div>\n      <br>\n      <div
+        class=\"leftmenupodklad\">\n      &nbsp;\n      </div>      \n    </div>\n
+        \   <div class=\"span10\">\n      \n    \n    \n<!-- body\n================================================================================\n-->\n<div
+        id=\"aktuality\" class='aktuality' style=\"display:none; max-width:800px;
+        padding-left:10px;\"><div class=\"row-fluid\">\r\n  \r\n<div class=\"span6\">
+        \r\n  <div id=\"Info5\" class=\"alert alert-error\" style=\"height:auto; overflow:hidden;
+        text-overflow: ellipsis;\">  \r\n    <p><span title=\"ArchiCaf\xE9\" class=\"label
+        label-important\">Masarykova kolej</span></p>\r\n    <p>\r\nOTEV\xCDRAC\xCD
+        DOBA<BR>\r\nMENZA MASARYKOVA KOLEJ<BR>\r\nPO-\u010CT:  7:00-20:00<BR>\r\nP\xC1:
+        \        7:00-15:00<BR>\r\nSO-NE:  ZAV\u0158ENO<BR>\r\nSN\xCDDAN\u011A: 7:00-10:00<BR>\r\nOB\u011ADY:
+        \    10,30- 14,30<BR>\r\nVE\u010CE\u0158E:  17,30-20:00 /  V\xDDDEJ DO 19,50
+        HODIN!!!<BR>\r\nRESTAURACE OD 10.9.2018 B\u011A\u017DN\xDD PROVOZ<BR>\r\nPO
+        - \u010CT 11:00 - 20:00<BR>\r\nP\xC1 11:00 - 15:00<BR>\r\nsn\xEDdan\u011B
+        pro ubytovan\xE9 hosty - PO - NE 7:00 - 10:00<BR></p>   \r\n  </div>\r\n</div>\r\n
+        \ \r\n<div class=\"span6\"> \r\n  <div id=\"Info10\" class=\"alert alert-error\"
+        style=\"height:auto; overflow:hidden; text-overflow: ellipsis;\">  \r\n    <p><span
+        title=\"Masarykova kolej\" class=\"label label-important\">Pizzerie la fontanella</span></p>\r\n
+        \   <p>\r\nV\xE1\u017Een\xED z\xE1kazn\xEDci,<BR>\r\nr\xE1d bych V\xE1m znovu
+        p\u0159ipomenul, \u017Ee i na celou nab\xEDdku j\xEDdel ze st\xE1l\xE9ho j\xEDdeln\xEDho
+        l\xEDstku se vztahuje studentsk\xE1/zam\u011Bstnaneck\xE1 dotace.<BR>\r\nDear
+        Customer,  <BR>\r\nI would like to once again remind you that the student/employee
+        discount applies to the entire menu. <BR></p>   \r\n  </div>\r\n</div>\r\n</div><br><div
+        class=\"row-fluid\">  \r\n<div class=\"span6\"> \r\n  <div id=\"Info2\" class=\"alert
+        alert-error\" style=\"height:auto; overflow:hidden; text-overflow: ellipsis;\">
+        \ \r\n    <p><span title=\"MEGA BUF FAT\" class=\"label label-important\">Menza
+        Studentsk\xFD d\u016Fm</span></p>\r\n    <p>\r\nMENZA STUDENTSK\xDD D\u016EM
+        JE P\u0158\xCDSTUPN\xC1 OP\u011AT Z OBOU STRAN OCHOZU BO\u010CN\xCDM SCHODI\u0160T\u011AM
+        Z KOLEJN\xCD ULICE!!!<BR>\r\nVESTIBUL MENZY JE P\u0158\xCDSTUPN\xDD!!!<BR></p>
+        \  \r\n  </div>\r\n</div>\r\n  \r\n<div class=\"span6\"> \r\n  <div id=\"Info3\"
+        class=\"alert alert-error\" style=\"height:auto; overflow:hidden; text-overflow:
+        ellipsis;\">  \r\n    <p><span title=\"Menza Kladno\" class=\"label label-important\">Technick\xE1
+        menza</span></p>\r\n    <p>\r\nNa Technick\xE9 menze akceptujeme pouze bezkontaktn\xED
+        zam\u011Bstnaneck\xE9 karty s \u010Dipem. Pokud m\xE1te kartu s magnetick\xFDm
+        prou\u017Ekem a chcete se u n\xE1s stravovat, za\u0159i\u010Fte si pros\xEDm
+        v\xFDm\u011Bnu karty.<BR></p>   \r\n  </div>\r\n</div>\r\n</div><br><div class=\"row-fluid\"></div>
+        \r\n  \r\n</div>\n\n<div id=\"jidelnicek\" style=\"display:block; max-width:800px;
+        padding-left:10px;\">\n\n\r\n\r\n<div class='data' style=\"display:none;\"
+        >\r\nV\xFDb\u011Br dle aktu\xE1ln\xED nab\xEDdky na provozovn\u011B. <a href=\"alergenyall.php\"
+        target=\"_blank\" style=\"padding-left:5px;\" title=\"Alergeny\">Seznam v\u0161ech
+        alergen\u016F <img src=\"files/Alergeny16.png\" alt=\"Al\"></a>\r\n</div>\r\n<div
+        class='data'  >\r\n  <div class=\"jidelnicekheaderprint\">\r\n    <h2>Masarykova
+        kolej&nbsp;&nbsp;&nbsp; <small>26. 11. 2018&nbsp;&nbsp;&nbsp;Ob\u011Bd</small></h2>
+        \   \r\n  </div>  \r\n  <div class=\"jidelnicekheader\">\r\n    <div class=\"row-fluid\">\r\n
+        \     <div class=\"span6\">\r\n        <span class=\"label label-success\">Ob\u011Bd</span>
+        \ \r\n        <span><b>Masarykova kolej,&nbsp;pond\u011Bl\xED&nbsp;26. 11.
+        2018</b></span>\r\n      </div>\r\n      <div class=\"span3\">&nbsp;\r\n                      \r\n
+        \     </div>\r\n      <div class=\"span3\" style=\"text-align:right;\">\t\r\n
+        \       \t<a data-toggle=\"modal\" href=\"#myModal\" class=\"btn btn-danger
+        btn-mini\" >D\u016Fle\u017Eit\xE9 informace!</a>\r\n\t        \r\n      </div>
+        \   \r\n    </div>\r\n  </div>\r\n<table class=\"table table-condensed\">
+        \ \r\n  <thead>   \r\n    <tr>\r\n      <th style=\"width:40px\">V\xE1ha</th>\r\n
+        \     <th >N\xE1zev</th>\r\n      <th >&nbsp;</th>\r\n      <th >&nbsp;</th>\r\n
+        \     <th style=\"width:50px; text-align:center\">Student</th>\r\n      <th
+        style=\"width:55px; text-align:center\">Ostatn\xED</th>\r\n      <th style=\"width:80px;padding-left:2px;padding-right:0px;\">V\xFDdej</th>\r\n
+        \     <th class=\"tstarradektd\" style=\"width:40px;padding-left:2px;padding-right:0px;\"></th>\r\n
+        \   </tr>\r\n  </thead>\r\n  <tbody>\r\n\r\n\r\n<tr>\r\n  <th colspan='8'
+        class=\"thkategorie\">Pol\xE9vky</th> \r\n</tr>\r\n\r\n\r\n<tr>\r\n  <td style=\"width:40px;
+        text-align:right;\">&nbsp;</td>\r\n  <td>Cuketov\xE1 pol\xE9vka  </td>\r\n
+        \ <td style=\"width:10px;\">\r\n    <div class=\"starradek\">                        \r\n
+        \         <a href=\"alergeny.php?alergen=293789\" target=\"_blank\" style=\"padding-left:5px;\"
+        title=\"Alergeny: 7,12\"><img id='Alergen293789' src=\"files/Alergeny16.png\"
+        alt=\"Al\"></a>\r\n        </div>\r\n  </td>\r\n  <td style=\"width:10px;\">\r\n
+        \   \r\n    <div class=\"starradek\">                  \r\n          </div>\r\n
+        \ </td>\r\n  <td style=\"width:50px; text-align:right\">\r\n  8,00&nbsp;K\u010D
+        \ \r\n  </td>\r\n  <td style=\"width:55px; text-align:right\">\r\n  12,00&nbsp;K\u010D
+        \ \r\n  </td>\r\n  <td  style=\"width:80px;padding-left:2px;padding-right:0px;\">\r\n
+        \ <span id=\"v0v22\" onmouseover=\"xToolTip(v0v22);\" onclick=\"xToolTip(v0v22);\"
+        title=\"Menza\" class=\"label label-warning\">S</span>\_  </td>\r\n  <td style=\"width:40px;
+        font-size:11px; text-align:right;padding-left:2px;padding-right:0px;\" class=\"tstarradektd\">\r\n
+        \   <div class=\"starradek\">\r\n    <input id=\"StarsNum_293789\" type='hidden'
+        value='0'>\r\n    <input id=\"StarsVotes_293789\" type='hidden' value='0'>\r\n
+        \   <input type='hidden' id='StarsJidlo_293789' value='Cuketov\xE1 pol\xE9vka
+        \ '>\r\n    \r\n    </div>\r\n  </td>\r\n</tr>\r\n\r\n<tr>\r\n  <th colspan='8'
+        class=\"thkategorie\">Hlavn\xED j\xEDdla</th> \r\n</tr>\r\n\r\n\r\n<tr>\r\n
+        \ <td style=\"width:40px; text-align:right;\">&nbsp;120\_g</td>\r\n  <td>Vep\u0159ov\xFD
+        seged\xEDn, houskov\xE9 knedl\xEDky </td>\r\n  <td style=\"width:10px;\">\r\n
+        \   <div class=\"starradek\">                        \r\n          <a href=\"alergeny.php?alergen=293790\"
+        target=\"_blank\" style=\"padding-left:5px;\" title=\"Alergeny: 1,3,7,10\"><img
+        id='Alergen293790' src=\"files/Alergeny16.png\" alt=\"Al\"></a>\r\n        </div>\r\n
+        \ </td>\r\n  <td style=\"width:10px;\">\r\n    \r\n    <div class=\"starradek\">
+        \                 \r\n          </div>\r\n  </td>\r\n  <td style=\"width:50px;
+        text-align:right\">\r\n  56,86&nbsp;K\u010D  \r\n  </td>\r\n  <td style=\"width:55px;
+        text-align:right\">\r\n  81,00&nbsp;K\u010D  \r\n  </td>\r\n  <td  style=\"width:80px;padding-left:2px;padding-right:0px;\">\r\n
+        \ <span id=\"v1v22\" onmouseover=\"xToolTip(v1v22);\" onclick=\"xToolTip(v1v22);\"
+        title=\"Menza\" class=\"label label-warning\">S</span>\_  </td>\r\n  <td style=\"width:40px;
+        font-size:11px; text-align:right;padding-left:2px;padding-right:0px;\" class=\"tstarradektd\">\r\n
+        \   <div class=\"starradek\">\r\n    <input id=\"StarsNum_293790\" type='hidden'
+        value='0'>\r\n    <input id=\"StarsVotes_293790\" type='hidden' value='0'>\r\n
+        \   <input type='hidden' id='StarsJidlo_293790' value='Vep\u0159ov\xFD seged\xEDn,
+        houskov\xE9 knedl\xEDky '>\r\n    \r\n    </div>\r\n  </td>\r\n</tr>\r\n\r\n<tr>\r\n
+        \ <th colspan='8' class=\"thkategorie\">Bezmas\xE1 j\xEDdla</th> \r\n</tr>\r\n\r\n\r\n<tr>\r\n
+        \ <td style=\"width:40px; text-align:right;\">&nbsp;350\_g</td>\r\n  <td>Houbov\xE9
+        fleky, sterilovan\xE1 okurka </td>\r\n  <td style=\"width:10px;\">\r\n    <div
+        class=\"starradek\">                        \r\n          <a href=\"alergeny.php?alergen=293791\"
+        target=\"_blank\" style=\"padding-left:5px;\" title=\"Alergeny: 1,3,7,10\"><img
+        id='Alergen293791' src=\"files/Alergeny16.png\" alt=\"Al\"></a>\r\n        </div>\r\n
+        \ </td>\r\n  <td style=\"width:10px;\">\r\n    \r\n    <div class=\"starradek\">
+        \                 \r\n          </div>\r\n  </td>\r\n  <td style=\"width:50px;
+        text-align:right\">\r\n  44,85&nbsp;K\u010D  \r\n  </td>\r\n  <td style=\"width:55px;
+        text-align:right\">\r\n  69,00&nbsp;K\u010D  \r\n  </td>\r\n  <td  style=\"width:80px;padding-left:2px;padding-right:0px;\">\r\n
+        \ <span id=\"v2v22\" onmouseover=\"xToolTip(v2v22);\" onclick=\"xToolTip(v2v22);\"
+        title=\"Menza\" class=\"label label-warning\">S</span>\_  </td>\r\n  <td style=\"width:40px;
+        font-size:11px; text-align:right;padding-left:2px;padding-right:0px;\" class=\"tstarradektd\">\r\n
+        \   <div class=\"starradek\">\r\n    <input id=\"StarsNum_293791\" type='hidden'
+        value='0'>\r\n    <input id=\"StarsVotes_293791\" type='hidden' value='0'>\r\n
+        \   <input type='hidden' id='StarsJidlo_293791' value='Houbov\xE9 fleky, sterilovan\xE1
+        okurka '>\r\n    \r\n    </div>\r\n  </td>\r\n</tr>\r\n\r\n<tr>\r\n  <th colspan='8'
+        class=\"thkategorie\">Speci\xE1ln\xED nab\xEDdka restaurace</th> \r\n</tr>\r\n\r\n\r\n<tr>\r\n
+        \ <td style=\"width:40px; text-align:right;\">&nbsp;</td>\r\n  <td>Cuketov\xE1
+        \ </td>\r\n  <td style=\"width:10px;\">\r\n    <div class=\"starradek\">                        \r\n
+        \         <a href=\"alergeny.php?alergen=293792\" target=\"_blank\" style=\"padding-left:5px;\"
+        title=\"Alergeny: 7,12\"><img id='Alergen293792' src=\"files/Alergeny16.png\"
+        alt=\"Al\"></a>\r\n        </div>\r\n  </td>\r\n  <td style=\"width:10px;\">\r\n
+        \   \r\n    <div class=\"starradek\">                  \r\n          </div>\r\n
+        \ </td>\r\n  <td style=\"width:50px; text-align:right\">\r\n  0,00&nbsp;K\u010D
+        \ \r\n  </td>\r\n  <td style=\"width:55px; text-align:right\">\r\n  28,00&nbsp;K\u010D
+        \ \r\n  </td>\r\n  <td  style=\"width:80px;padding-left:2px;padding-right:0px;\">\r\n
+        \ <span id=\"v3v34\" onmouseover=\"xToolTip(v3v34);\" onclick=\"xToolTip(v3v34);\"
+        title=\"Restaurace\" class=\"label label-success\">R</span>\_  </td>\r\n  <td
+        style=\"width:40px; font-size:11px; text-align:right;padding-left:2px;padding-right:0px;\"
+        class=\"tstarradektd\">\r\n    <div class=\"starradek\">\r\n    <input id=\"StarsNum_293792\"
+        type='hidden' value='0'>\r\n    <input id=\"StarsVotes_293792\" type='hidden'
+        value='0'>\r\n    <input type='hidden' id='StarsJidlo_293792' value='Cuketov\xE1
+        \ '>\r\n    \r\n    </div>\r\n  </td>\r\n</tr>\r\n<tr>\r\n  <td style=\"width:40px;
+        text-align:right;\">&nbsp;</td>\r\n  <td>Hov\u011Bz\xED v\xFDvar s masem a
+        nudlemi  </td>\r\n  <td style=\"width:10px;\">\r\n    <div class=\"starradek\">
+        \                       \r\n          <a href=\"alergeny.php?alergen=293793\"
+        target=\"_blank\" style=\"padding-left:5px;\" title=\"Alergeny: 1,3,7,9\"><img
+        id='Alergen293793' src=\"files/Alergeny16.png\" alt=\"Al\"></a>\r\n        </div>\r\n
+        \ </td>\r\n  <td style=\"width:10px;\">\r\n    \r\n    <div class=\"starradek\">
+        \                 \r\n          </div>\r\n  </td>\r\n  <td style=\"width:50px;
+        text-align:right\">\r\n  0,00&nbsp;K\u010D  \r\n  </td>\r\n  <td style=\"width:55px;
+        text-align:right\">\r\n  28,00&nbsp;K\u010D  \r\n  </td>\r\n  <td  style=\"width:80px;padding-left:2px;padding-right:0px;\">\r\n
+        \ <span id=\"v4v34\" onmouseover=\"xToolTip(v4v34);\" onclick=\"xToolTip(v4v34);\"
+        title=\"Restaurace\" class=\"label label-success\">R</span>\_  </td>\r\n  <td
+        style=\"width:40px; font-size:11px; text-align:right;padding-left:2px;padding-right:0px;\"
+        class=\"tstarradektd\">\r\n    <div class=\"starradek\">\r\n    <input id=\"StarsNum_293793\"
+        type='hidden' value='0'>\r\n    <input id=\"StarsVotes_293793\" type='hidden'
+        value='0'>\r\n    <input type='hidden' id='StarsJidlo_293793' value='Hov\u011Bz\xED
+        v\xFDvar s masem a nudlemi  '>\r\n    \r\n    </div>\r\n  </td>\r\n</tr>\r\n<tr>\r\n
+        \ <td style=\"width:40px; text-align:right;\">&nbsp;150\_g</td>\r\n  <td>MENU:Hov\u011Bz\xED
+        v\xFDvar s masem a  nudlemi, Hov\u011Bz\xED sot\xE9 se  \u017Eampiony, jasm\xEDnov\xE1
+        r\xFD\u017Ee</td>\r\n  <td style=\"width:10px;\">\r\n    <div class=\"starradek\">
+        \                       \r\n          <a href=\"alergeny.php?alergen=293794\"
+        target=\"_blank\" style=\"padding-left:5px;\" title=\"Alergeny: 1,3,7,9\"><img
+        id='Alergen293794' src=\"files/Alergeny16.png\" alt=\"Al\"></a>\r\n        </div>\r\n
+        \ </td>\r\n  <td style=\"width:10px;\">\r\n    \r\n    <div class=\"starradek\">
+        \                 \r\n          </div>\r\n  </td>\r\n  <td style=\"width:50px;
+        text-align:right\">\r\n  95,85&nbsp;K\u010D  \r\n  </td>\r\n  <td style=\"width:55px;
+        text-align:right\">\r\n  120,00&nbsp;K\u010D  \r\n  </td>\r\n  <td  style=\"width:80px;padding-left:2px;padding-right:0px;\">\r\n
+        \ <span id=\"v5v34\" onmouseover=\"xToolTip(v5v34);\" onclick=\"xToolTip(v5v34);\"
+        title=\"Restaurace\" class=\"label label-success\">R</span>\_  </td>\r\n  <td
+        style=\"width:40px; font-size:11px; text-align:right;padding-left:2px;padding-right:0px;\"
+        class=\"tstarradektd\">\r\n    <div class=\"starradek\">\r\n    <input id=\"StarsNum_293794\"
+        type='hidden' value='0'>\r\n    <input id=\"StarsVotes_293794\" type='hidden'
+        value='0'>\r\n    <input type='hidden' id='StarsJidlo_293794' value='MENU:Hov\u011Bz\xED
+        v\xFDvar s masem a  nudlemi, Hov\u011Bz\xED sot\xE9 se  \u017Eampiony, jasm\xEDnov\xE1
+        r\xFD\u017Ee'>\r\n    \r\n    </div>\r\n  </td>\r\n</tr>\r\n<tr>\r\n  <td
+        style=\"width:40px; text-align:right;\">&nbsp;150\_g</td>\r\n  <td>Hov\u011Bz\xED
+        sot\xE9 se \u017Eampiony,  jasm\xEDnov\xE1 r\xFD\u017Ee </td>\r\n  <td style=\"width:10px;\">\r\n
+        \   <div class=\"starradek\">                        \r\n          <a href=\"alergeny.php?alergen=293795\"
+        target=\"_blank\" style=\"padding-left:5px;\" title=\"Alergeny: 1,7\"><img
+        id='Alergen293795' src=\"files/Alergeny16.png\" alt=\"Al\"></a>\r\n        </div>\r\n
+        \ </td>\r\n  <td style=\"width:10px;\">\r\n    \r\n    <div class=\"starradek\">
+        \                 \r\n          </div>\r\n  </td>\r\n  <td style=\"width:50px;
+        text-align:right\">\r\n  73,85&nbsp;K\u010D  \r\n  </td>\r\n  <td style=\"width:55px;
+        text-align:right\">\r\n  98,00&nbsp;K\u010D  \r\n  </td>\r\n  <td  style=\"width:80px;padding-left:2px;padding-right:0px;\">\r\n
+        \ <span id=\"v6v34\" onmouseover=\"xToolTip(v6v34);\" onclick=\"xToolTip(v6v34);\"
+        title=\"Restaurace\" class=\"label label-success\">R</span>\_  </td>\r\n  <td
+        style=\"width:40px; font-size:11px; text-align:right;padding-left:2px;padding-right:0px;\"
+        class=\"tstarradektd\">\r\n    <div class=\"starradek\">\r\n    <input id=\"StarsNum_293795\"
+        type='hidden' value='0'>\r\n    <input id=\"StarsVotes_293795\" type='hidden'
+        value='0'>\r\n    <input type='hidden' id='StarsJidlo_293795' value='Hov\u011Bz\xED
+        sot\xE9 se \u017Eampiony,  jasm\xEDnov\xE1 r\xFD\u017Ee '>\r\n    \r\n    </div>\r\n
+        \ </td>\r\n</tr>\r\n<tr>\r\n  <td style=\"width:40px; text-align:right;\">&nbsp;150\_g</td>\r\n
+        \ <td>Kr\u016Ft\xED piccata s citronovou  om\xE1\u010Dkou, \u017Eampiony s
+        cuketou </td>\r\n  <td style=\"width:10px;\">\r\n    <div class=\"starradek\">
+        \                       \r\n          <a href=\"alergeny.php?alergen=293796\"
+        target=\"_blank\" style=\"padding-left:5px;\" title=\"Alergeny: 1,7,12\"><img
+        id='Alergen293796' src=\"files/Alergeny16.png\" alt=\"Al\"></a>\r\n        </div>\r\n
+        \ </td>\r\n  <td style=\"width:10px;\">\r\n    \r\n    <div class=\"starradek\">
+        \                 \r\n          </div>\r\n  </td>\r\n  <td style=\"width:50px;
+        text-align:right\">\r\n  80,86&nbsp;K\u010D  \r\n  </td>\r\n  <td style=\"width:55px;
+        text-align:right\">\r\n  105,00&nbsp;K\u010D  \r\n  </td>\r\n  <td  style=\"width:80px;padding-left:2px;padding-right:0px;\">\r\n
+        \ <span id=\"v7v34\" onmouseover=\"xToolTip(v7v34);\" onclick=\"xToolTip(v7v34);\"
+        title=\"Restaurace\" class=\"label label-success\">R</span>\_  </td>\r\n  <td
+        style=\"width:40px; font-size:11px; text-align:right;padding-left:2px;padding-right:0px;\"
+        class=\"tstarradektd\">\r\n    <div class=\"starradek\">\r\n    <input id=\"StarsNum_293796\"
+        type='hidden' value='0'>\r\n    <input id=\"StarsVotes_293796\" type='hidden'
+        value='0'>\r\n    <input type='hidden' id='StarsJidlo_293796' value='Kr\u016Ft\xED
+        piccata s citronovou  om\xE1\u010Dkou, \u017Eampiony s cuketou '>\r\n    \r\n
+        \   </div>\r\n  </td>\r\n</tr>\r\n<tr>\r\n  <td style=\"width:40px; text-align:right;\">&nbsp;350\_g</td>\r\n
+        \ <td>Vaje\u010Dn\xE1 omeleta s mozzarelou a raj\u010Daty, va\u0159en\xE9
+        brambory </td>\r\n  <td style=\"width:10px;\">\r\n    <div class=\"starradek\">
+        \                       \r\n          <a href=\"alergeny.php?alergen=293797\"
+        target=\"_blank\" style=\"padding-left:5px;\" title=\"Alergeny: 3,7,12\"><img
+        id='Alergen293797' src=\"files/Alergeny16.png\" alt=\"Al\"></a>\r\n        </div>\r\n
+        \ </td>\r\n  <td style=\"width:10px;\">\r\n    \r\n    <div class=\"starradek\">
+        \                 \r\n          </div>\r\n  </td>\r\n  <td style=\"width:50px;
+        text-align:right\">\r\n  64,85&nbsp;K\u010D  \r\n  </td>\r\n  <td style=\"width:55px;
+        text-align:right\">\r\n  89,00&nbsp;K\u010D  \r\n  </td>\r\n  <td  style=\"width:80px;padding-left:2px;padding-right:0px;\">\r\n
+        \ <span id=\"v8v34\" onmouseover=\"xToolTip(v8v34);\" onclick=\"xToolTip(v8v34);\"
+        title=\"Restaurace\" class=\"label label-success\">R</span>\_  </td>\r\n  <td
+        style=\"width:40px; font-size:11px; text-align:right;padding-left:2px;padding-right:0px;\"
+        class=\"tstarradektd\">\r\n    <div class=\"starradek\">\r\n    <input id=\"StarsNum_293797\"
+        type='hidden' value='0'>\r\n    <input id=\"StarsVotes_293797\" type='hidden'
+        value='0'>\r\n    <input type='hidden' id='StarsJidlo_293797' value='Vaje\u010Dn\xE1
+        omeleta s mozzarelou a raj\u010Daty, va\u0159en\xE9 brambory '>\r\n    \r\n
+        \   </div>\r\n  </td>\r\n</tr>\r\n<tr>\r\n  <td style=\"width:40px; text-align:right;\">&nbsp;350\_g</td>\r\n
+        \ <td>Bramborov\xE9 noky se \u0161pen\xE1tem, nivou a vep\u0159ovou panenkou
+        </td>\r\n  <td style=\"width:10px;\">\r\n    <div class=\"starradek\">                        \r\n
+        \         <a href=\"alergeny.php?alergen=293798\" target=\"_blank\" style=\"padding-left:5px;\"
+        title=\"Alergeny: 3,7,12\"><img id='Alergen293798' src=\"files/Alergeny16.png\"
+        alt=\"Al\"></a>\r\n        </div>\r\n  </td>\r\n  <td style=\"width:10px;\">\r\n
+        \   \r\n    <div class=\"starradek\">                  \r\n          </div>\r\n
+        \ </td>\r\n  <td style=\"width:50px; text-align:right\">\r\n  95,85&nbsp;K\u010D
+        \ \r\n  </td>\r\n  <td style=\"width:55px; text-align:right\">\r\n  120,00&nbsp;K\u010D
+        \ \r\n  </td>\r\n  <td  style=\"width:80px;padding-left:2px;padding-right:0px;\">\r\n
+        \ <span id=\"v9v34\" onmouseover=\"xToolTip(v9v34);\" onclick=\"xToolTip(v9v34);\"
+        title=\"Restaurace\" class=\"label label-success\">R</span>\_  </td>\r\n  <td
+        style=\"width:40px; font-size:11px; text-align:right;padding-left:2px;padding-right:0px;\"
+        class=\"tstarradektd\">\r\n    <div class=\"starradek\">\r\n    <input id=\"StarsNum_293798\"
+        type='hidden' value='0'>\r\n    <input id=\"StarsVotes_293798\" type='hidden'
+        value='0'>\r\n    <input type='hidden' id='StarsJidlo_293798' value='Bramborov\xE9
+        noky se \u0161pen\xE1tem, nivou a vep\u0159ovou panenkou '>\r\n    \r\n    </div>\r\n
+        \ </td>\r\n</tr>\r\n<tr>\r\n  <td style=\"width:40px; text-align:right;\">&nbsp;</td>\r\n
+        \ <td>Dezert dle j\xEDdeln\xEDho l\xEDstku  </td>\r\n  <td style=\"width:10px;\">\r\n
+        \   <div class=\"starradek\">                        \r\n         </div>\r\n
+        \ </td>\r\n  <td style=\"width:10px;\">\r\n    \r\n    <div class=\"starradek\">
+        \                 \r\n          </div>\r\n  </td>\r\n  <td style=\"width:50px;
+        text-align:right\">\r\n  0,00&nbsp;K\u010D  \r\n  </td>\r\n  <td style=\"width:55px;
+        text-align:right\">\r\n  0,00&nbsp;K\u010D  \r\n  </td>\r\n  <td  style=\"width:80px;padding-left:2px;padding-right:0px;\">\r\n
+        \ <span id=\"v10v34\" onmouseover=\"xToolTip(v10v34);\" onclick=\"xToolTip(v10v34);\"
+        title=\"Restaurace\" class=\"label label-success\">R</span>\_  </td>\r\n  <td
+        style=\"width:40px; font-size:11px; text-align:right;padding-left:2px;padding-right:0px;\"
+        class=\"tstarradektd\">\r\n    <div class=\"starradek\">\r\n    <input id=\"StarsNum_293799\"
+        type='hidden' value='0'>\r\n    <input id=\"StarsVotes_293799\" type='hidden'
+        value='0'>\r\n    <input type='hidden' id='StarsJidlo_293799' value='Dezert
+        dle j\xEDdeln\xEDho l\xEDstku  '>\r\n    \r\n    </div>\r\n  </td>\r\n</tr>\r\n
+        \ \r\n  </tbody>\r\n</table>\r\n<p><small>Ve\u0161ker\xE9 uveden\xE9 ceny
+        jsou smluvn\xED v\u010Detn\u011B DPH. Na j\xEDdeln\xEDm l\xEDstku je uvedena
+        v\xE1ha masa v syrov\xE9m stavu, u sal\xE1t\u016F a tal\xED\u0159\u016F celkov\xE1
+        hmotnost porce.<br>Zm\u011Bna j\xEDdeln\xEDho l\xEDstku vyhrazena. <a href=\"alergenyall.php\"
+        target=\"_blank\" style=\"padding-left:5px;\" title=\"Alergeny\">Seznam v\u0161ech
+        alergen\u016F <img src=\"files/Alergeny16.png\" alt=\"Al\"></a></small></p>
+        \   \r\n</div>\r\n\r\n<div class=\"jpaticka\">\r\n<a class=\"btn btn-small
+        btn-info\" href=\"javascript:window.print()\" target=\"_blank\" style=\"margin-bottom:4px;\"><i
+        class=\"icon-print icon-white\"></i> Tisk</a>\r\n<a href=\"http://www.suz.cvut.cz/menzy/masarykova-kolej\"
+        target=\"_blank\" class=\"btn btn-primary btn-small\" style=\"margin-bottom:4px;\"><i
+        class=\"icon-file icon-white\"></i>Str\xE1nky menzy</a>\r\n<a href=\"http://agata.suz.cvut.cz/files/MK-minutky.pdf\"
+        target=\"_blank\" class=\"btn btn-primary btn-small\" style=\"margin-bottom:4px;\"><i
+        class=\"icon-file icon-white\"></i>J\xEDdeln\xED l\xEDstek Akademick\xE9 restaurace</a>\r\n<a
+        href=\"http://agata.suz.cvut.cz/files/MK-minutkyen.pdf\" target=\"_blank\"
+        class=\"btn btn-primary btn-small\" style=\"margin-bottom:4px;\"><i class=\"icon-file
+        icon-white\"></i>J\xEDdeln\xED l\xEDstek Akademick\xE9 restaurace EN</a>\r\n</div>\r\n<br>\r\n<div
+        class=\"dulinfo\">  \r\n<div id=\"myModal\" class=\"modal hide fade\">\r\n
+        \ <div class=\"modal-header\">\r\n    <a class=\"close\" data-dismiss=\"modal\"
+        >&times;</a>\r\n    <h3>Masarykova kolej</h3>\r\n  </div>\r\n  <div class=\"modal-body\">
+        \             \r\n    <p><P ALIGN=\"LEFT\">\r\n<SPAN class=\"textlittle\"
+        style=\"color: #000000;\">\r\n</SPAN><SPAN class=\"textlittle\" style=\"color:
+        #020202;\"><I>OTEV\xCDRAC\xCD DOBA\r\n<BR>\r\n<BR></I></SPAN><SPAN class=\"textlittle\"
+        style=\"color: #020202;\"><B><I>MENZA MASARYKOVA KOLEJ\r\n<BR>\r\n<BR></I></B></SPAN><SPAN
+        class=\"textlittle\" style=\"color: #020202;\"><I>PO-\u010CT:  7:00-20:00\r\n<BR>P\xC1:
+        \        7:00-15:00\r\n<BR>SO-NE:  ZAV\u0158ENO\r\n<BR>\r\n<BR>SN\xCDDAN\u011A:
+        7:00-10:00\r\n<BR>OB\u011ADY:     10,30- 14,30\r\n<BR>VE\u010CE\u0158E:  17,30-20:00
+        /  V\xDDDEJ DO 19,50 HODIN!!!\r\n<BR>\r\n<BR>\r\n<BR></I></SPAN><SPAN class=\"textlittle\"
+        style=\"color: #020202;\"><B><I>RESTAURACE OD 10.9.2018 B\u011A\u017DN\xDD
+        PROVOZ\r\n<BR></I></B></SPAN><SPAN class=\"textlittle\" style=\"color: #020202;\"><I>PO
+        - \u010CT 11:00 - 20:00\r\n<BR>P\xC1 11:00 - 15:00\r\n<BR>sn\xEDdan\u011B
+        pro ubytovan\xE9 hosty - PO - NE 7:00 - 10:00\r\n<BR>\r\n<BR>\r\n<BR>\r\n<BR>\r\n</I></SPAN>\r\n</P>\r\n\r\n</p>\r\n
+        \ </div>\r\n  <div class=\"modal-footer\">\r\n    <a href=\"#\" class=\"btn\"
+        data-dismiss=\"modal\" >Zav\u0159\xEDt</a>              \r\n  </div>\r\n</div>\r\n</div>\r\n\r\n<!--
+        okno pro podrobne informace o jidle  #F5F6F8  #A0A0A0-->\r\n<div id=\"myInfo\"
+        class=\"modal hide fade\" style=\"width:400px;\">\r\n  <div class=\"modal-header\"
+        style=\"background-color:#72B4E5; color:#ffffff\">\r\n    <a class=\"close\"
+        data-dismiss=\"modal\" >&times;</a>\r\n    <h4>Informace o pokrmu:</h4>    \r\n
+        \ </div>\r\n  <div id=\"myInfoJidlo\" class=\"modal-body\" style=\"text-align:center;\">\r\n
+        \   Informace o j\xEDdle\r\n  </div>  \r\n</div> \n\n<noscript>\n<div style=\"text-align:center\"><b>Pro
+        spr\xE1vnou funkci j\xEDdeln\xED\u010Dk\u016F, mus\xEDte m\xEDt zapnutou podporu
+        JavaScriptu</b></div>\n</noscript>\n\n</div><!-- /jidelnicek -->\n\n</div>\n</div>\n\n
+        \       \n<!-- footer\n================================================================================\n-->\n
+        \     <hr>\n      <footer>        \n        <p>&copy; Spr\xE1va \xFA\u010Delov\xFDch
+        za\u0159\xEDzen\xED \u010CVUT v Praze 2015.</p>\n        <a href=\"mailto:&#106;&#105;&#100;&#101;&#108;&#110;&#105;&#099;&#107;&#121;&#064;&#099;&#118;&#117;&#116;&#046;&#099;&#122;\"
+        class=\"btn btn-info btn-mini\"><i class=\"icon-envelope icon-white\"></i>&nbsp;&#83;&#112;&#114;&#225;&#118;&#97;&#32;&#119;&#101;&#98;&#117;&#44;&#32;&#112;&#345;&#105;&#112;&#111;&#109;&#237;&#110;&#107;&#121;&#44;&#32;&#100;&#111;&#116;&#97;&#122;&#121;</a>\n
+        \     \n        <a href=\"https://www.suz.cvut.cz/\" target=\"_blank\" class=\"btn
+        btn-info btn-mini\">Spr\xE1va \xFA\u010Delov\xFDch za\u0159\xEDzen\xED \u010CVUT</a>\n
+        \     </footer>      \n    </div><!-- /container -->\n\n<div class=\"star\">
+        \ \n<div id=\"myStar\" class=\"modal hide fade\" style=\"width:400px;\">\n
+        \ <div class=\"modal-header\">\n   \n  </div>\n  <div class=\"modal-body\"
+        style=\"text-align:center;\">\n    \n  </div>              \n  <div class=\"modal-footer\"
+        style=\"height:40px\">\n    <div id=\"loading\" style=\"float:left;height:35px\"></div>\n
+        \   <a href=\"#\" class=\"btn\" data-dismiss=\"modal\">Zav\u0159\xEDt</a>\n
+        \ </div>\n</div>\n</div>\n\n \n<!-- javascript include scripts\n================================================================================\n-->
+        \  \n <script src=\"js/jquery.js\"></script>\n <script src=\"js/bootstrap.js\"></script>\n
+        \n<!-- Piwik\n<script type=\"text/javascript\">\n  var _paq = _paq || [];\n
+        \ _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function()
+        {\n    var u=\"//cat.suz.cvut.cz/webstat/\";\n    _paq.push(['setTrackerUrl',
+        u+'piwik.php']);\n    _paq.push(['setSiteId', 1]);\n    var d=document, g=d.createElement('script'),
+        s=d.getElementsByTagName('script')[0];\n    g.type='text/javascript'; g.async=true;
+        g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);\n  })();\n</script>\n<noscript><p><img
+        src=\"//cat.suz.cvut.cz/webstat/piwik.php?idsite=1\" style=\"border:0;\" alt=\"\"
+        /></p></noscript>\nEnd Piwik Code -->\n\n<!--\n================================================================================\n-->\n<script
+        type=\"text/javascript\">\n  var ID = 5;\n  var PodSys = parseInt(ID);  \n
+        \ \nif (PodSys > 0 && PodSys < 16){\n  ShowJidelnicek(ID);\n}\n</script>\n\n
+        \ </body>\n</html>\n"}
+    headers:
+      Connection: [close]
+      Content-Length: ['29125']
+      Content-Type: [text/html]
+      Date: ['Mon, 26 Nov 2018 08:26:55 GMT']
+      Server: [Microsoft-IIS/7.5]
+      X-Powered-By: [ASP.NET]
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Connection: [close]
+      Host: [agata.suz.cvut.cz]
+      User-Agent: [Python-urllib/3.6]
+    method: GET
+    uri: https://agata.suz.cvut.cz/jidelnicky/index.php?clPodsystem=1
+  response:
+    body: {string: "<!DOCTYPE html>\n<html lang=\"cs\">\n  <head>    \n    <meta http-equiv=\"Content-Type\"
+        content=\"text/html; charset=UTF-8\">  \n    <title>J\xEDdeln\xED\u010Dky
+        menz \u010CVUT</title>\n    <meta name=\"viewport\" content=\"width=device-width,
+        initial-scale=1.0\">\n    <meta name=\"description\" content=\"Webov\xE9 j\xEDdeln\xED\u010Dky
+        menz \u010CVUT\">\n    <meta name=\"keywords\" content=\"Menzy, j\xEDdeln\xED\u010Dky,
+        \u010CVUT, Restaurace, Strahov, Kladno, Dejvice, Podol\xED\">\n    <meta name=\"author\"
+        content=\"Ka\u0148ovsk\xFD Tom\xE1\u0161\">\n    \n\n    <link rel=\"stylesheet\"
+        title=\"styl\" type=\"text/css\" href=\"css/style.css\" media=\"screen\">\n
+        \   <link rel=\"stylesheet\" type=\"text/css\" href=\"css/tisk.css\" media=\"print\">\n
+        \   \n    \n    <!--[if lt IE 9]>\n      <script src=\"http://html5shim.googlecode.com/svn/trunk/html5.js\"></script>\n
+        \   <![endif]-->\n\n    <!-- favicons -->\n    <link rel=\"shortcut icon\"
+        href=\"favicon.ico\">\n    <link rel=\"icon\" href=\"favicon.ico\">\n    <link
+        rel=\"shortcut icon\" href=\"favicon.png\" type=\"image/png\">  \n  \n<!--
+        javascript code\n================================================================================\n\n-->\n<script
+        type=\"text/javascript\">\nfunction ShowJidelnicek(PodSid){\n  var  OldPodSid
+        = document.getElementById('PodsysActiveID').value;\n   \n  document.getElementById(OldPodSid).className
+        = \"\";\n  document.getElementById('podS'+ PodSid).className = \"active\";\n
+        \ document.getElementById('PodsysActive').value = PodSid;\n  document.getElementById('PodsysActiveID').value
+        = \"podS\"+ PodSid;\n}\n\nfunction SendSection(IDlink){\n  var link = document.getElementById(IDlink).href;\n
+        \ var section = document.getElementById(\"PodsysActive\").value;\n  if (section
+        != 0){\n  if (IDlink == \"litydenh\"){\n    document.getElementById(IDlink).href
+        = link + \"?clPodsystem=\" +  section; \n  }else{\n   document.getElementById(IDlink).href
+        = link + \"#section\" +  section;\n  }\n  }\n}\n\nfunction xPopOver(ID){\n
+        \   $(ID).popover('show');\n}\n\nfunction xToolTip(ID){\n    $(ID).tooltip('show');\n}\n\n\n</script>\n<!--\n================================================================================\nend
+        of javascript code  -->\n     \n </head>\n  <body>\n\n<input type='hidden'
+        id='PodsysActive' value='1'>\n<input type='hidden' id='ActivePage' value='lihome'>\n<input
+        type='hidden' id='PodsysActiveID' value='podS5'>\n\n\n    <div class=\"navbar
+        navbar-fixed-top\">\n      <div class=\"navbar-inner\">\n        <div class=\"container\">\n
+        \         <a class=\"btn btn-navbar\" data-toggle=\"collapse\" data-target=\".nav-collapse\">\n
+        \           <span class=\"icon-bar\"></span>\n            <span class=\"icon-bar\"></span>\n
+        \           <span class=\"icon-bar\"></span>\n          </a>          \n          <div
+        class=\"nav-collapse\">\n            <ul id=\"navmenu\" class=\"nav\">\n              <li
+        id=\"lihome\" class=\"active\"><a href=\"#\">J\xEDdeln\xED\u010Dky</a></li>\n
+        \             <li id=\"lityden\"><a id=\"litydenh\" href=\"indexTyden.php\"
+        onclick=\"SendSection('litydenh');\">T\xFDdenn\xED</a></li>\n              <li
+        id=\"liot\"><a id=\"lioth\" href=\"oteviraci-doby.php\" onclick=\"SendSection('lioth');\">Otev\xEDrac\xED
+        doby</a></li>\n              <li id=\"likontakt\"><a id=\"likontakth\" href=\"kontakty.php\"
+        onclick=\"SendSection('likontakth');\">Kontakty</a></li>\n              <li
+        id=\"lismart\"><a id=\"lismarth\" href=\"aplikace.php\">Aplikace</a></li>\n
+        \             <li id=\"listravnik\"><a id=\"listravnikh\" href=\"stravnik.php\">Str\xE1vn\xEDk</a></li>\n
+        \           </ul>\n          </div><!--/.nav-collapse -->\n          <a class=\"brand\"
+        href=\"index.php\">J\xEDdeln\xED\u010Dky menz \u010CVUT</a>\n        </div>\n
+        \     </div>\n    </div>    \n    <div class=\"container\">\n    <div class=\"row-fluid\">\n
+        \   <div class=\"span2\" id=\"levypruh\">     \n      <div class=\"subnav\"
+        id=\"divmenumenzy\">\n        <ul class=\"nav nav-pills nav-stacked\" id=\"menzy\">
+        \        \n           \n            <li  id=\"podS15\"><a id=\"podSh15\" href=\"?clPodsystem=15\"
+        onclick=\"ShowJidelnicek('15');\">ArchiCaf\xE9</a></li>\n              \n
+        \           <li  id=\"podS5\"><a id=\"podSh5\" href=\"?clPodsystem=5\" onclick=\"ShowJidelnicek('5');\">Masarykova
+        kolej</a></li>\n              \n            <li  id=\"podS12\"><a id=\"podSh12\"
+        href=\"?clPodsystem=12\" onclick=\"ShowJidelnicek('12');\">MEGA BUF FAT</a></li>\n
+        \             \n            <li  id=\"podS9\"><a id=\"podSh9\" href=\"?clPodsystem=9\"
+        onclick=\"ShowJidelnicek('9');\">Menza Kladno</a></li>\n              \n            <li
+        \ id=\"podS4\"><a id=\"podSh4\" href=\"?clPodsystem=4\" onclick=\"ShowJidelnicek('4');\">Menza
+        Podol\xED</a></li>\n              \n            <li  id=\"podS1\"><a id=\"podSh1\"
+        href=\"?clPodsystem=1\" onclick=\"ShowJidelnicek('1');\">Menza Strahov</a></li>\n
+        \             \n            <li  id=\"podS2\"><a id=\"podSh2\" href=\"?clPodsystem=2\"
+        onclick=\"ShowJidelnicek('2');\">Menza Studentsk\xFD d\u016Fm</a></li>\n              \n
+        \           <li style=\"display:none;\" id=\"podS14\"><a id=\"podSh14\" href=\"?clPodsystem=14\"
+        onclick=\"ShowJidelnicek('14');\">Odd\u011Bl\u011Bn\xED spr\xE1vy IT G\xDA</a></li>\n
+        \             \n            <li  id=\"podS10\"><a id=\"podSh10\" href=\"?clPodsystem=10\"
+        onclick=\"ShowJidelnicek('10');\">Pizzerie la fontanella</a></li>\n              \n
+        \           <li  id=\"podS3\"><a id=\"podSh3\" href=\"?clPodsystem=3\" onclick=\"ShowJidelnicek('3');\">Technick\xE1
+        menza</a></li>\n              \n            <li  id=\"podS6\"><a id=\"podSh6\"
+        href=\"?clPodsystem=6\" onclick=\"ShowJidelnicek('6');\">V\xFDdejna Horsk\xE1</a></li>\n
+        \             \n            <li  id=\"podS8\"><a id=\"podSh8\" href=\"?clPodsystem=8\"
+        onclick=\"ShowJidelnicek('8');\">V\xFDdejna Karlovo n\xE1m\u011Bst\xED</a></li>\n
+        \                   \n        </ul>\n      </div>\n      <br>\n      <div
+        class=\"leftmenupodklad\">\n      &nbsp;\n      </div>      \n    </div>\n
+        \   <div class=\"span10\">\n      \n    \n    \n<!-- body\n================================================================================\n-->\n<div
+        id=\"aktuality\" class='aktuality' style=\"display:none; max-width:800px;
+        padding-left:10px;\"><div class=\"row-fluid\">\r\n  \r\n<div class=\"span6\">
+        \r\n  <div id=\"Info5\" class=\"alert alert-error\" style=\"height:auto; overflow:hidden;
+        text-overflow: ellipsis;\">  \r\n    <p><span title=\"ArchiCaf\xE9\" class=\"label
+        label-important\">Masarykova kolej</span></p>\r\n    <p>\r\nOTEV\xCDRAC\xCD
+        DOBA<BR>\r\nMENZA MASARYKOVA KOLEJ<BR>\r\nPO-\u010CT:  7:00-20:00<BR>\r\nP\xC1:
+        \        7:00-15:00<BR>\r\nSO-NE:  ZAV\u0158ENO<BR>\r\nSN\xCDDAN\u011A: 7:00-10:00<BR>\r\nOB\u011ADY:
+        \    10,30- 14,30<BR>\r\nVE\u010CE\u0158E:  17,30-20:00 /  V\xDDDEJ DO 19,50
+        HODIN!!!<BR>\r\nRESTAURACE OD 10.9.2018 B\u011A\u017DN\xDD PROVOZ<BR>\r\nPO
+        - \u010CT 11:00 - 20:00<BR>\r\nP\xC1 11:00 - 15:00<BR>\r\nsn\xEDdan\u011B
+        pro ubytovan\xE9 hosty - PO - NE 7:00 - 10:00<BR></p>   \r\n  </div>\r\n</div>\r\n
+        \ \r\n<div class=\"span6\"> \r\n  <div id=\"Info10\" class=\"alert alert-error\"
+        style=\"height:auto; overflow:hidden; text-overflow: ellipsis;\">  \r\n    <p><span
+        title=\"Masarykova kolej\" class=\"label label-important\">Pizzerie la fontanella</span></p>\r\n
+        \   <p>\r\nV\xE1\u017Een\xED z\xE1kazn\xEDci,<BR>\r\nr\xE1d bych V\xE1m znovu
+        p\u0159ipomenul, \u017Ee i na celou nab\xEDdku j\xEDdel ze st\xE1l\xE9ho j\xEDdeln\xEDho
+        l\xEDstku se vztahuje studentsk\xE1/zam\u011Bstnaneck\xE1 dotace.<BR>\r\nDear
+        Customer,  <BR>\r\nI would like to once again remind you that the student/employee
+        discount applies to the entire menu. <BR></p>   \r\n  </div>\r\n</div>\r\n</div><br><div
+        class=\"row-fluid\">  \r\n<div class=\"span6\"> \r\n  <div id=\"Info2\" class=\"alert
+        alert-error\" style=\"height:auto; overflow:hidden; text-overflow: ellipsis;\">
+        \ \r\n    <p><span title=\"MEGA BUF FAT\" class=\"label label-important\">Menza
+        Studentsk\xFD d\u016Fm</span></p>\r\n    <p>\r\nMENZA STUDENTSK\xDD D\u016EM
+        JE P\u0158\xCDSTUPN\xC1 OP\u011AT Z OBOU STRAN OCHOZU BO\u010CN\xCDM SCHODI\u0160T\u011AM
+        Z KOLEJN\xCD ULICE!!!<BR>\r\nVESTIBUL MENZY JE P\u0158\xCDSTUPN\xDD!!!<BR></p>
+        \  \r\n  </div>\r\n</div>\r\n  \r\n<div class=\"span6\"> \r\n  <div id=\"Info3\"
+        class=\"alert alert-error\" style=\"height:auto; overflow:hidden; text-overflow:
+        ellipsis;\">  \r\n    <p><span title=\"Menza Kladno\" class=\"label label-important\">Technick\xE1
+        menza</span></p>\r\n    <p>\r\nNa Technick\xE9 menze akceptujeme pouze bezkontaktn\xED
+        zam\u011Bstnaneck\xE9 karty s \u010Dipem. Pokud m\xE1te kartu s magnetick\xFDm
+        prou\u017Ekem a chcete se u n\xE1s stravovat, za\u0159i\u010Fte si pros\xEDm
+        v\xFDm\u011Bnu karty.<BR></p>   \r\n  </div>\r\n</div>\r\n</div><br><div class=\"row-fluid\"></div>
+        \r\n  \r\n</div>\n\n<div id=\"jidelnicek\" style=\"display:block; max-width:800px;
+        padding-left:10px;\">\n\n\r\n\r\n<div class='data' style=\"display:none;\"
+        >\r\nV\xFDb\u011Br dle aktu\xE1ln\xED nab\xEDdky na provozovn\u011B. <a href=\"alergenyall.php\"
+        target=\"_blank\" style=\"padding-left:5px;\" title=\"Alergeny\">Seznam v\u0161ech
+        alergen\u016F <img src=\"files/Alergeny16.png\" alt=\"Al\"></a>\r\n</div>\r\n<div
+        class='data'  >\r\n  <div class=\"jidelnicekheaderprint\">\r\n    <h2>Menza
+        Strahov&nbsp;&nbsp;&nbsp; <small>26. 11. 2018&nbsp;&nbsp;&nbsp;Ob\u011Bd</small></h2>
+        \   \r\n  </div>  \r\n  <div class=\"jidelnicekheader\">\r\n    <div class=\"row-fluid\">\r\n
+        \     <div class=\"span6\">\r\n        <span class=\"label label-success\">Ob\u011Bd</span>
+        \ \r\n        <span><b>Menza Strahov,&nbsp;pond\u011Bl\xED&nbsp;26. 11. 2018</b></span>\r\n
+        \     </div>\r\n      <div class=\"span3\">&nbsp;\r\n                      \r\n
+        \     </div>\r\n      <div class=\"span3\" style=\"text-align:right;\">\t\r\n
+        \               \r\n      </div>    \r\n    </div>\r\n  </div>\r\n<table class=\"table
+        table-condensed\">  \r\n  <thead>   \r\n    <tr>\r\n      <th style=\"width:40px\">V\xE1ha</th>\r\n
+        \     <th >N\xE1zev</th>\r\n      <th >&nbsp;</th>\r\n      <th >&nbsp;</th>\r\n
+        \     <th style=\"width:50px; text-align:center\">Student</th>\r\n      <th
+        style=\"width:55px; text-align:center\">Ostatn\xED</th>\r\n      <th style=\"width:80px;padding-left:2px;padding-right:0px;\">V\xFDdej</th>\r\n
+        \     <th class=\"tstarradektd\" style=\"width:40px;padding-left:2px;padding-right:0px;\"></th>\r\n
+        \   </tr>\r\n  </thead>\r\n  <tbody>\r\n\r\n\r\n<tr>\r\n  <th colspan='8'
+        class=\"thkategorie\">Pol\xE9vky</th> \r\n</tr>\r\n\r\n\r\n<tr>\r\n  <td style=\"width:40px;
+        text-align:right;\">&nbsp;</td>\r\n  <td>Frankfurtsk\xE1  </td>\r\n  <td style=\"width:10px;\">\r\n
+        \   <div class=\"starradek\">                        \r\n          <a href=\"alergeny.php?alergen=293972\"
+        target=\"_blank\" style=\"padding-left:5px;\" title=\"Alergeny: 1,6,7,9\"><img
+        id='Alergen293972' src=\"files/Alergeny16.png\" alt=\"Al\"></a>\r\n        </div>\r\n
+        \ </td>\r\n  <td style=\"width:10px;\">\r\n    \r\n    <div class=\"starradek\">
+        \                 \r\n          </div>\r\n  </td>\r\n  <td style=\"width:50px;
+        text-align:right\">\r\n  8,00&nbsp;K\u010D  \r\n  </td>\r\n  <td style=\"width:55px;
+        text-align:right\">\r\n  12,00&nbsp;K\u010D  \r\n  </td>\r\n  <td  style=\"width:80px;padding-left:2px;padding-right:0px;\">\r\n
+        \ <span id=\"v0v1\" onmouseover=\"xToolTip(v0v1);\" onclick=\"xToolTip(v0v1);\"
+        title=\"Restaurace\" class=\"label label-success\">R</span>\_<span id=\"v0v2\"
+        onmouseover=\"xToolTip(v0v2);\" onclick=\"xToolTip(v0v2);\" title=\"J\xEDdelna\"
+        class=\"label label-warning\">J</span>\_  </td>\r\n  <td style=\"width:40px;
+        font-size:11px; text-align:right;padding-left:2px;padding-right:0px;\" class=\"tstarradektd\">\r\n
+        \   <div class=\"starradek\">\r\n    <input id=\"StarsNum_293972\" type='hidden'
+        value='0'>\r\n    <input id=\"StarsVotes_293972\" type='hidden' value='0'>\r\n
+        \   <input type='hidden' id='StarsJidlo_293972' value='Frankfurtsk\xE1  '>\r\n
+        \   \r\n    </div>\r\n  </td>\r\n</tr>\r\n<tr>\r\n  <td style=\"width:40px;
+        text-align:right;\">&nbsp;</td>\r\n  <td>Km\xEDnov\xE1 s vejcem  </td>\r\n
+        \ <td style=\"width:10px;\">\r\n    <div class=\"starradek\">                        \r\n
+        \         <a href=\"alergeny.php?alergen=293973\" target=\"_blank\" style=\"padding-left:5px;\"
+        title=\"Alergeny: 1,3,6,9,8\"><img id='Alergen293973' src=\"files/Alergeny16.png\"
+        alt=\"Al\"></a>\r\n        </div>\r\n  </td>\r\n  <td style=\"width:10px;\">\r\n
+        \   \r\n    <div class=\"starradek\">                  \r\n          </div>\r\n
+        \ </td>\r\n  <td style=\"width:50px; text-align:right\">\r\n  8,00&nbsp;K\u010D
+        \ \r\n  </td>\r\n  <td style=\"width:55px; text-align:right\">\r\n  12,00&nbsp;K\u010D
+        \ \r\n  </td>\r\n  <td  style=\"width:80px;padding-left:2px;padding-right:0px;\">\r\n
+        \ <span id=\"v1v2\" onmouseover=\"xToolTip(v1v2);\" onclick=\"xToolTip(v1v2);\"
+        title=\"J\xEDdelna\" class=\"label label-warning\">J</span>\_  </td>\r\n  <td
+        style=\"width:40px; font-size:11px; text-align:right;padding-left:2px;padding-right:0px;\"
+        class=\"tstarradektd\">\r\n    <div class=\"starradek\">\r\n    <input id=\"StarsNum_293973\"
+        type='hidden' value='0'>\r\n    <input id=\"StarsVotes_293973\" type='hidden'
+        value='0'>\r\n    <input type='hidden' id='StarsJidlo_293973' value='Km\xEDnov\xE1
+        s vejcem  '>\r\n    \r\n    </div>\r\n  </td>\r\n</tr>\r\n\r\n<tr>\r\n  <th
+        colspan='8' class=\"thkategorie\">Specialita dne</th> \r\n</tr>\r\n\r\n\r\n<tr>\r\n
+        \ <td style=\"width:40px; text-align:right;\">&nbsp;150\_g</td>\r\n  <td>\u010E\xE1belsk\xE1
+        hov\u011Bz\xED ro\u0161t\u011Bn\xE1, bramborov\xE9 hranolky </td>\r\n  <td
+        style=\"width:10px;\">\r\n    <div class=\"starradek\">                        \r\n
+        \         <a href=\"alergeny.php?alergen=293982\" target=\"_blank\" style=\"padding-left:5px;\"
+        title=\"Alergeny: 1,3,6,7,9,10,12\"><img id='Alergen293982' src=\"files/Alergeny16.png\"
+        alt=\"Al\"></a>\r\n        </div>\r\n  </td>\r\n  <td style=\"width:10px;\">\r\n
+        \   \r\n    <div class=\"starradek\">                  \r\n          </div>\r\n
+        \ </td>\r\n  <td style=\"width:50px; text-align:right\">\r\n  94,85&nbsp;K\u010D
+        \ \r\n  </td>\r\n  <td style=\"width:55px; text-align:right\">\r\n  119,00&nbsp;K\u010D
+        \ \r\n  </td>\r\n  <td  style=\"width:80px;padding-left:2px;padding-right:0px;\">\r\n
+        \ <span id=\"v10v2\" onmouseover=\"xToolTip(v10v2);\" onclick=\"xToolTip(v10v2);\"
+        title=\"J\xEDdelna\" class=\"label label-warning\">J</span>\_  </td>\r\n  <td
+        style=\"width:40px; font-size:11px; text-align:right;padding-left:2px;padding-right:0px;\"
+        class=\"tstarradektd\">\r\n    <div class=\"starradek\">\r\n    <input id=\"StarsNum_293982\"
+        type='hidden' value='0'>\r\n    <input id=\"StarsVotes_293982\" type='hidden'
+        value='0'>\r\n    <input type='hidden' id='StarsJidlo_293982' value='\u010E\xE1belsk\xE1
+        hov\u011Bz\xED ro\u0161t\u011Bn\xE1, bramborov\xE9 hranolky '>\r\n    \r\n
+        \   </div>\r\n  </td>\r\n</tr>\r\n\r\n<tr>\r\n  <th colspan='8' class=\"thkategorie\">Hlavn\xED
+        j\xEDdla</th> \r\n</tr>\r\n\r\n\r\n<tr>\r\n  <td style=\"width:40px; text-align:right;\">&nbsp;150\_g</td>\r\n
+        \ <td>Moravsk\xFD vep\u0159ov\xFD vrabec, \u0161pen\xE1t, knedl\xEDky bramborov\xE9</td>\r\n
+        \ <td style=\"width:10px;\">\r\n    <div class=\"starradek\">                        \r\n
+        \         <a href=\"alergeny.php?alergen=293977\" target=\"_blank\" style=\"padding-left:5px;\"
+        title=\"Alergeny: 1,2,3,6,9,12\"><img id='Alergen293977' src=\"files/Alergeny16.png\"
+        alt=\"Al\"></a>\r\n        </div>\r\n  </td>\r\n  <td style=\"width:10px;\">\r\n
+        \   \r\n    <div class=\"starradek\">                  \r\n          </div>\r\n
+        \ </td>\r\n  <td style=\"width:50px; text-align:right\">\r\n  60,86&nbsp;K\u010D
+        \ \r\n  </td>\r\n  <td style=\"width:55px; text-align:right\">\r\n  85,00&nbsp;K\u010D
+        \ \r\n  </td>\r\n  <td  style=\"width:80px;padding-left:2px;padding-right:0px;\">\r\n
+        \ <span id=\"v5v2\" onmouseover=\"xToolTip(v5v2);\" onclick=\"xToolTip(v5v2);\"
+        title=\"J\xEDdelna\" class=\"label label-warning\">J</span>\_  </td>\r\n  <td
+        style=\"width:40px; font-size:11px; text-align:right;padding-left:2px;padding-right:0px;\"
+        class=\"tstarradektd\">\r\n    <div class=\"starradek\">\r\n    <input id=\"StarsNum_293977\"
+        type='hidden' value='0'>\r\n    <input id=\"StarsVotes_293977\" type='hidden'
+        value='0'>\r\n    <input type='hidden' id='StarsJidlo_293977' value='Moravsk\xFD
+        vep\u0159ov\xFD vrabec, \u0161pen\xE1t, knedl\xEDky bramborov\xE9'>\r\n    \r\n
+        \   </div>\r\n  </td>\r\n</tr>\r\n<tr>\r\n  <td style=\"width:40px; text-align:right;\">&nbsp;150\_g</td>\r\n
+        \ <td>Sma\u017Een\xE1 alja\u0161sk\xE1 treska, citr\xF3n, bramborov\xE1 ka\u0161e</td>\r\n
+        \ <td style=\"width:10px;\">\r\n    <div class=\"starradek\">                        \r\n
+        \         <a href=\"alergeny.php?alergen=293978\" target=\"_blank\" style=\"padding-left:5px;\"
+        title=\"Alergeny: 1,3,4,6,7,9\"><img id='Alergen293978' src=\"files/Alergeny16.png\"
+        alt=\"Al\"></a>\r\n        </div>\r\n  </td>\r\n  <td style=\"width:10px;\">\r\n
+        \   \r\n    <div class=\"starradek\">                  \r\n          </div>\r\n
+        \ </td>\r\n  <td style=\"width:50px; text-align:right\">\r\n  57,86&nbsp;K\u010D
+        \ \r\n  </td>\r\n  <td style=\"width:55px; text-align:right\">\r\n  82,00&nbsp;K\u010D
+        \ \r\n  </td>\r\n  <td  style=\"width:80px;padding-left:2px;padding-right:0px;\">\r\n
+        \ <span id=\"v6v2\" onmouseover=\"xToolTip(v6v2);\" onclick=\"xToolTip(v6v2);\"
+        title=\"J\xEDdelna\" class=\"label label-warning\">J</span>\_  </td>\r\n  <td
+        style=\"width:40px; font-size:11px; text-align:right;padding-left:2px;padding-right:0px;\"
+        class=\"tstarradektd\">\r\n    <div class=\"starradek\">\r\n    <input id=\"StarsNum_293978\"
+        type='hidden' value='0'>\r\n    <input id=\"StarsVotes_293978\" type='hidden'
+        value='0'>\r\n    <input type='hidden' id='StarsJidlo_293978' value='Sma\u017Een\xE1
+        alja\u0161sk\xE1 treska, citr\xF3n, bramborov\xE1 ka\u0161e'>\r\n    \r\n
+        \   </div>\r\n  </td>\r\n</tr>\r\n<tr>\r\n  <td style=\"width:40px; text-align:right;\">&nbsp;120\_g</td>\r\n
+        \ <td>Ku\u0159ec\xED nudli\u010Dky mexick\xE9, r\xFD\u017Ee du\u0161en\xE1
+        </td>\r\n  <td style=\"width:10px;\">\r\n    <div class=\"starradek\">                        \r\n
+        \         <a href=\"alergeny.php?alergen=293979\" target=\"_blank\" style=\"padding-left:5px;\"
+        title=\"Alergeny: 1,6,9,10,12\"><img id='Alergen293979' src=\"files/Alergeny16.png\"
+        alt=\"Al\"></a>\r\n        </div>\r\n  </td>\r\n  <td style=\"width:10px;\">\r\n
+        \   \r\n    <div class=\"starradek\">                  \r\n          </div>\r\n
+        \ </td>\r\n  <td style=\"width:50px; text-align:right\">\r\n  58,86&nbsp;K\u010D
+        \ \r\n  </td>\r\n  <td style=\"width:55px; text-align:right\">\r\n  83,00&nbsp;K\u010D
+        \ \r\n  </td>\r\n  <td  style=\"width:80px;padding-left:2px;padding-right:0px;\">\r\n
+        \ <span id=\"v7v2\" onmouseover=\"xToolTip(v7v2);\" onclick=\"xToolTip(v7v2);\"
+        title=\"J\xEDdelna\" class=\"label label-warning\">J</span>\_  </td>\r\n  <td
+        style=\"width:40px; font-size:11px; text-align:right;padding-left:2px;padding-right:0px;\"
+        class=\"tstarradektd\">\r\n    <div class=\"starradek\">\r\n    <input id=\"StarsNum_293979\"
+        type='hidden' value='0'>\r\n    <input id=\"StarsVotes_293979\" type='hidden'
+        value='0'>\r\n    <input type='hidden' id='StarsJidlo_293979' value='Ku\u0159ec\xED
+        nudli\u010Dky mexick\xE9, r\xFD\u017Ee du\u0161en\xE1 '>\r\n    \r\n    </div>\r\n
+        \ </td>\r\n</tr>\r\n\r\n<tr>\r\n  <th colspan='8' class=\"thkategorie\">Bezmas\xE1
+        j\xEDdla</th> \r\n</tr>\r\n\r\n\r\n<tr>\r\n  <td style=\"width:40px; text-align:right;\">&nbsp;400\_g</td>\r\n
+        \ <td>Fettuccine s bylinkovo - smetanovou om\xE1\u010Dkou, parmaz\xE1n</td>\r\n
+        \ <td style=\"width:10px;\">\r\n    <div class=\"starradek\">                        \r\n
+        \         <a href=\"alergeny.php?alergen=293980\" target=\"_blank\" style=\"padding-left:5px;\"
+        title=\"Alergeny: 1,3,6,7\"><img id='Alergen293980' src=\"files/Alergeny16.png\"
+        alt=\"Al\"></a>\r\n        </div>\r\n  </td>\r\n  <td style=\"width:10px;\">\r\n
+        \   \r\n    <div class=\"starradek\">                  \r\n          </div>\r\n
+        \ </td>\r\n  <td style=\"width:50px; text-align:right\">\r\n  53,85&nbsp;K\u010D
+        \ \r\n  </td>\r\n  <td style=\"width:55px; text-align:right\">\r\n  78,00&nbsp;K\u010D
+        \ \r\n  </td>\r\n  <td  style=\"width:80px;padding-left:2px;padding-right:0px;\">\r\n
+        \ <span id=\"v8v2\" onmouseover=\"xToolTip(v8v2);\" onclick=\"xToolTip(v8v2);\"
+        title=\"J\xEDdelna\" class=\"label label-warning\">J</span>\_  </td>\r\n  <td
+        style=\"width:40px; font-size:11px; text-align:right;padding-left:2px;padding-right:0px;\"
+        class=\"tstarradektd\">\r\n    <div class=\"starradek\">\r\n    <input id=\"StarsNum_293980\"
+        type='hidden' value='0'>\r\n    <input id=\"StarsVotes_293980\" type='hidden'
+        value='0'>\r\n    <input type='hidden' id='StarsJidlo_293980' value='Fettuccine
+        s bylinkovo - smetanovou om\xE1\u010Dkou, parmaz\xE1n'>\r\n    \r\n    </div>\r\n
+        \ </td>\r\n</tr>\r\n<tr>\r\n  <td style=\"width:40px; text-align:right;\">&nbsp;3\_ks</td>\r\n
+        \ <td>Pala\u010Dinky s bor\u016Fvkovou marmel\xE1dou a \u0161leha\u010Dkou
+        </td>\r\n  <td style=\"width:10px;\">\r\n    <div class=\"starradek\">                        \r\n
+        \         <a href=\"alergeny.php?alergen=293981\" target=\"_blank\" style=\"padding-left:5px;\"
+        title=\"Alergeny: 1,3,6,7\"><img id='Alergen293981' src=\"files/Alergeny16.png\"
+        alt=\"Al\"></a>\r\n        </div>\r\n  </td>\r\n  <td style=\"width:10px;\">\r\n
+        \   \r\n    <div class=\"starradek\">                  \r\n          </div>\r\n
+        \ </td>\r\n  <td style=\"width:50px; text-align:right\">\r\n  43,85&nbsp;K\u010D
+        \ \r\n  </td>\r\n  <td style=\"width:55px; text-align:right\">\r\n  68,00&nbsp;K\u010D
+        \ \r\n  </td>\r\n  <td  style=\"width:80px;padding-left:2px;padding-right:0px;\">\r\n
+        \ <span id=\"v9v2\" onmouseover=\"xToolTip(v9v2);\" onclick=\"xToolTip(v9v2);\"
+        title=\"J\xEDdelna\" class=\"label label-warning\">J</span>\_  </td>\r\n  <td
+        style=\"width:40px; font-size:11px; text-align:right;padding-left:2px;padding-right:0px;\"
+        class=\"tstarradektd\">\r\n    <div class=\"starradek\">\r\n    <input id=\"StarsNum_293981\"
+        type='hidden' value='0'>\r\n    <input id=\"StarsVotes_293981\" type='hidden'
+        value='0'>\r\n    <input type='hidden' id='StarsJidlo_293981' value='Pala\u010Dinky
+        s bor\u016Fvkovou marmel\xE1dou a \u0161leha\u010Dkou '>\r\n    \r\n    </div>\r\n
+        \ </td>\r\n</tr>\r\n\r\n<tr>\r\n  <th colspan='8' class=\"thkategorie\">Sal\xE1ty
+        a tal\xED\u0159e</th> \r\n</tr>\r\n\r\n\r\n<tr>\r\n  <td style=\"width:40px;
+        text-align:right;\">&nbsp;300\_g</td>\r\n  <td>Sal\xE1t t\u011Bstovinov\xFD
+        se s\xFDrem a \u017Eampi\xF3ny </td>\r\n  <td style=\"width:10px;\">\r\n    <div
+        class=\"starradek\">                        \r\n          <a href=\"alergeny.php?alergen=293983\"
+        target=\"_blank\" style=\"padding-left:5px;\" title=\"Alergeny: 1,3,7,10,12\"><img
+        id='Alergen293983' src=\"files/Alergeny16.png\" alt=\"Al\"></a>\r\n        </div>\r\n
+        \ </td>\r\n  <td style=\"width:10px;\">\r\n    \r\n    <div class=\"starradek\">
+        \                 \r\n          </div>\r\n  </td>\r\n  <td style=\"width:50px;
+        text-align:right\">\r\n  47,85&nbsp;K\u010D  \r\n  </td>\r\n  <td style=\"width:55px;
+        text-align:right\">\r\n  72,00&nbsp;K\u010D  \r\n  </td>\r\n  <td  style=\"width:80px;padding-left:2px;padding-right:0px;\">\r\n
+        \ <span id=\"v11v1\" onmouseover=\"xToolTip(v11v1);\" onclick=\"xToolTip(v11v1);\"
+        title=\"Restaurace\" class=\"label label-success\">R</span>\_<span id=\"v11v2\"
+        onmouseover=\"xToolTip(v11v2);\" onclick=\"xToolTip(v11v2);\" title=\"J\xEDdelna\"
+        class=\"label label-warning\">J</span>\_  </td>\r\n  <td style=\"width:40px;
+        font-size:11px; text-align:right;padding-left:2px;padding-right:0px;\" class=\"tstarradektd\">\r\n
+        \   <div class=\"starradek\">\r\n    <input id=\"StarsNum_293983\" type='hidden'
+        value='0'>\r\n    <input id=\"StarsVotes_293983\" type='hidden' value='0'>\r\n
+        \   <input type='hidden' id='StarsJidlo_293983' value='Sal\xE1t t\u011Bstovinov\xFD
+        se s\xFDrem a \u017Eampi\xF3ny '>\r\n    \r\n    </div>\r\n  </td>\r\n</tr>\r\n<tr>\r\n
+        \ <td style=\"width:40px; text-align:right;\">&nbsp;350\_g</td>\r\n  <td>\u0158\xEDmsk\xFD
+        sal\xE1t s ku\u0159ec\xEDm masem  </td>\r\n  <td style=\"width:10px;\">\r\n
+        \   <div class=\"starradek\">                        \r\n          <a href=\"alergeny.php?alergen=293984\"
+        target=\"_blank\" style=\"padding-left:5px;\" title=\"Alergeny: 3,7,10\"><img
+        id='Alergen293984' src=\"files/Alergeny16.png\" alt=\"Al\"></a>\r\n        </div>\r\n
+        \ </td>\r\n  <td style=\"width:10px;\">\r\n    \r\n    <div class=\"starradek\">
+        \                 \r\n          </div>\r\n  </td>\r\n  <td style=\"width:50px;
+        text-align:right\">\r\n  57,86&nbsp;K\u010D  \r\n  </td>\r\n  <td style=\"width:55px;
+        text-align:right\">\r\n  82,00&nbsp;K\u010D  \r\n  </td>\r\n  <td  style=\"width:80px;padding-left:2px;padding-right:0px;\">\r\n
+        \ <span id=\"v12v1\" onmouseover=\"xToolTip(v12v1);\" onclick=\"xToolTip(v12v1);\"
+        title=\"Restaurace\" class=\"label label-success\">R</span>\_<span id=\"v12v2\"
+        onmouseover=\"xToolTip(v12v2);\" onclick=\"xToolTip(v12v2);\" title=\"J\xEDdelna\"
+        class=\"label label-warning\">J</span>\_  </td>\r\n  <td style=\"width:40px;
+        font-size:11px; text-align:right;padding-left:2px;padding-right:0px;\" class=\"tstarradektd\">\r\n
+        \   <div class=\"starradek\">\r\n    <input id=\"StarsNum_293984\" type='hidden'
+        value='0'>\r\n    <input id=\"StarsVotes_293984\" type='hidden' value='0'>\r\n
+        \   <input type='hidden' id='StarsJidlo_293984' value='\u0158\xEDmsk\xFD sal\xE1t
+        s ku\u0159ec\xEDm masem  '>\r\n    \r\n    </div>\r\n  </td>\r\n</tr>\r\n\r\n<tr>\r\n
+        \ <th colspan='8' class=\"thkategorie\">Mou\u010Dn\xEDky</th> \r\n</tr>\r\n\r\n\r\n<tr>\r\n
+        \ <td style=\"width:40px; text-align:right;\">&nbsp;210\_g</td>\r\n  <td>Jahodov\xFD
+        poh\xE1r  </td>\r\n  <td style=\"width:10px;\">\r\n    <div class=\"starradek\">
+        \                       \r\n          <a href=\"alergeny.php?alergen=293974\"
+        target=\"_blank\" style=\"padding-left:5px;\" title=\"Alergeny: 6,7\"><img
+        id='Alergen293974' src=\"files/Alergeny16.png\" alt=\"Al\"></a>\r\n        </div>\r\n
+        \ </td>\r\n  <td style=\"width:10px;\">\r\n    \r\n    <div class=\"starradek\">
+        \                 \r\n          </div>\r\n  </td>\r\n  <td style=\"width:50px;
+        text-align:right\">\r\n  26,00&nbsp;K\u010D  \r\n  </td>\r\n  <td style=\"width:55px;
+        text-align:right\">\r\n  26,00&nbsp;K\u010D  \r\n  </td>\r\n  <td  style=\"width:80px;padding-left:2px;padding-right:0px;\">\r\n
+        \ <span id=\"v2v1\" onmouseover=\"xToolTip(v2v1);\" onclick=\"xToolTip(v2v1);\"
+        title=\"Restaurace\" class=\"label label-success\">R</span>\_<span id=\"v2v2\"
+        onmouseover=\"xToolTip(v2v2);\" onclick=\"xToolTip(v2v2);\" title=\"J\xEDdelna\"
+        class=\"label label-warning\">J</span>\_  </td>\r\n  <td style=\"width:40px;
+        font-size:11px; text-align:right;padding-left:2px;padding-right:0px;\" class=\"tstarradektd\">\r\n
+        \   <div class=\"starradek\">\r\n    <input id=\"StarsNum_293974\" type='hidden'
+        value='0'>\r\n    <input id=\"StarsVotes_293974\" type='hidden' value='0'>\r\n
+        \   <input type='hidden' id='StarsJidlo_293974' value='Jahodov\xFD poh\xE1r
+        \ '>\r\n    \r\n    </div>\r\n  </td>\r\n</tr>\r\n<tr>\r\n  <td style=\"width:40px;
+        text-align:right;\">&nbsp;220\_g</td>\r\n  <td>Poh\xE1r ban\xE1nov\xFD  </td>\r\n
+        \ <td style=\"width:10px;\">\r\n    <div class=\"starradek\">                        \r\n
+        \         <a href=\"alergeny.php?alergen=293975\" target=\"_blank\" style=\"padding-left:5px;\"
+        title=\"Alergeny: 6,7,8\"><img id='Alergen293975' src=\"files/Alergeny16.png\"
+        alt=\"Al\"></a>\r\n        </div>\r\n  </td>\r\n  <td style=\"width:10px;\">\r\n
+        \   \r\n    <div class=\"starradek\">                  \r\n          </div>\r\n
+        \ </td>\r\n  <td style=\"width:50px; text-align:right\">\r\n  27,00&nbsp;K\u010D
+        \ \r\n  </td>\r\n  <td style=\"width:55px; text-align:right\">\r\n  27,00&nbsp;K\u010D
+        \ \r\n  </td>\r\n  <td  style=\"width:80px;padding-left:2px;padding-right:0px;\">\r\n
+        \ <span id=\"v3v1\" onmouseover=\"xToolTip(v3v1);\" onclick=\"xToolTip(v3v1);\"
+        title=\"Restaurace\" class=\"label label-success\">R</span>\_<span id=\"v3v2\"
+        onmouseover=\"xToolTip(v3v2);\" onclick=\"xToolTip(v3v2);\" title=\"J\xEDdelna\"
+        class=\"label label-warning\">J</span>\_  </td>\r\n  <td style=\"width:40px;
+        font-size:11px; text-align:right;padding-left:2px;padding-right:0px;\" class=\"tstarradektd\">\r\n
+        \   <div class=\"starradek\">\r\n    <input id=\"StarsNum_293975\" type='hidden'
+        value='0'>\r\n    <input id=\"StarsVotes_293975\" type='hidden' value='0'>\r\n
+        \   <input type='hidden' id='StarsJidlo_293975' value='Poh\xE1r ban\xE1nov\xFD
+        \ '>\r\n    \r\n    </div>\r\n  </td>\r\n</tr>\r\n<tr>\r\n  <td style=\"width:40px;
+        text-align:right;\">&nbsp;1\_ks</td>\r\n  <td>Malibu \u0159ez  </td>\r\n  <td
+        style=\"width:10px;\">\r\n    <div class=\"starradek\">                        \r\n
+        \         <a href=\"alergeny.php?alergen=293976\" target=\"_blank\" style=\"padding-left:5px;\"
+        title=\"Alergeny: 1,3,6,8,9,13\"><img id='Alergen293976' src=\"files/Alergeny16.png\"
+        alt=\"Al\"></a>\r\n        </div>\r\n  </td>\r\n  <td style=\"width:10px;\">\r\n
+        \   \r\n    <div class=\"starradek\">                  \r\n          </div>\r\n
+        \ </td>\r\n  <td style=\"width:50px; text-align:right\">\r\n  12,00&nbsp;K\u010D
+        \ \r\n  </td>\r\n  <td style=\"width:55px; text-align:right\">\r\n  12,00&nbsp;K\u010D
+        \ \r\n  </td>\r\n  <td  style=\"width:80px;padding-left:2px;padding-right:0px;\">\r\n
+        \ <span id=\"v4v2\" onmouseover=\"xToolTip(v4v2);\" onclick=\"xToolTip(v4v2);\"
+        title=\"J\xEDdelna\" class=\"label label-warning\">J</span>\_  </td>\r\n  <td
+        style=\"width:40px; font-size:11px; text-align:right;padding-left:2px;padding-right:0px;\"
+        class=\"tstarradektd\">\r\n    <div class=\"starradek\">\r\n    <input id=\"StarsNum_293976\"
+        type='hidden' value='0'>\r\n    <input id=\"StarsVotes_293976\" type='hidden'
+        value='0'>\r\n    <input type='hidden' id='StarsJidlo_293976' value='Malibu
+        \u0159ez  '>\r\n    \r\n    </div>\r\n  </td>\r\n</tr>\r\n\r\n<tr>\r\n  <th
+        colspan='8' class=\"thkategorie\">Speci\xE1ln\xED nab\xEDdka restaurace</th>
+        \r\n</tr>\r\n\r\n\r\n<tr>\r\n  <td style=\"width:40px; text-align:right;\">&nbsp;150\_g</td>\r\n
+        \ <td>Hov\u011Bz\xED ro\u0161t\u011Bn\xE1 na smet. se \u017Eampion </td>\r\n
+        \ <td style=\"width:10px;\">\r\n    <div class=\"starradek\">                        \r\n
+        \         <a href=\"alergeny.php?alergen=293994\" target=\"_blank\" style=\"padding-left:5px;\"
+        title=\"Alergeny: 1,7,\"><img id='Alergen293994' src=\"files/Alergeny16.png\"
+        alt=\"Al\"></a>\r\n        </div>\r\n  </td>\r\n  <td style=\"width:10px;\">\r\n
+        \   \r\n    <div class=\"starradek\">                  \r\n          </div>\r\n
+        \ </td>\r\n  <td style=\"width:50px; text-align:right\">\r\n  76,85&nbsp;K\u010D
+        \ \r\n  </td>\r\n  <td style=\"width:55px; text-align:right\">\r\n  101,00&nbsp;K\u010D
+        \ \r\n  </td>\r\n  <td  style=\"width:80px;padding-left:2px;padding-right:0px;\">\r\n
+        \ <span id=\"v13v1\" onmouseover=\"xToolTip(v13v1);\" onclick=\"xToolTip(v13v1);\"
+        title=\"Restaurace\" class=\"label label-success\">R</span>\_  </td>\r\n  <td
+        style=\"width:40px; font-size:11px; text-align:right;padding-left:2px;padding-right:0px;\"
+        class=\"tstarradektd\">\r\n    <div class=\"starradek\">\r\n    <input id=\"StarsNum_293994\"
+        type='hidden' value='0'>\r\n    <input id=\"StarsVotes_293994\" type='hidden'
+        value='0'>\r\n    <input type='hidden' id='StarsJidlo_293994' value='Hov\u011Bz\xED
+        ro\u0161t\u011Bn\xE1 na smet. se \u017Eampion '>\r\n    \r\n    </div>\r\n
+        \ </td>\r\n</tr>\r\n<tr>\r\n  <td style=\"width:40px; text-align:right;\">&nbsp;150\_g</td>\r\n
+        \ <td>Ku\u0159ec\xED steak zape\u010D. se s\xFDrem  </td>\r\n  <td style=\"width:10px;\">\r\n
+        \   <div class=\"starradek\">                        \r\n          <a href=\"alergeny.php?alergen=293997\"
+        target=\"_blank\" style=\"padding-left:5px;\" title=\"Alergeny: 1,7,9\"><img
+        id='Alergen293997' src=\"files/Alergeny16.png\" alt=\"Al\"></a>\r\n        </div>\r\n
+        \ </td>\r\n  <td style=\"width:10px;\">\r\n    \r\n    <div class=\"starradek\">
+        \                 \r\n          </div>\r\n  </td>\r\n  <td style=\"width:50px;
+        text-align:right\">\r\n  62,86&nbsp;K\u010D  \r\n  </td>\r\n  <td style=\"width:55px;
+        text-align:right\">\r\n  87,00&nbsp;K\u010D  \r\n  </td>\r\n  <td  style=\"width:80px;padding-left:2px;padding-right:0px;\">\r\n
+        \ <span id=\"v14v1\" onmouseover=\"xToolTip(v14v1);\" onclick=\"xToolTip(v14v1);\"
+        title=\"Restaurace\" class=\"label label-success\">R</span>\_  </td>\r\n  <td
+        style=\"width:40px; font-size:11px; text-align:right;padding-left:2px;padding-right:0px;\"
+        class=\"tstarradektd\">\r\n    <div class=\"starradek\">\r\n    <input id=\"StarsNum_293997\"
+        type='hidden' value='0'>\r\n    <input id=\"StarsVotes_293997\" type='hidden'
+        value='0'>\r\n    <input type='hidden' id='StarsJidlo_293997' value='Ku\u0159ec\xED
+        steak zape\u010D. se s\xFDrem  '>\r\n    \r\n    </div>\r\n  </td>\r\n</tr>\r\n<tr>\r\n
+        \ <td style=\"width:40px; text-align:right;\">&nbsp;200\_g</td>\r\n  <td>Sma\u017Een\xE1
+        brokolice  </td>\r\n  <td style=\"width:10px;\">\r\n    <div class=\"starradek\">
+        \                       \r\n          <a href=\"alergeny.php?alergen=293999\"
+        target=\"_blank\" style=\"padding-left:5px;\" title=\"Alergeny: 1,3,9\"><img
+        id='Alergen293999' src=\"files/Alergeny16.png\" alt=\"Al\"></a>\r\n        </div>\r\n
+        \ </td>\r\n  <td style=\"width:10px;\">\r\n    \r\n    <div class=\"starradek\">
+        \                 \r\n          </div>\r\n  </td>\r\n  <td style=\"width:50px;
+        text-align:right\">\r\n  54,86&nbsp;K\u010D  \r\n  </td>\r\n  <td style=\"width:55px;
+        text-align:right\">\r\n  79,00&nbsp;K\u010D  \r\n  </td>\r\n  <td  style=\"width:80px;padding-left:2px;padding-right:0px;\">\r\n
+        \ <span id=\"v15v1\" onmouseover=\"xToolTip(v15v1);\" onclick=\"xToolTip(v15v1);\"
+        title=\"Restaurace\" class=\"label label-success\">R</span>\_  </td>\r\n  <td
+        style=\"width:40px; font-size:11px; text-align:right;padding-left:2px;padding-right:0px;\"
+        class=\"tstarradektd\">\r\n    <div class=\"starradek\">\r\n    <input id=\"StarsNum_293999\"
+        type='hidden' value='0'>\r\n    <input id=\"StarsVotes_293999\" type='hidden'
+        value='0'>\r\n    <input type='hidden' id='StarsJidlo_293999' value='Sma\u017Een\xE1
+        brokolice  '>\r\n    \r\n    </div>\r\n  </td>\r\n</tr>\r\n<tr>\r\n  <td style=\"width:40px;
+        text-align:right;\">&nbsp;350\_g</td>\r\n  <td>\u0160pagety Livorno (\u0161unka,
+        \xFDr) </td>\r\n  <td style=\"width:10px;\">\r\n    <div class=\"starradek\">
+        \                       \r\n          <a href=\"alergeny.php?alergen=294000\"
+        target=\"_blank\" style=\"padding-left:5px;\" title=\"Alergeny: 1,3,7,9\"><img
+        id='Alergen294000' src=\"files/Alergeny16.png\" alt=\"Al\"></a>\r\n        </div>\r\n
+        \ </td>\r\n  <td style=\"width:10px;\">\r\n    \r\n    <div class=\"starradek\">
+        \                 \r\n          </div>\r\n  </td>\r\n  <td style=\"width:50px;
+        text-align:right\">\r\n  54,86&nbsp;K\u010D  \r\n  </td>\r\n  <td style=\"width:55px;
+        text-align:right\">\r\n  79,00&nbsp;K\u010D  \r\n  </td>\r\n  <td  style=\"width:80px;padding-left:2px;padding-right:0px;\">\r\n
+        \ <span id=\"v16v1\" onmouseover=\"xToolTip(v16v1);\" onclick=\"xToolTip(v16v1);\"
+        title=\"Restaurace\" class=\"label label-success\">R</span>\_  </td>\r\n  <td
+        style=\"width:40px; font-size:11px; text-align:right;padding-left:2px;padding-right:0px;\"
+        class=\"tstarradektd\">\r\n    <div class=\"starradek\">\r\n    <input id=\"StarsNum_294000\"
+        type='hidden' value='0'>\r\n    <input id=\"StarsVotes_294000\" type='hidden'
+        value='0'>\r\n    <input type='hidden' id='StarsJidlo_294000' value='\u0160pagety
+        Livorno (\u0161unka, \xFDr) '>\r\n    \r\n    </div>\r\n  </td>\r\n</tr>\r\n<tr>\r\n
+        \ <td style=\"width:40px; text-align:right;\">&nbsp;200\_g</td>\r\n  <td>Vep\u0159.krkovice
+        marinovan\xE1  </td>\r\n  <td style=\"width:10px;\">\r\n    <div class=\"starradek\">
+        \                       \r\n          <a href=\"alergeny.php?alergen=294001\"
+        target=\"_blank\" style=\"padding-left:5px;\" title=\"Alergeny: 1,3,6,7\"><img
+        id='Alergen294001' src=\"files/Alergeny16.png\" alt=\"Al\"></a>\r\n        </div>\r\n
+        \ </td>\r\n  <td style=\"width:10px;\">\r\n    \r\n    <div class=\"starradek\">
+        \                 \r\n          </div>\r\n  </td>\r\n  <td style=\"width:50px;
+        text-align:right\">\r\n  64,85&nbsp;K\u010D  \r\n  </td>\r\n  <td style=\"width:55px;
+        text-align:right\">\r\n  89,00&nbsp;K\u010D  \r\n  </td>\r\n  <td  style=\"width:80px;padding-left:2px;padding-right:0px;\">\r\n
+        \ <span id=\"v17v1\" onmouseover=\"xToolTip(v17v1);\" onclick=\"xToolTip(v17v1);\"
+        title=\"Restaurace\" class=\"label label-success\">R</span>\_  </td>\r\n  <td
+        style=\"width:40px; font-size:11px; text-align:right;padding-left:2px;padding-right:0px;\"
+        class=\"tstarradektd\">\r\n    <div class=\"starradek\">\r\n    <input id=\"StarsNum_294001\"
+        type='hidden' value='0'>\r\n    <input id=\"StarsVotes_294001\" type='hidden'
+        value='0'>\r\n    <input type='hidden' id='StarsJidlo_294001' value='Vep\u0159.krkovice
+        marinovan\xE1  '>\r\n    \r\n    </div>\r\n  </td>\r\n</tr>\r\n  \r\n  </tbody>\r\n</table>\r\n<p><small>Ve\u0161ker\xE9
+        uveden\xE9 ceny jsou smluvn\xED v\u010Detn\u011B DPH. Na j\xEDdeln\xEDm l\xEDstku
+        je uvedena v\xE1ha masa v syrov\xE9m stavu, u sal\xE1t\u016F a tal\xED\u0159\u016F
+        celkov\xE1 hmotnost porce.<br>Zm\u011Bna j\xEDdeln\xEDho l\xEDstku vyhrazena.
+        <a href=\"alergenyall.php\" target=\"_blank\" style=\"padding-left:5px;\"
+        title=\"Alergeny\">Seznam v\u0161ech alergen\u016F <img src=\"files/Alergeny16.png\"
+        alt=\"Al\"></a></small></p>    \r\n</div>\r\n\r\n<div class=\"jpaticka\">\r\n<a
+        class=\"btn btn-small btn-info\" href=\"javascript:window.print()\" target=\"_blank\"
+        style=\"margin-bottom:4px;\"><i class=\"icon-print icon-white\"></i> Tisk</a>\r\n<a
+        href=\"http://www.suz.cvut.cz/menzy/menza-strahov\" target=\"_blank\" class=\"btn
+        btn-primary btn-small\" style=\"margin-bottom:4px;\"><i class=\"icon-file
+        icon-white\"></i>Str\xE1nky menzy</a>\r\n<a href=\"http://agata.suz.cvut.cz/files/SH-JidCZ.pdf\"
+        target=\"_blank\" class=\"btn btn-primary btn-small\" style=\"margin-bottom:4px;\"><i
+        class=\"icon-file icon-white\"></i>Restaurace minutky CZ</a>\r\n<a href=\"http://agata.suz.cvut.cz/files/SH-JidEN.pdf\"
+        target=\"_blank\" class=\"btn btn-primary btn-small\" style=\"margin-bottom:4px;\"><i
+        class=\"icon-file icon-white\"></i>Restaurace minutky EN</a>\r\n</div>\r\n<br>\r\n<div
+        class=\"dulinfo\">  \r\n<div id=\"myModal\" class=\"modal hide fade\">\r\n
+        \ <div class=\"modal-header\">\r\n    <a class=\"close\" data-dismiss=\"modal\"
+        >&times;</a>\r\n    <h3>Menza Strahov</h3>\r\n  </div>\r\n  <div class=\"modal-body\">
+        \             \r\n    <p></p>\r\n  </div>\r\n  <div class=\"modal-footer\">\r\n
+        \   <a href=\"#\" class=\"btn\" data-dismiss=\"modal\" >Zav\u0159\xEDt</a>
+        \             \r\n  </div>\r\n</div>\r\n</div>\r\n\r\n<!-- okno pro podrobne
+        informace o jidle  #F5F6F8  #A0A0A0-->\r\n<div id=\"myInfo\" class=\"modal
+        hide fade\" style=\"width:400px;\">\r\n  <div class=\"modal-header\" style=\"background-color:#72B4E5;
+        color:#ffffff\">\r\n    <a class=\"close\" data-dismiss=\"modal\" >&times;</a>\r\n
+        \   <h4>Informace o pokrmu:</h4>    \r\n  </div>\r\n  <div id=\"myInfoJidlo\"
+        class=\"modal-body\" style=\"text-align:center;\">\r\n    Informace o j\xEDdle\r\n
+        \ </div>  \r\n</div> \n\n<noscript>\n<div style=\"text-align:center\"><b>Pro
+        spr\xE1vnou funkci j\xEDdeln\xED\u010Dk\u016F, mus\xEDte m\xEDt zapnutou podporu
+        JavaScriptu</b></div>\n</noscript>\n\n</div><!-- /jidelnicek -->\n\n</div>\n</div>\n\n
+        \       \n<!-- footer\n================================================================================\n-->\n
+        \     <hr>\n      <footer>        \n        <p>&copy; Spr\xE1va \xFA\u010Delov\xFDch
+        za\u0159\xEDzen\xED \u010CVUT v Praze 2015.</p>\n        <a href=\"mailto:&#106;&#105;&#100;&#101;&#108;&#110;&#105;&#099;&#107;&#121;&#064;&#099;&#118;&#117;&#116;&#046;&#099;&#122;\"
+        class=\"btn btn-info btn-mini\"><i class=\"icon-envelope icon-white\"></i>&nbsp;&#83;&#112;&#114;&#225;&#118;&#97;&#32;&#119;&#101;&#98;&#117;&#44;&#32;&#112;&#345;&#105;&#112;&#111;&#109;&#237;&#110;&#107;&#121;&#44;&#32;&#100;&#111;&#116;&#97;&#122;&#121;</a>\n
+        \     \n        <a href=\"https://www.suz.cvut.cz/\" target=\"_blank\" class=\"btn
+        btn-info btn-mini\">Spr\xE1va \xFA\u010Delov\xFDch za\u0159\xEDzen\xED \u010CVUT</a>\n
+        \     </footer>      \n    </div><!-- /container -->\n\n<div class=\"star\">
+        \ \n<div id=\"myStar\" class=\"modal hide fade\" style=\"width:400px;\">\n
+        \ <div class=\"modal-header\">\n   \n  </div>\n  <div class=\"modal-body\"
+        style=\"text-align:center;\">\n    \n  </div>              \n  <div class=\"modal-footer\"
+        style=\"height:40px\">\n    <div id=\"loading\" style=\"float:left;height:35px\"></div>\n
+        \   <a href=\"#\" class=\"btn\" data-dismiss=\"modal\">Zav\u0159\xEDt</a>\n
+        \ </div>\n</div>\n</div>\n\n \n<!-- javascript include scripts\n================================================================================\n-->
+        \  \n <script src=\"js/jquery.js\"></script>\n <script src=\"js/bootstrap.js\"></script>\n
+        \n<!-- Piwik\n<script type=\"text/javascript\">\n  var _paq = _paq || [];\n
+        \ _paq.push(['trackPageView']);\n  _paq.push(['enableLinkTracking']);\n  (function()
+        {\n    var u=\"//cat.suz.cvut.cz/webstat/\";\n    _paq.push(['setTrackerUrl',
+        u+'piwik.php']);\n    _paq.push(['setSiteId', 1]);\n    var d=document, g=d.createElement('script'),
+        s=d.getElementsByTagName('script')[0];\n    g.type='text/javascript'; g.async=true;
+        g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);\n  })();\n</script>\n<noscript><p><img
+        src=\"//cat.suz.cvut.cz/webstat/piwik.php?idsite=1\" style=\"border:0;\" alt=\"\"
+        /></p></noscript>\nEnd Piwik Code -->\n\n<!--\n================================================================================\n-->\n<script
+        type=\"text/javascript\">\n  var ID = 1;\n  var PodSys = parseInt(ID);  \n
+        \ \nif (PodSys > 0 && PodSys < 16){\n  ShowJidelnicek(ID);\n}\n</script>\n\n
+        \ </body>\n</html>\n"}
+    headers:
+      Connection: [close]
+      Content-Length: ['37802']
+      Content-Type: [text/html]
+      Date: ['Mon, 26 Nov 2018 08:26:55 GMT']
+      Server: [Microsoft-IIS/7.5]
+      X-Powered-By: [ASP.NET]
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Connection: [close]
+      Host: [agata.suz.cvut.cz]
+      User-Agent: [Python-urllib/3.6]
+    method: GET
+    uri: https://agata.suz.cvut.cz/jidelnicky/index.php?clPodsystem=blah
+  response:
+    body: {string: "<!DOCTYPE html>\n<html lang=\"cs\">\n  <head>    \n    <meta http-equiv=\"Content-Type\"
+        content=\"text/html; charset=UTF-8\">  \n    <title>J\xEDdeln\xED\u010Dky
+        menz \u010CVUT</title>\n    <meta name=\"viewport\" content=\"width=device-width,
+        initial-scale=1.0\">\n    <meta name=\"description\" content=\"Webov\xE9 j\xEDdeln\xED\u010Dky
+        menz \u010CVUT\">\n    <meta name=\"keywords\" content=\"Menzy, j\xEDdeln\xED\u010Dky,
+        \u010CVUT, Restaurace, Strahov, Kladno, Dejvice, Podol\xED\">\n    <meta name=\"author\"
+        content=\"Ka\u0148ovsk\xFD Tom\xE1\u0161\">\n    \n\n    <link rel=\"stylesheet\"
+        title=\"styl\" type=\"text/css\" href=\"css/style.css\" media=\"screen\">\n
+        \   <link rel=\"stylesheet\" type=\"text/css\" href=\"css/tisk.css\" media=\"print\">\n
+        \   \n    \n    <!--[if lt IE 9]>\n      <script src=\"http://html5shim.googlecode.com/svn/trunk/html5.js\"></script>\n
+        \   <![endif]-->\n\n    <!-- favicons -->\n    <link rel=\"shortcut icon\"
+        href=\"favicon.ico\">\n    <link rel=\"icon\" href=\"favicon.ico\">\n    <link
+        rel=\"shortcut icon\" href=\"favicon.png\" type=\"image/png\">  \n  \n<!--
+        javascript code\n================================================================================\n\n-->\n<script
+        type=\"text/javascript\">\nfunction ShowJidelnicek(PodSid){\n  var  OldPodSid
+        = document.getElementById('PodsysActiveID').value;\n   \n  document.getElementById(OldPodSid).className
+        = \"\";\n  document.getElementById('podS'+ PodSid).className = \"active\";\n
+        \ document.getElementById('PodsysActive').value = PodSid;\n  document.getElementById('PodsysActiveID').value
+        = \"podS\"+ PodSid;\n}\n\nfunction SendSection(IDlink){\n  var link = document.getElementById(IDlink).href;\n
+        \ var section = document.getElementById(\"PodsysActive\").value;\n  if (section
+        != 0){\n  if (IDlink == \"litydenh\"){\n    document.getElementById(IDlink).href
+        = link + \"?clPodsystem=\" +  section; \n  }else{\n   document.getElementById(IDlink).href
+        = link + \"#section\" +  section;\n  }\n  }\n}\n\nfunction xPopOver(ID){\n
+        \   $(ID).popover('show');\n}\n\nfunction xToolTip(ID){\n    $(ID).tooltip('show');\n}\n\n\n</script>\n<!--\n================================================================================\nend
+        of javascript code  -->\n     \n </head>\n  <body>\n\n<input type='hidden'
+        id='PodsysActive' value='blah'>\n<input type='hidden' id='ActivePage' value='lihome'>\n<input
+        type='hidden' id='PodsysActiveID' value='podS5'>\n\n\n    <div class=\"navbar
+        navbar-fixed-top\">\n      <div class=\"navbar-inner\">\n        <div class=\"container\">\n
+        \         <a class=\"btn btn-navbar\" data-toggle=\"collapse\" data-target=\".nav-collapse\">\n
+        \           <span class=\"icon-bar\"></span>\n            <span class=\"icon-bar\"></span>\n
+        \           <span class=\"icon-bar\"></span>\n          </a>          \n          <div
+        class=\"nav-collapse\">\n            <ul id=\"navmenu\" class=\"nav\">\n              <li
+        id=\"lihome\" class=\"active\"><a href=\"#\">J\xEDdeln\xED\u010Dky</a></li>\n
+        \             <li id=\"lityden\"><a id=\"litydenh\" href=\"indexTyden.php\"
+        onclick=\"SendSection('litydenh');\">T\xFDdenn\xED</a></li>\n              <li
+        id=\"liot\"><a id=\"lioth\" href=\"oteviraci-doby.php\" onclick=\"SendSection('lioth');\">Otev\xEDrac\xED
+        doby</a></li>\n              <li id=\"likontakt\"><a id=\"likontakth\" href=\"kontakty.php\"
+        onclick=\"SendSection('likontakth');\">Kontakty</a></li>\n              <li
+        id=\"lismart\"><a id=\"lismarth\" href=\"aplikace.php\">Aplikace</a></li>\n
+        \             <li id=\"listravnik\"><a id=\"listravnikh\" href=\"stravnik.php\">Str\xE1vn\xEDk</a></li>\n
+        \           </ul>\n          </div><!--/.nav-collapse -->\n          <a class=\"brand\"
+        href=\"index.php\">J\xEDdeln\xED\u010Dky menz \u010CVUT</a>\n        </div>\n
+        \     </div>\n    </div>    \n    <div class=\"container\">\n    <div class=\"row-fluid\">\n
+        \   <div class=\"span2\" id=\"levypruh\">     \n      <div class=\"subnav\"
+        id=\"divmenumenzy\">\n        <ul class=\"nav nav-pills nav-stacked\" id=\"menzy\">
+        \        \n           \n            <li  id=\"podS15\"><a id=\"podSh15\" href=\"?clPodsystem=15\"
+        onclick=\"ShowJidelnicek('15');\">ArchiCaf\xE9</a></li>\n              \n
+        \           <li  id=\"podS5\"><a id=\"podSh5\" href=\"?clPodsystem=5\" onclick=\"ShowJidelnicek('5');\">Masarykova
+        kolej</a></li>\n              \n            <li  id=\"podS12\"><a id=\"podSh12\"
+        href=\"?clPodsystem=12\" onclick=\"ShowJidelnicek('12');\">MEGA BUF FAT</a></li>\n
+        \             \n            <li  id=\"podS9\"><a id=\"podSh9\" href=\"?clPodsystem=9\"
+        onclick=\"ShowJidelnicek('9');\">Menza Kladno</a></li>\n              \n            <li
+        \ id=\"podS4\"><a id=\"podSh4\" href=\"?clPodsystem=4\" onclick=\"ShowJidelnicek('4');\">Menza
+        Podol\xED</a></li>\n              \n            <li  id=\"podS1\"><a id=\"podSh1\"
+        href=\"?clPodsystem=1\" onclick=\"ShowJidelnicek('1');\">Menza Strahov</a></li>\n
+        \             \n            <li  id=\"podS2\"><a id=\"podSh2\" href=\"?clPodsystem=2\"
+        onclick=\"ShowJidelnicek('2');\">Menza Studentsk\xFD d\u016Fm</a></li>\n              \n
+        \           <li style=\"display:none;\" id=\"podS14\"><a id=\"podSh14\" href=\"?clPodsystem=14\"
+        onclick=\"ShowJidelnicek('14');\">Odd\u011Bl\u011Bn\xED spr\xE1vy IT G\xDA</a></li>\n
+        \             \n            <li  id=\"podS10\"><a id=\"podSh10\" href=\"?clPodsystem=10\"
+        onclick=\"ShowJidelnicek('10');\">Pizzerie la fontanella</a></li>\n              \n
+        \           <li  id=\"podS3\"><a id=\"podSh3\" href=\"?clPodsystem=3\" onclick=\"ShowJidelnicek('3');\">Technick\xE1
+        menza</a></li>\n              \n            <li  id=\"podS6\"><a id=\"podSh6\"
+        href=\"?clPodsystem=6\" onclick=\"ShowJidelnicek('6');\">V\xFDdejna Horsk\xE1</a></li>\n
+        \             \n            <li  id=\"podS8\"><a id=\"podSh8\" href=\"?clPodsystem=8\"
+        onclick=\"ShowJidelnicek('8');\">V\xFDdejna Karlovo n\xE1m\u011Bst\xED</a></li>\n
+        \                   \n        </ul>\n      </div>\n      <br>\n      <div
+        class=\"leftmenupodklad\">\n      &nbsp;\n      </div>      \n    </div>\n
+        \   <div class=\"span10\">\n      \n    \n    \n<!-- body\n================================================================================\n-->\n<div
+        id=\"aktuality\" class='aktuality' style=\"display:none; max-width:800px;
+        padding-left:10px;\"><div class=\"row-fluid\">\r\n  \r\n<div class=\"span6\">
+        \r\n  <div id=\"Info5\" class=\"alert alert-error\" style=\"height:auto; overflow:hidden;
+        text-overflow: ellipsis;\">  \r\n    <p><span title=\"ArchiCaf\xE9\" class=\"label
+        label-important\">Masarykova kolej</span></p>\r\n    <p>\r\nOTEV\xCDRAC\xCD
+        DOBA<BR>\r\nMENZA MASARYKOVA KOLEJ<BR>\r\nPO-\u010CT:  7:00-20:00<BR>\r\nP\xC1:
+        \        7:00-15:00<BR>\r\nSO-NE:  ZAV\u0158ENO<BR>\r\nSN\xCDDAN\u011A: 7:00-10:00<BR>\r\nOB\u011ADY:
+        \    10,30- 14,30<BR>\r\nVE\u010CE\u0158E:  17,30-20:00 /  V\xDDDEJ DO 19,50
+        HODIN!!!<BR>\r\nRESTAURACE OD 10.9.2018 B\u011A\u017DN\xDD PROVOZ<BR>\r\nPO
+        - \u010CT 11:00 - 20:00<BR>\r\nP\xC1 11:00 - 15:00<BR>\r\nsn\xEDdan\u011B
+        pro ubytovan\xE9 hosty - PO - NE 7:00 - 10:00<BR></p>   \r\n  </div>\r\n</div>\r\n
+        \ \r\n<div class=\"span6\"> \r\n  <div id=\"Info10\" class=\"alert alert-error\"
+        style=\"height:auto; overflow:hidden; text-overflow: ellipsis;\">  \r\n    <p><span
+        title=\"Masarykova kolej\" class=\"label label-important\">Pizzerie la fontanella</span></p>\r\n
+        \   <p>\r\nV\xE1\u017Een\xED z\xE1kazn\xEDci,<BR>\r\nr\xE1d bych V\xE1m znovu
+        p\u0159ipomenul, \u017Ee i na celou nab\xEDdku j\xEDdel ze st\xE1l\xE9ho j\xEDdeln\xEDho
+        l\xEDstku se vztahuje studentsk\xE1/zam\u011Bstnaneck\xE1 dotace.<BR>\r\nDear
+        Customer,  <BR>\r\nI would like to once again remind you that the student/employee
+        discount applies to the entire menu. <BR></p>   \r\n  </div>\r\n</div>\r\n</div><br><div
+        class=\"row-fluid\">  \r\n<div class=\"span6\"> \r\n  <div id=\"Info2\" class=\"alert
+        alert-error\" style=\"height:auto; overflow:hidden; text-overflow: ellipsis;\">
+        \ \r\n    <p><span title=\"MEGA BUF FAT\" class=\"label label-important\">Menza
+        Studentsk\xFD d\u016Fm</span></p>\r\n    <p>\r\nMENZA STUDENTSK\xDD D\u016EM
+        JE P\u0158\xCDSTUPN\xC1 OP\u011AT Z OBOU STRAN OCHOZU BO\u010CN\xCDM SCHODI\u0160T\u011AM
+        Z KOLEJN\xCD ULICE!!!<BR>\r\nVESTIBUL MENZY JE P\u0158\xCDSTUPN\xDD!!!<BR></p>
+        \  \r\n  </div>\r\n</div>\r\n  \r\n<div class=\"span6\"> \r\n  <div id=\"Info3\"
+        class=\"alert alert-error\" style=\"height:auto; overflow:hidden; text-overflow:
+        ellipsis;\">  \r\n    <p><span title=\"Menza Kladno\" class=\"label label-important\">Technick\xE1
+        menza</span></p>\r\n    <p>\r\nNa Technick\xE9 menze akceptujeme pouze bezkontaktn\xED
+        zam\u011Bstnaneck\xE9 karty s \u010Dipem. Pokud m\xE1te kartu s magnetick\xFDm
+        prou\u017Ekem a chcete se u n\xE1s stravovat, za\u0159i\u010Fte si pros\xEDm
+        v\xFDm\u011Bnu karty.<BR></p>   \r\n  </div>\r\n</div>\r\n</div><br><div class=\"row-fluid\"></div>
+        \r\n  \r\n</div>\n\n<div id=\"jidelnicek\" style=\"display:block; max-width:800px;
+        padding-left:10px;\">\n\n\r\n\r\n"}
+    headers:
+      Connection: [close]
+      Content-Length: ['8078']
+      Content-Type: [text/html]
+      Date: ['Mon, 26 Nov 2018 08:41:57 GMT']
+      Server: [Microsoft-IIS/7.5]
+      X-Powered-By: [ASP.NET]
+    status: {code: 200, message: OK}
+version: 1

@@ -2,15 +2,15 @@
 import click
 import yaml
 
-from . import generate
+from .generate import generate_menu
 
 
 def generate_digest(items):
     for i in items:
         if isinstance(i, str):
-            yield from generate.generate_menu(i)
+            yield from generate_menu(i)
         elif isinstance(i, dict):
-            yield from generate.generate_menu(**i)
+            yield from generate_menu(**i)
         else:
             raise ValueError("Item should be either string or dict")
 
