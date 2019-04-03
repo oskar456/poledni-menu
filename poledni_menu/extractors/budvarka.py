@@ -1,6 +1,7 @@
-import datetime
+import string
+import urllib.request
 
-from ..utils import parsed_html_doc
+import lxml.html
 
 
 def get_name():
@@ -8,17 +9,25 @@ def get_name():
 
 
 def get_url():
-    return "https://www.pivnice-budvarka.cz/budvarka-dejvice/"
+    return "https://dejvice.pivnice-budvarka.cz/"
 
 
 def get_menu():
-    doc = parsed_html_doc(get_url())
-    today = datetime.date.today().strftime("%-d.\xa0%-m.\xa0%Y")
-    menus = doc.xpath('//div[@id="dnesniMenu"]//'
-                      'table/tr'.format(today))
-    for meal in menus:
-        for pozn in meal.xpath('//span[@class=\"jidelni-nabidka-pozn\"]'):
-            pozn.getparent().remove(pozn)
-        _, _, _, nazev, cena, _ = (x.text_content()
-                                   for x in meal.findall('td'))
-        yield (nazev, cena)
+    # They don't have HTTP-EQUIV meta tag with encoding
+    doc = lxml.html.document_fromstring(
+        urllib.request.urlopen(get_url()).read().decode("utf-8"),
+    )
+    menus = doc.xpath('//div[@id="menu-daily"]//dl/dt[@class="menu-item"]')
+    for dt in menus:
+        name = dt.find('span[@class="name"]').text
+        name = name.strip(" " + string.punctuation)
+        price = ""
+        desc = ""
+        dd = dt.getnext()
+        while dd is not None and dd.tag == "dd":
+            if dd.get("class") == "price":
+                price = dd.text
+            elif dd.get("class") == "description":
+                desc = dd.text.strip()
+            dd = dd.getnext()
+        yield (" ".join([name, desc]), price)
