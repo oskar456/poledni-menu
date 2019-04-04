@@ -24,4 +24,7 @@ def get_menu():
             continue
         x, name, price = cells
         if (name is not None) and (price is not None):
-            yield (name.text_content().strip(), price.text_content().strip())
+            yield (
+                name.text_content().strip().capitalize(),
+                price.text_content().strip(),
+            )
