@@ -8831,4 +8831,740 @@ interactions:
     status:
       code: 200
       message: OK
+- request:
+    body: null
+    headers:
+      Connection:
+      - close
+      Host:
+      - nakotlarce.cz
+      User-Agent:
+      - Python-urllib/3.6
+    method: GET
+    uri: https://nakotlarce.cz/poledni-menu/
+  response:
+    body:
+      string: "<!DOCTYPE html>\n<html class=\"avada-html-layout-wide\" lang=\"cs-CZ\"
+        prefix=\"og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#\">\n<head>\n\t<meta
+        http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n\t<meta http-equiv=\"Content-Type\"
+        content=\"text/html; charset=utf-8\"/>\n\t<meta name=\"viewport\" content=\"width=device-width,
+        initial-scale=1\" />\n\t<title>Poledn\xED menu &#8211; Bernard Pub</title>\n<meta
+        name='robots' content='noindex,follow' />\n<link rel=\"alternate\" hreflang=\"cs\"
+        href=\"https://nakotlarce.cz/poledni-menu/\" />\n<link rel=\"alternate\" hreflang=\"en\"
+        href=\"https://nakotlarce.cz/poledni-menu/?lang=en\" />\n<link rel=\"alternate\"
+        hreflang=\"ru\" href=\"https://nakotlarce.cz/lunch-menu/?lang=ru\" />\n<link
+        rel='dns-prefetch' href='//nakotlarce.cz' />\n<link rel='dns-prefetch' href='//s.w.org'
+        />\n<link rel=\"alternate\" type=\"application/rss+xml\" title=\"Bernard Pub
+        &raquo; RSS zdroj\" href=\"https://nakotlarce.cz/feed/\" />\n<link rel=\"alternate\"
+        type=\"application/rss+xml\" title=\"Bernard Pub &raquo; RSS koment\xE1\u0159\u016F\"
+        href=\"https://nakotlarce.cz/comments/feed/\" />\n<link rel=\"alternate\"
+        type=\"text/calendar\" title=\"Bernard Pub &raquo; iCal zdroj\" href=\"https://nakotlarce.cz/events/?ical=1\"
+        />\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\t\t\n\t\t<meta property=\"og:title\" content=\"Poledn\xED
+        menu\"/>\n\t\t<meta property=\"og:type\" content=\"article\"/>\n\t\t<meta
+        property=\"og:url\" content=\"https://nakotlarce.cz/poledni-menu/\"/>\n\t\t<meta
+        property=\"og:site_name\" content=\"Bernard Pub\"/>\n\t\t<meta property=\"og:description\"
+        content=\"J\xEDdeln\xED l\xEDstek  N\xE1pojov\xFD l\xEDstek    \r\n\r\n \r\n
+        \r\n \r\n\r\n \r\n \r\n \r\n\r\n \r\n \r\n \r\n\r\n \r\n \r\n \r\n\r\n \r\n
+        \r\n    J\xEDdeln\xED l\xEDstek  N\xE1pojov\xFD l\xEDstek\"/>\n\n\t\t\t\t\t\t\t\t\t<meta
+        property=\"og:image\" content=\"https://nakotlarce.cz/wp-content/uploads/2018/10/Bernard-logo.png\"/>\n\t\t\t\t\t\t\t\t\t<script
+        type=\"text/javascript\">\n\t\t\twindow._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/11\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/11\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/nakotlarce.cz\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=4.9.8\"}};\n\t\t\t!function(a,b,c){function
+        d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var
+        d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var
+        e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline=\"top\",l.font=\"600
+        32px Arial\",a){case\"flag\":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case\"emoji\":return
+        b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function
+        f(a){var c=b.createElement(\"script\");c.src=a,c.defer=c.type=\"text/javascript\",b.getElementsByTagName(\"head\")[0].appendChild(c)}var
+        g,h,i,j,k=b.createElement(\"canvas\"),l=k.getContext&&k.getContext(\"2d\");for(j=Array(\"flag\",\"emoji\"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],\"flag\"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener(\"DOMContentLoaded\",h,!1),a.addEventListener(\"load\",h,!1)):(a.attachEvent(\"onload\",h),b.attachEvent(\"onreadystatechange\",function(){\"complete\"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);\n\t\t</script>\n\t\t<style
+        type=\"text/css\">\nimg.wp-smiley,\nimg.emoji {\n\tdisplay: inline !important;\n\tborder:
+        none !important;\n\tbox-shadow: none !important;\n\theight: 1em !important;\n\twidth:
+        1em !important;\n\tmargin: 0 .07em !important;\n\tvertical-align: -0.1em !important;\n\tbackground:
+        none !important;\n\tpadding: 0 !important;\n}\n</style>\n<link rel='stylesheet'
+        id='cf7-style-frontend-style-css'  href='https://nakotlarce.cz/wp-content/plugins/contact-form-7-style/css/frontend.css?ver=3.1.7'
+        type='text/css' media='all' />\n<link rel='stylesheet' id='cf7-style-responsive-style-css'
+        \ href='https://nakotlarce.cz/wp-content/plugins/contact-form-7-style/css/responsive.css?ver=3.1.7'
+        type='text/css' media='all' />\n<link rel='stylesheet' id='contact-form-7-css'
+        \ href='https://nakotlarce.cz/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.0.4'
+        type='text/css' media='all' />\n<link rel='stylesheet' id='rs-plugin-settings-css'
+        \ href='https://nakotlarce.cz/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.4.8'
+        type='text/css' media='all' />\n<style id='rs-plugin-settings-inline-css'
+        type='text/css'>\n#rs-demo-id {}\n</style>\n<link rel='stylesheet' id='wpml-menu-item-0-css'
+        \ href='//nakotlarce.cz/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/menu-item/style.css?ver=1'
+        type='text/css' media='all' />\n<link rel='stylesheet' id='avada-stylesheet-css'
+        \ href='https://nakotlarce.cz/wp-content/themes/Avada/assets/css/style.min.css?ver=5.7'
+        type='text/css' media='all' />\n<!--[if lte IE 9]>\n<link rel='stylesheet'
+        id='avada-IE-fontawesome-css'  href='https://nakotlarce.cz/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/font-awesome.min.css?ver=5.7'
+        type='text/css' media='all' />\n<![endif]-->\n<!--[if IE]>\n<link rel='stylesheet'
+        id='avada-IE-css'  href='https://nakotlarce.cz/wp-content/themes/Avada/assets/css/ie.min.css?ver=5.7'
+        type='text/css' media='all' />\n<![endif]-->\n<link rel='stylesheet' id='tablepress-default-css'
+        \ href='https://nakotlarce.cz/wp-content/tablepress-combined.min.css?ver=18'
+        type='text/css' media='all' />\n<link rel='stylesheet' id='fusion-dynamic-css-css'
+        \ href='https://nakotlarce.cz/wp-content/uploads/fusion-styles/12447d93589105097a157e0e1f579278.min.css?ver=4.9.8'
+        type='text/css' media='all' />\n<script>if (document.location.protocol !=
+        \"https:\") {document.location = document.URL.replace(/^http:/i, \"https:\");}</script><script
+        type='text/javascript' src='https://nakotlarce.cz/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>\n<script
+        type='text/javascript' src='https://nakotlarce.cz/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>\n<script
+        type='text/javascript' src='https://nakotlarce.cz/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?ver=5.4.8'></script>\n<script
+        type='text/javascript' src='https://nakotlarce.cz/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.4.8'></script>\n<script
+        type='text/javascript'>\n/* <![CDATA[ */\nvar SnazzyDataForSnazzyMaps = [];\nSnazzyDataForSnazzyMaps={\"id\":48114,\"name\":\"dark
+        gold\",\"description\":\"dark and gold map\",\"url\":\"https:\\/\\/snazzymaps.com\\/style\\/48114\\/dark-gold\",\"imageUrl\":\"https:\\/\\/snazzy-maps-cdn.azureedge.net\\/assets\\/48114-dark-gold.png?v=20170626085042\",\"json\":\"[{\\\"featureType\\\":\\\"all\\\",\\\"elementType\\\":\\\"labels.text.fill\\\",\\\"stylers\\\":[{\\\"saturation\\\":36},{\\\"color\\\":\\\"#000000\\\"},{\\\"lightness\\\":40}]},{\\\"featureType\\\":\\\"all\\\",\\\"elementType\\\":\\\"labels.text.stroke\\\",\\\"stylers\\\":[{\\\"visibility\\\":\\\"on\\\"},{\\\"color\\\":\\\"#000000\\\"},{\\\"lightness\\\":16}]},{\\\"featureType\\\":\\\"all\\\",\\\"elementType\\\":\\\"labels.icon\\\",\\\"stylers\\\":[{\\\"visibility\\\":\\\"off\\\"}]},{\\\"featureType\\\":\\\"administrative\\\",\\\"elementType\\\":\\\"geometry.fill\\\",\\\"stylers\\\":[{\\\"color\\\":\\\"#000000\\\"},{\\\"lightness\\\":20}]},{\\\"featureType\\\":\\\"administrative\\\",\\\"elementType\\\":\\\"geometry.stroke\\\",\\\"stylers\\\":[{\\\"color\\\":\\\"#000000\\\"},{\\\"lightness\\\":17},{\\\"weight\\\":1.2}]},{\\\"featureType\\\":\\\"landscape\\\",\\\"elementType\\\":\\\"geometry\\\",\\\"stylers\\\":[{\\\"color\\\":\\\"#000000\\\"},{\\\"lightness\\\":20}]},{\\\"featureType\\\":\\\"poi\\\",\\\"elementType\\\":\\\"geometry\\\",\\\"stylers\\\":[{\\\"color\\\":\\\"#000000\\\"},{\\\"lightness\\\":21}]},{\\\"featureType\\\":\\\"road.highway\\\",\\\"elementType\\\":\\\"geometry.fill\\\",\\\"stylers\\\":[{\\\"color\\\":\\\"#cbb26d\\\"},{\\\"lightness\\\":17}]},{\\\"featureType\\\":\\\"road.highway\\\",\\\"elementType\\\":\\\"geometry.stroke\\\",\\\"stylers\\\":[{\\\"color\\\":\\\"#000000\\\"},{\\\"lightness\\\":29},{\\\"weight\\\":0.2}]},{\\\"featureType\\\":\\\"road.arterial\\\",\\\"elementType\\\":\\\"geometry\\\",\\\"stylers\\\":[{\\\"color\\\":\\\"#000000\\\"},{\\\"lightness\\\":18}]},{\\\"featureType\\\":\\\"road.local\\\",\\\"elementType\\\":\\\"geometry\\\",\\\"stylers\\\":[{\\\"color\\\":\\\"#000000\\\"},{\\\"lightness\\\":16}]},{\\\"featureType\\\":\\\"transit\\\",\\\"elementType\\\":\\\"geometry\\\",\\\"stylers\\\":[{\\\"color\\\":\\\"#000000\\\"},{\\\"lightness\\\":19}]},{\\\"featureType\\\":\\\"water\\\",\\\"elementType\\\":\\\"geometry\\\",\\\"stylers\\\":[{\\\"color\\\":\\\"#cbb26d\\\"},{\\\"lightness\\\":17}]}]\",\"views\":865,\"favorites\":0,\"createdBy\":{\"name\":\"justjeey\",\"url\":null},\"createdOn\":\"2015-12-23T13:54:21.57\",\"tags\":[\"colorful\"],\"colors\":[\"black\"]};\n/*
+        ]]> */\n</script>\n<script type='text/javascript' src='https://nakotlarce.cz/wp-content/plugins/snazzy-maps/snazzymaps.js?ver=1.1.5'></script>\n<link
+        rel='https://api.w.org/' href='https://nakotlarce.cz/wp-json/' />\n<link rel=\"EditURI\"
+        type=\"application/rsd+xml\" title=\"RSD\" href=\"https://nakotlarce.cz/xmlrpc.php?rsd\"
+        />\n<link rel=\"wlwmanifest\" type=\"application/wlwmanifest+xml\" href=\"https://nakotlarce.cz/wp-includes/wlwmanifest.xml\"
+        /> \n<meta name=\"generator\" content=\"WordPress 4.9.8\" />\n<link rel=\"canonical\"
+        href=\"https://nakotlarce.cz/poledni-menu/\" />\n<link rel='shortlink' href='https://nakotlarce.cz/?p=2266'
+        />\n<link rel=\"alternate\" type=\"application/json+oembed\" href=\"https://nakotlarce.cz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fnakotlarce.cz%2Fpoledni-menu%2F\"
+        />\n<link rel=\"alternate\" type=\"text/xml+oembed\" href=\"https://nakotlarce.cz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fnakotlarce.cz%2Fpoledni-menu%2F&#038;format=xml\"
+        />\n<meta name=\"generator\" content=\"WPML ver:4.1.1 stt:9,1,46;\" />\n<meta
+        name=\"tec-api-version\" content=\"v1\"><meta name=\"tec-api-origin\" content=\"https://nakotlarce.cz\"><link
+        rel=\"https://theeventscalendar.com/\" href=\"https://nakotlarce.cz/wp-json/tribe/events/v1/\"
+        />\t\t<style type=\"text/css\">.recentcomments a{display:inline !important;padding:0
+        !important;margin:0 !important;}</style>\n\t\t\n<style class='cf7-style' media='screen'
+        type='text/css'>\nbody .cf7-style.cf7-style-2407 input {margin-bottom: 25px;}body
+        .cf7-style.cf7-style-2407 textarea {margin-bottom: 25px;}\n</style>\n<meta
+        name=\"generator\" content=\"Powered by Slider Revolution 5.4.8 - responsive,
+        Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop
+        interface.\" />\n\t\t<script type=\"text/javascript\">function setREVStartSize(e){\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\ttry{
+        e.c=jQuery(e.c);var i=jQuery(window).width(),t=9999,r=0,n=0,l=0,f=0,s=0,h=0;\r\n\t\t\t\t\t\t\tif(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f,l=e),i>f&&f>r&&(r=f,n=e)}),t>r&&(l=n)),f=e.gridheight[l]||e.gridheight[0]||e.gridheight,s=e.gridwidth[l]||e.gridwidth[0]||e.gridwidth,h=i/s,h=h>1?1:h,f=Math.round(h*f),\"fullscreen\"==e.sliderLayout){var
+        u=(e.c.width(),jQuery(window).height());if(void 0!=e.fullScreenOffsetContainer){var
+        c=e.fullScreenOffsetContainer.split(\",\");if (c) jQuery.each(c,function(e,i){u=jQuery(i).length>0?u-jQuery(i).outerHeight(!0):u}),e.fullScreenOffset.split(\"%\").length>1&&void
+        0!=e.fullScreenOffset&&e.fullScreenOffset.length>0?u-=jQuery(window).height()*parseInt(e.fullScreenOffset,0)/100:void
+        0!=e.fullScreenOffset&&e.fullScreenOffset.length>0&&(u-=parseInt(e.fullScreenOffset,0))}f=u}else
+        void 0!=e.minHeight&&f<e.minHeight&&(f=e.minHeight);e.c.closest(\".rev_slider_wrapper\").css({height:f})\t\t\t\t\t\r\n\t\t\t\t\t\t}catch(d){console.log(\"Failure
+        at Presize of Slider:\"+d)}\t\t\t\t\t\t\r\n\t\t\t\t\t};</script>\n\n\t\t\n\t<script
+        type=\"text/javascript\">\n\t\tvar doc = document.documentElement;\n\t\tdoc.setAttribute('data-useragent',
+        navigator.userAgent);\n\t</script>\n\n\t</head>\n\n<body data-rsssl=1 class=\"page-template
+        page-template-100-width page-template-100-width-php page page-id-2266 tribe-no-js
+        fusion-image-hovers fusion-body ltr fusion-sticky-header no-tablet-sticky-header
+        no-mobile-sticky-header no-mobile-slidingbar no-mobile-totop fusion-disable-outline
+        layout-wide-mode fusion-top-header menu-text-align-center mobile-menu-design-flyout
+        fusion-show-pagination-text fusion-header-layout-v7 avada-responsive avada-footer-fx-bg-parallax
+        fusion-search-form-clean fusion-avatar-square\">\n\t<a class=\"skip-link screen-reader-text\"
+        href=\"#content\">Skip to content</a>\n\t\t\t\t<div id=\"wrapper\" class=\"\">\n\t\t<div
+        id=\"home\" style=\"position:relative;top:-1px;\"></div>\n\t\t\n\t\t\t<header
+        class=\"fusion-header-wrapper fusion-header-shadow\">\n\t\t\t\t<div class=\"fusion-header-v7
+        fusion-logo-center fusion-sticky-menu- fusion-sticky-logo- fusion-mobile-logo-
+        \ fusion-mobile-menu-design-flyout fusion-header-has-flyout-menu\">\n\t\t\t\t\t<div
+        class=\"fusion-header-sticky-height\"></div>\n<div class=\"fusion-header\"
+        >\n\t<div class=\"fusion-row fusion-middle-logo-menu\">\n\t\t\t\t\t<div class=\"fusion-header-has-flyout-menu-content\">\n\t\t\t\t<nav
+        class=\"fusion-main-menu fusion-main-menu-sticky\" aria-label=\"Main Menu\"><ul
+        role=\"menubar\" id=\"menu-bernard-pub-menu\" class=\"fusion-menu fusion-middle-logo-ul\"><li
+        \ id=\"menu-item-23\"  class=\"menu-item menu-item-type-post_type menu-item-object-page
+        menu-item-home menu-item-23\"  data-item-id=\"23\"><a  href=\"https://nakotlarce.cz/\"
+        class=\"fusion-top-level-link fusion-background-highlight\" role=\"menuitem\"><span
+        class=\"menu-text\">Dom\u016F</span></a></li><li  id=\"menu-item-2639\"  class=\"menu-item
+        menu-item-type-post_type menu-item-object-page menu-item-2639\"  data-item-id=\"2639\"><a
+        \ href=\"https://nakotlarce.cz/menu/\" class=\"fusion-top-level-link fusion-background-highlight\"
+        role=\"menuitem\"><span class=\"menu-text\">Menu</span></a></li><li  id=\"menu-item-2640\"
+        \ class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-2640\"
+        \ data-item-id=\"2640\"><a  href=\"https://nakotlarce.cz/galerie/\" class=\"fusion-top-level-link
+        fusion-background-highlight\" role=\"menuitem\"><span class=\"menu-text\">Galerie</span></a></li>\t<li
+        class=\"fusion-logo-background fusion-middle-logo-menu-logo\"><div class=\"fusion-logo\"
+        data-margin-top=\"32px\" data-margin-bottom=\"32px\" data-margin-left=\"40px\"
+        data-margin-right=\"40px\">\n\t\t\t<a class=\"fusion-logo-link\"  href=\"https://nakotlarce.cz/\"
+        >\n\n\t\t\t\t\t\t<!-- standard logo -->\n\t\t\t<img src=\"https://nakotlarce.cz/wp-content/uploads/2018/10/Bernard-logo.png\"
+        srcset=\"https://nakotlarce.cz/wp-content/uploads/2018/10/Bernard-logo.png
+        1x\" width=\"304\" height=\"34\" alt=\"Bernard Pub Logo\" retina_logo_url=\"\"
+        class=\"fusion-standard-logo\" />\n\n\t\t\t\n\t\t\t\t\t</a>\n\t\t</div></li><li
+        \ id=\"menu-item-3050\"  class=\"menu-item menu-item-type-post_type menu-item-object-page
+        menu-item-3050\"  data-item-id=\"3050\"><a  href=\"https://nakotlarce.cz/akce/\"
+        class=\"fusion-top-level-link fusion-background-highlight\" role=\"menuitem\"><span
+        class=\"menu-text\">Akce</span></a></li><li  id=\"menu-item-2637\"  class=\"menu-item
+        menu-item-type-post_type menu-item-object-page menu-item-2637\"  data-item-id=\"2637\"><a
+        \ href=\"https://nakotlarce.cz/kontakt/\" class=\"fusion-top-level-link fusion-background-highlight\"
+        role=\"menuitem\"><span class=\"menu-text\">Kontakt</span></a></li><li  id=\"menu-item-wpml-ls-9-en\"
+        \ class=\"menu-item wpml-ls-slot-9 wpml-ls-item wpml-ls-item-en wpml-ls-menu-item
+        wpml-ls-first-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item
+        menu-item-wpml-ls-9-en\"  data-classes=\"menu-item\" data-item-id=\"wpml-ls-9-en\"><a
+        \ href=\"https://nakotlarce.cz/poledni-menu/?lang=en\" class=\"fusion-background-highlight\"
+        role=\"menuitem\"><span class=\"menu-text\"><img class=\"wpml-ls-flag\" src=\"https://nakotlarce.cz/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png\"
+        alt=\"en\" title=\"English\"></span></a></li><li  id=\"menu-item-wpml-ls-9-ru\"
+        \ class=\"menu-item wpml-ls-slot-9 wpml-ls-item wpml-ls-item-ru wpml-ls-menu-item
+        wpml-ls-last-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item
+        menu-item-wpml-ls-9-ru\"  data-classes=\"menu-item\" data-item-id=\"wpml-ls-9-ru\"><a
+        \ href=\"https://nakotlarce.cz/lunch-menu/?lang=ru\" class=\"fusion-background-highlight\"
+        role=\"menuitem\"><span class=\"menu-text\"><img class=\"wpml-ls-flag\" src=\"https://nakotlarce.cz/wp-content/plugins/sitepress-multilingual-cms/res/flags/ru.png\"
+        alt=\"ru\" title=\"\u0420\u0443\u0441\u0441\u043A\u0438\u0439\"></span></a></li></ul></nav><div
+        class=\"fusion-flyout-menu-icons fusion-flyout-mobile-menu-icons\">\n\n\t\n\t\n\t\n\t\t\t\t<a
+        class=\"fusion-flyout-menu-toggle\" aria-hidden=\"true\" aria-label=\"Toggle
+        Menu\" href=\"#\">\n\t\t\t<div class=\"fusion-toggle-icon-line\"></div>\n\t\t\t<div
+        class=\"fusion-toggle-icon-line\"></div>\n\t\t\t<div class=\"fusion-toggle-icon-line\"></div>\n\t\t</a>\n\t</div>\n\n\n<div
+        class=\"fusion-flyout-menu-bg\"></div>\n\n<nav class=\"fusion-mobile-nav-holder
+        fusion-flyout-menu fusion-flyout-mobile-menu\"></nav>\n\n\t\t\t\t\t\t\t</div>\n\t\t\t</div>\n</div>\n\t\t\t\t</div>\n\t\t\t\t<div
+        class=\"fusion-clearfix\"></div>\n\t\t\t</header>\n\t\t\t\t\t\n\t\t\n\t\t<div
+        id=\"sliders-container\">\n\t\t\t\t\t</div>\n\t\t\t\t\n\t\t\n\t\t\t\t\t<div
+        class=\"fusion-page-title-bar fusion-page-title-bar-breadcrumbs fusion-page-title-bar-center\">\n\t<div
+        class=\"fusion-page-title-row\">\n\t\t<div class=\"fusion-page-title-wrapper\">\n\t\t\t<div
+        class=\"fusion-page-title-captions\">\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<h1
+        class=\"entry-title\">Poledn\xED menu</h1>\n\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t</div>\n\n\t\t\t\n\t\t</div>\n\t</div>\n</div>\n\t\t\t\t\n\t\t\t\t<main
+        id=\"main\" role=\"main\" class=\"clearfix width-100\" style=\"padding-left:30px;padding-right:30px\">\n\t\t\t<div
+        class=\"fusion-row\" style=\"max-width:100%;\">\n<section id=\"content\" class=\"full-width\">\n\t\t\t\t\t<div
+        id=\"post-2266\" class=\"post-2266 page type-page status-publish hentry\">\n\t\t\t<span
+        class=\"entry-title rich-snippet-hidden\">Poledn\xED menu</span><span class=\"vcard
+        rich-snippet-hidden\"><span class=\"fn\"><a href=\"https://nakotlarce.cz/author/4works/\"
+        title=\"P\u0159\xEDsp\u011Bvky od 4works\" rel=\"author\">4works</a></span></span><span
+        class=\"updated rich-snippet-hidden\">2019-04-06T19:29:38+00:00</span>\t\t\t\t\t\t<div
+        class=\"post-content\">\n\t\t\t\t<div class=\"fusion-fullwidth fullwidth-box
+        nonhundred-percent-fullwidth non-hundred-percent-height-scrolling\"  style='background-color:
+        rgba(255,255,255,0);background-position: center center;background-repeat:
+        no-repeat;padding-top:0px;padding-right:30px;padding-bottom:0px;padding-left:30px;'><div
+        class=\"fusion-builder-row fusion-row \"><div  class=\"fusion-layout-column
+        fusion_builder_column fusion_builder_column_1_1  fusion-one-full fusion-column-first
+        fusion-column-last 1_1\"  style='margin-top:0px;margin-bottom:20px;'>\n\t\t\t\t\t<div
+        class=\"fusion-column-wrapper\" style=\"padding: 0px 0px 0px 0px;background-position:left
+        top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;\"
+        \ data-bg-url=\"\">\n\t\t\t\t\t\t<div class=\"fusion-builder-row fusion-builder-row-inner
+        fusion-row \"><div  class=\"fusion-layout-column fusion_builder_column fusion_builder_column_1_6
+        \ fusion-one-sixth fusion-column-first fusion-spacing-no 1_6\"  style='margin-top:
+        0px;margin-bottom: 20px;width:16.66%;width:calc(16.66% - ( ( 0 + 0 + 0 ) *
+        0.1666 ) );margin-right:0px;'><div class=\"fusion-column-wrapper\" style=\"padding:
+        0px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;\"
+        \ data-bg-url=\"\"></div></div><div  class=\"fusion-layout-column fusion_builder_column
+        fusion_builder_column_1_6  fusion-one-sixth fusion-spacing-no 1_6\"  style='margin-top:
+        0px;margin-bottom: 20px;width:16.66%;width:calc(16.66% - ( ( 0 + 0 + 0 ) *
+        0.1666 ) );margin-right:0px;'><div class=\"fusion-column-wrapper\" style=\"padding:
+        0px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;\"
+        \ data-bg-url=\"\"></div></div><div  class=\"fusion-layout-column fusion_builder_column
+        fusion_builder_column_1_6  fusion-one-sixth fusion-spacing-no 1_6\"  style='margin-top:
+        0px;margin-bottom: 20px;width:16.66%;width:calc(16.66% - ( ( 0 + 0 + 0 ) *
+        0.1666 ) );margin-right:0px;'><div class=\"fusion-column-wrapper\" style=\"padding:
+        0px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;\"
+        \ data-bg-url=\"\"><div class=\"fusion-button-wrapper fusion-aligncenter\"><style
+        type=\"text/css\" scoped=\"scoped\">.fusion-button.button-1 .fusion-button-text,
+        .fusion-button.button-1 i {color:#ffffff;}.fusion-button.button-1 {border-width:0px;border-color:#ffffff;}.fusion-button.button-1
+        .fusion-button-icon-divider{border-color:#ffffff;}.fusion-button.button-1:hover
+        .fusion-button-text, .fusion-button.button-1:hover i,.fusion-button.button-1:focus
+        .fusion-button-text, .fusion-button.button-1:focus i,.fusion-button.button-1:active
+        .fusion-button-text, .fusion-button.button-1:active{color:#ffffff;}.fusion-button.button-1:hover,
+        .fusion-button.button-1:focus, .fusion-button.button-1:active{border-width:0px;border-color:#ffffff;}.fusion-button.button-1:hover
+        .fusion-button-icon-divider, .fusion-button.button-1:hover .fusion-button-icon-divider,
+        .fusion-button.button-1:active .fusion-button-icon-divider{border-color:#ffffff;}.fusion-button.button-1{width:auto;}</style><a
+        class=\"fusion-button button-flat fusion-button-square button-large button-default
+        button-1\" target=\"_self\" href=\"/jidelni-listek\"><span class=\"fusion-button-text\">J\xEDdeln\xED
+        l\xEDstek</span></a></div></div></div><div  class=\"fusion-layout-column fusion_builder_column
+        fusion_builder_column_1_5  fusion-one-fifth fusion-column-last fusion-spacing-no
+        1_5\"  style='margin-top: 0px;margin-bottom: 20px;width:20%;width:calc(20%
+        - ( ( 0 + 0 + 0 ) * 0.2 ) );'><div class=\"fusion-column-wrapper\" style=\"padding:
+        0px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;\"
+        \ data-bg-url=\"\"><div class=\"fusion-button-wrapper fusion-aligncenter\"><style
+        type=\"text/css\" scoped=\"scoped\">.fusion-button.button-2 .fusion-button-text,
+        .fusion-button.button-2 i {color:#ffffff;}.fusion-button.button-2 {border-width:0px;border-color:#ffffff;}.fusion-button.button-2
+        .fusion-button-icon-divider{border-color:#ffffff;}.fusion-button.button-2:hover
+        .fusion-button-text, .fusion-button.button-2:hover i,.fusion-button.button-2:focus
+        .fusion-button-text, .fusion-button.button-2:focus i,.fusion-button.button-2:active
+        .fusion-button-text, .fusion-button.button-2:active{color:#ffffff;}.fusion-button.button-2:hover,
+        .fusion-button.button-2:focus, .fusion-button.button-2:active{border-width:0px;border-color:#ffffff;}.fusion-button.button-2:hover
+        .fusion-button-icon-divider, .fusion-button.button-2:hover .fusion-button-icon-divider,
+        .fusion-button.button-2:active .fusion-button-icon-divider{border-color:#ffffff;}.fusion-button.button-2{width:auto;}</style><a
+        class=\"fusion-button button-flat fusion-button-square button-large button-default
+        button-2\" target=\"_self\" href=\"/napojovy-listek/\"><span class=\"fusion-button-text\">N\xE1pojov\xFD
+        l\xEDstek</span></a></div></div></div></div><div class=\"fusion-sep-clear\"></div><div
+        class=\"fusion-separator fusion-full-width-sep sep-none\" style=\"margin-left:
+        auto;margin-right: auto;margin-top:40px;\"></div><div class=\"fusion-tabs
+        fusion-tabs-1 clean horizontal-tabs icon-position-left\"><style type=\"text/css\">#wrapper
+        .fusion-tabs.fusion-tabs-1.clean .nav-tabs li a{border-color:#2b2b2b;}.fusion-tabs.fusion-tabs-1
+        .nav-tabs li a{background-color:#2b2b2b;}.fusion-tabs.fusion-tabs-1 .nav-tabs
+        li.active a,.fusion-tabs.fusion-tabs-1 .nav-tabs li.active a:hover,.fusion-tabs.fusion-tabs-1
+        .nav-tabs li.active a:focus{background-color:#101010;}.fusion-tabs.fusion-tabs-1
+        .nav-tabs li a:hover{background-color:#101010;border-top-color:#101010;}.fusion-tabs.fusion-tabs-1
+        .tab-pane{background-color:#101010;}.fusion-tabs.fusion-tabs-1 .nav,.fusion-tabs.fusion-tabs-1
+        .nav-tabs,.fusion-tabs.fusion-tabs-1 .tab-content .tab-pane{border-color:#2b2b2b;}</style><div
+        class=\"nav\"><ul class=\"nav-tabs nav-justified\"><li class=\"active\"><a
+        class=\"tab-link\" data-toggle=\"tab\" id=\"fusion-tab-pond\u011Bl\xED\" href=\"#tab-0fc299d4d9664fa5e30\"><h4
+        class=\"fusion-tab-heading\">Pond\u011Bl\xED</h4></a></li><li><a class=\"tab-link\"
+        data-toggle=\"tab\" id=\"fusion-tab-\xDAter\xFD\" href=\"#tab-eb7e033a57436ca2cf0\"><h4
+        class=\"fusion-tab-heading\">\xDAter\xFD</h4></a></li><li><a class=\"tab-link\"
+        data-toggle=\"tab\" id=\"fusion-tab-st\u0159eda\" href=\"#tab-9ef9469a6e3682562be\"><h4
+        class=\"fusion-tab-heading\">St\u0159eda</h4></a></li><li><a class=\"tab-link\"
+        data-toggle=\"tab\" id=\"fusion-tab-\u010Ctvrtek\" href=\"#tab-d5f531db3a86b3cbe50\"><h4
+        class=\"fusion-tab-heading\">\u010Ctvrtek</h4></a></li><li><a class=\"tab-link\"
+        data-toggle=\"tab\" id=\"fusion-tab-p\xE1tek\" href=\"#tab-3362370a209dbd0a6e3\"><h4
+        class=\"fusion-tab-heading\">P\xE1tek</h4></a></li></ul></div><div class=\"tab-content\"><div
+        class=\"nav fusion-mobile-tab-nav\"><ul class=\"nav-tabs nav-justified\"><li
+        class=\"active\"><a class=\"tab-link\" data-toggle=\"tab\" id=\"mobile-fusion-tab-pond\u011Bl\xED\"
+        href=\"#tab-0fc299d4d9664fa5e30\"><h4 class=\"fusion-tab-heading\">Pond\u011Bl\xED</h4></a></li></ul></div><div
+        class=\"tab-pane fade fusion-clearfix in active\" id=\"tab-0fc299d4d9664fa5e30\">\n<div
+        class=\"menu-cont\">\n<div class=\"menu-left\">\n<table id=\"tablepress-47\"
+        class=\"tablepress tablepress-id-47\">\n<tbody>\n<tr class=\"row-1\">\n\t<td
+        class=\"column-1\"><h3>Pol\xE9vky</h3></td><td class=\"column-2\"></td>\n</tr>\n<tr
+        class=\"row-2\">\n\t<td class=\"column-1\"></td><td class=\"column-2\"></td>\n</tr>\n<tr
+        class=\"row-3\">\n\t<td class=\"column-1\">\u010Co\u010Dkov\xE1 s uzeninou</td><td
+        class=\"column-2\">29 K\u010D</td>\n</tr>\n<tr class=\"row-4\">\n\t<td class=\"column-1\">0,3l</td><td
+        class=\"column-2\">A: 1</td>\n</tr>\n<tr class=\"row-5\">\n\t<td class=\"column-1\">Ku\u0159ec\xED
+        v\xFDvar s masem a nudlemi</td><td class=\"column-2\">29 K\u010D</td>\n</tr>\n<tr
+        class=\"row-6\">\n\t<td class=\"column-1\">0,3l</td><td class=\"column-2\">A:
+        1,3,9</td>\n</tr>\n<tr class=\"row-7\">\n\t<td class=\"column-1\"><h3>Hlavn\xED
+        j\xEDdla</h3></td><td class=\"column-2\"></td>\n</tr>\n<tr class=\"row-8\">\n\t<td
+        class=\"column-1\"></td><td class=\"column-2\"></td>\n</tr>\n<tr class=\"row-9\">\n\t<td
+        class=\"column-1\">Rajsk\xE1 hov\u011Bz\xED pe\u010Den\u011B, houskov\xFD
+        knedl\xEDk</td><td class=\"column-2\">129 K\u010D</td>\n</tr>\n<tr class=\"row-10\">\n\t<td
+        class=\"column-1\">150g</td><td class=\"column-2\">A: 1,3,7,9</td>\n</tr>\n<tr
+        class=\"row-11\">\n\t<td class=\"column-1\">Tradi\u010Dn\xED poctiv\xFD bu\u0159tgul\xE1\u0161,
+        km\xEDnov\xFD chl\xE9b</td><td class=\"column-2\">125 K\u010D</td>\n</tr>\n<tr
+        class=\"row-12\">\n\t<td class=\"column-1\">200g</td><td class=\"column-2\">A:
+        1,3,6</td>\n</tr>\n<tr class=\"row-13\">\n\t<td class=\"column-1\">Grilovan\xE9
+        ku\u0159ec\xED prs\xED\u010Dko \u0161pikovan\xE9 su\u0161en\xFDmi raj\u010Daty
+        a bazalkou, \u0161\u0165ouchan\xE9 brambory</td><td class=\"column-2\">129
+        K\u010D</td>\n</tr>\n<tr class=\"row-14\">\n\t<td class=\"column-1\">150g</td><td
+        class=\"column-2\">A: 1</td>\n</tr>\n<tr class=\"row-15\">\n\t<td class=\"column-1\">Bramborov\xE9
+        noky s vep\u0159ovou panenkou, bazalkov\xFDm pestem, cherry raj\u010Daty a
+        sypan\xE9 parmez\xE1nem</td><td class=\"column-2\">129 K\u010D</td>\n</tr>\n<tr
+        class=\"row-16\">\n\t<td class=\"column-1\">350g</td><td class=\"column-2\">A:
+        1,3,7,8</td>\n</tr>\n<tr class=\"row-17\">\n\t<td class=\"column-1\"><h3>Menu</h3></td><td
+        class=\"column-2\"></td>\n</tr>\n<tr class=\"row-18\">\n\t<td class=\"column-1\"></td><td
+        class=\"column-2\"></td>\n</tr>\n<tr class=\"row-19\">\n\t<td class=\"column-1\">Pol\xE9vka
+        dle denn\xED nab\xEDdky</td><td class=\"column-2\"></td>\n</tr>\n<tr class=\"row-20\">\n\t<td
+        class=\"column-1\">0,3l</td><td class=\"column-2\"></td>\n</tr>\n<tr class=\"row-21\">\n\t<td
+        class=\"column-1\">Rajsk\xE1 hov\u011Bz\xED pe\u010Den\u011B, houskov\xFD
+        knedl\xEDk</td><td class=\"column-2\">139 K\u010D</td>\n</tr>\n<tr class=\"row-22\">\n\t<td
+        class=\"column-1\">150g</td><td class=\"column-2\">A: 1,3,7,9</td>\n</tr>\n</tbody>\n</table>\n<!--
+        #tablepress-47 from cache --></div>\n<div class=\"menu-right\">\n<table id=\"tablepress-52\"
+        class=\"tablepress tablepress-id-52\">\n<tbody>\n<tr class=\"row-1\">\n\t<td
+        class=\"column-1\"><h3>J\xEDdla t\xFDdne</h3></td><td class=\"column-2\"></td>\n</tr>\n<tr
+        class=\"row-2\">\n\t<td class=\"column-1\"></td><td class=\"column-2\"></td>\n</tr>\n<tr
+        class=\"row-3\">\n\t<td class=\"column-1\">Medailonky z vep\u0159ov\xE9 panenky
+        s restovan\xFDmi \u017Eampiony, parmez\xE1nov\xFDm p\u0159elivem a hranolky</td><td
+        class=\"column-2\">145 K\u010D</td>\n</tr>\n<tr class=\"row-4\">\n\t<td class=\"column-1\">150g</td><td
+        class=\"column-2\">A: 1,3,7</td>\n</tr>\n<tr class=\"row-5\">\n\t<td class=\"column-1\">Twister
+        s ku\u0159ec\xEDm masem, anglickou slaninou. ledov\xFDm sal\xE1tem, zeleninou,
+        \u010Dedarem a zakysanou smetanou</td><td class=\"column-2\">135 K\u010D</td>\n</tr>\n<tr
+        class=\"row-6\">\n\t<td class=\"column-1\">1ks</td><td class=\"column-2\">A:
+        1,3,7</td>\n</tr>\n<tr class=\"row-7\">\n\t<td class=\"column-1\">Pln\u011Bn\xE9
+        bramborov\xE9 knedl\xEDky uzen\xFDm masem, \u010Derven\xE9 zel\xED, cibulka</td><td
+        class=\"column-2\">125 K\u010D</td>\n</tr>\n<tr class=\"row-8\">\n\t<td class=\"column-1\">3ks</td><td
+        class=\"column-2\">A: 1,3,7</td>\n</tr>\n<tr class=\"row-9\">\n\t<td class=\"column-1\">Sma\u017Een\xE9
+        \u017Eampiony, pa\u017Eitkov\xFD brambor, tatarsk\xE1 om\xE1\u010Dka</td><td
+        class=\"column-2\">125 K\u010D</td>\n</tr>\n<tr class=\"row-10\">\n\t<td class=\"column-1\">200g</td><td
+        class=\"column-2\">A: 1,3,7</td>\n</tr>\n<tr class=\"row-11\">\n\t<td class=\"column-1\"><h3>Specialita
+        t\xFDdne</h3></td><td class=\"column-2\"></td>\n</tr>\n<tr class=\"row-12\">\n\t<td
+        class=\"column-1\"></td><td class=\"column-2\"></td>\n</tr>\n<tr class=\"row-13\">\n\t<td
+        class=\"column-1\">Grilovan\xE1 kachn\xED prs\xED\u010Dka s medem, \u010Derstv\xFDmi
+        bylinkami a zeleninov\xFDm ratatouille</td><td class=\"column-2\">239 K\u010D</td>\n</tr>\n<tr
+        class=\"row-14\">\n\t<td class=\"column-1\">200g</td><td class=\"column-2\">A:
+        8</td>\n</tr>\n<tr class=\"row-15\">\n\t<td class=\"column-1\"><h3>Dezert
+        t\xFDdne</h3></td><td class=\"column-2\"></td>\n</tr>\n<tr class=\"row-16\">\n\t<td
+        class=\"column-1\"></td><td class=\"column-2\"></td>\n</tr>\n<tr class=\"row-17\">\n\t<td
+        class=\"column-1\">O\u0159echov\xE1 b\xE1bovka s cukrem</td><td class=\"column-2\">25
+        K\u010D</td>\n</tr>\n<tr class=\"row-18\">\n\t<td class=\"column-1\">1ks</td><td
+        class=\"column-2\">A: 1,3,7</td>\n</tr>\n</tbody>\n</table>\n<!-- #tablepress-52
+        from cache --></div>\n</div>\n</div><div class=\"nav fusion-mobile-tab-nav\"><ul
+        class=\"nav-tabs nav-justified\"><li><a class=\"tab-link\" data-toggle=\"tab\"
+        id=\"mobile-fusion-tab-\xDAter\xFD\" href=\"#tab-eb7e033a57436ca2cf0\"><h4
+        class=\"fusion-tab-heading\">\xDAter\xFD</h4></a></li></ul></div><div class=\"tab-pane
+        fade fusion-clearfix\" id=\"tab-eb7e033a57436ca2cf0\">\n<div class=\"menu-cont\">\n<div
+        class=\"menu-left\">\n<table id=\"tablepress-48\" class=\"tablepress tablepress-id-48\">\n<tbody>\n<tr
+        class=\"row-1\">\n\t<td class=\"column-1\"><h3>Pol\xE9vky</h3></td><td class=\"column-2\"></td>\n</tr>\n<tr
+        class=\"row-2\">\n\t<td class=\"column-1\"></td><td class=\"column-2\"></td>\n</tr>\n<tr
+        class=\"row-3\">\n\t<td class=\"column-1\">Italsk\xE1 Minestrone s parmez\xE1nem</td><td
+        class=\"column-2\">29 K\u010D</td>\n</tr>\n<tr class=\"row-4\">\n\t<td class=\"column-1\">0,3l</td><td
+        class=\"column-2\">A: 1,3,7</td>\n</tr>\n<tr class=\"row-5\">\n\t<td class=\"column-1\">Ku\u0159ec\xED
+        v\xFDvar s masem a nudlemi</td><td class=\"column-2\">29 K\u010D</td>\n</tr>\n<tr
+        class=\"row-6\">\n\t<td class=\"column-1\">0,3l</td><td class=\"column-2\">A:
+        1,3,9</td>\n</tr>\n<tr class=\"row-7\">\n\t<td class=\"column-1\"><h3>Hlavn\xED
+        j\xEDdla</h3></td><td class=\"column-2\"></td>\n</tr>\n<tr class=\"row-8\">\n\t<td
+        class=\"column-1\"></td><td class=\"column-2\"></td>\n</tr>\n<tr class=\"row-9\">\n\t<td
+        class=\"column-1\">Hov\u011Bz\xED chilli burger se zeleninou, modr\xFDm s\xFDrem,
+        hranolky a pikantn\xEDm dipem</td><td class=\"column-2\">139 K\u010D</td>\n</tr>\n<tr
+        class=\"row-10\">\n\t<td class=\"column-1\">150g</td><td class=\"column-2\">A:
+        1,3,6,7</td>\n</tr>\n<tr class=\"row-11\">\n\t<td class=\"column-1\">Pe\u010Den\xFD
+        libov\xFD \u0161palek z vep\u0159ov\xE9ho b\u016F\u010Dku s bramborov\xFDmi
+        zel\u0148\xE1ky a n\xE1divkou</td><td class=\"column-2\">125 K\u010D</td>\n</tr>\n<tr
+        class=\"row-12\">\n\t<td class=\"column-1\">200g</td><td class=\"column-2\">A:
+        1,3,7</td>\n</tr>\n<tr class=\"row-13\">\n\t<td class=\"column-1\">Pe\u010Den\xE9
+        ku\u0159ec\xED stehno se \u0160ouletem</td><td class=\"column-2\">125 K\u010D</td>\n</tr>\n<tr
+        class=\"row-14\">\n\t<td class=\"column-1\">1ks</td><td class=\"column-2\">A:
+        1</td>\n</tr>\n<tr class=\"row-15\">\n\t<td class=\"column-1\">Sma\u017Een\xE1
+        pali\u010Dka pln\u011Bn\xE1 listov\xFDm \u0161pen\xE1tem, p\u0159elit\xE1
+        s\xFDrovou om\xE1\u010Dkou a zeleninov\xFD sal\xE1t</td><td class=\"column-2\">119
+        K\u010D</td>\n</tr>\n<tr class=\"row-16\">\n\t<td class=\"column-1\">250g</td><td
+        class=\"column-2\">A: 1,3,7</td>\n</tr>\n<tr class=\"row-17\">\n\t<td class=\"column-1\"><h3>Menu</h3></td><td
+        class=\"column-2\"></td>\n</tr>\n<tr class=\"row-18\">\n\t<td class=\"column-1\"></td><td
+        class=\"column-2\"></td>\n</tr>\n<tr class=\"row-19\">\n\t<td class=\"column-1\">Pol\xE9vka
+        dle denn\xED nab\xEDdky</td><td class=\"column-2\"></td>\n</tr>\n<tr class=\"row-20\">\n\t<td
+        class=\"column-1\">0,3l</td><td class=\"column-2\"></td>\n</tr>\n<tr class=\"row-21\">\n\t<td
+        class=\"column-1\">Pe\u010Den\xE9 ku\u0159ec\xED stehno se \u0160ouletem</td><td
+        class=\"column-2\">139 K\u010D</td>\n</tr>\n<tr class=\"row-22\">\n\t<td class=\"column-1\">1ks</td><td
+        class=\"column-2\">A: 1</td>\n</tr>\n</tbody>\n</table>\n<!-- #tablepress-48
+        from cache --></div>\n<div class=\"menu-right\">\n<table id=\"tablepress-52-no-2\"
+        class=\"tablepress tablepress-id-52\">\n<tbody>\n<tr class=\"row-1\">\n\t<td
+        class=\"column-1\"><h3>J\xEDdla t\xFDdne</h3></td><td class=\"column-2\"></td>\n</tr>\n<tr
+        class=\"row-2\">\n\t<td class=\"column-1\"></td><td class=\"column-2\"></td>\n</tr>\n<tr
+        class=\"row-3\">\n\t<td class=\"column-1\">Medailonky z vep\u0159ov\xE9 panenky
+        s restovan\xFDmi \u017Eampiony, parmez\xE1nov\xFDm p\u0159elivem a hranolky</td><td
+        class=\"column-2\">145 K\u010D</td>\n</tr>\n<tr class=\"row-4\">\n\t<td class=\"column-1\">150g</td><td
+        class=\"column-2\">A: 1,3,7</td>\n</tr>\n<tr class=\"row-5\">\n\t<td class=\"column-1\">Twister
+        s ku\u0159ec\xEDm masem, anglickou slaninou. ledov\xFDm sal\xE1tem, zeleninou,
+        \u010Dedarem a zakysanou smetanou</td><td class=\"column-2\">135 K\u010D</td>\n</tr>\n<tr
+        class=\"row-6\">\n\t<td class=\"column-1\">1ks</td><td class=\"column-2\">A:
+        1,3,7</td>\n</tr>\n<tr class=\"row-7\">\n\t<td class=\"column-1\">Pln\u011Bn\xE9
+        bramborov\xE9 knedl\xEDky uzen\xFDm masem, \u010Derven\xE9 zel\xED, cibulka</td><td
+        class=\"column-2\">125 K\u010D</td>\n</tr>\n<tr class=\"row-8\">\n\t<td class=\"column-1\">3ks</td><td
+        class=\"column-2\">A: 1,3,7</td>\n</tr>\n<tr class=\"row-9\">\n\t<td class=\"column-1\">Sma\u017Een\xE9
+        \u017Eampiony, pa\u017Eitkov\xFD brambor, tatarsk\xE1 om\xE1\u010Dka</td><td
+        class=\"column-2\">125 K\u010D</td>\n</tr>\n<tr class=\"row-10\">\n\t<td class=\"column-1\">200g</td><td
+        class=\"column-2\">A: 1,3,7</td>\n</tr>\n<tr class=\"row-11\">\n\t<td class=\"column-1\"><h3>Specialita
+        t\xFDdne</h3></td><td class=\"column-2\"></td>\n</tr>\n<tr class=\"row-12\">\n\t<td
+        class=\"column-1\"></td><td class=\"column-2\"></td>\n</tr>\n<tr class=\"row-13\">\n\t<td
+        class=\"column-1\">Grilovan\xE1 kachn\xED prs\xED\u010Dka s medem, \u010Derstv\xFDmi
+        bylinkami a zeleninov\xFDm ratatouille</td><td class=\"column-2\">239 K\u010D</td>\n</tr>\n<tr
+        class=\"row-14\">\n\t<td class=\"column-1\">200g</td><td class=\"column-2\">A:
+        8</td>\n</tr>\n<tr class=\"row-15\">\n\t<td class=\"column-1\"><h3>Dezert
+        t\xFDdne</h3></td><td class=\"column-2\"></td>\n</tr>\n<tr class=\"row-16\">\n\t<td
+        class=\"column-1\"></td><td class=\"column-2\"></td>\n</tr>\n<tr class=\"row-17\">\n\t<td
+        class=\"column-1\">O\u0159echov\xE1 b\xE1bovka s cukrem</td><td class=\"column-2\">25
+        K\u010D</td>\n</tr>\n<tr class=\"row-18\">\n\t<td class=\"column-1\">1ks</td><td
+        class=\"column-2\">A: 1,3,7</td>\n</tr>\n</tbody>\n</table>\n<!-- #tablepress-52-no-2
+        from cache --></div>\n</div>\n</div><div class=\"nav fusion-mobile-tab-nav\"><ul
+        class=\"nav-tabs nav-justified\"><li><a class=\"tab-link\" data-toggle=\"tab\"
+        id=\"mobile-fusion-tab-st\u0159eda\" href=\"#tab-9ef9469a6e3682562be\"><h4
+        class=\"fusion-tab-heading\">St\u0159eda</h4></a></li></ul></div><div class=\"tab-pane
+        fade fusion-clearfix\" id=\"tab-9ef9469a6e3682562be\">\n<div class=\"menu-cont\">\n<div
+        class=\"menu-left\">\n<table id=\"tablepress-49\" class=\"tablepress tablepress-id-49\">\n<tbody>\n<tr
+        class=\"row-1\">\n\t<td class=\"column-1\"><h3>Pol\xE9vky</h3></td><td class=\"column-2\"></td>\n</tr>\n<tr
+        class=\"row-2\">\n\t<td class=\"column-1\"></td><td class=\"column-2\"></td>\n</tr>\n<tr
+        class=\"row-3\">\n\t<td class=\"column-1\">Frankfurtsk\xE1 s p\xE1rkem</td><td
+        class=\"column-2\">29 K\u010D</td>\n</tr>\n<tr class=\"row-4\">\n\t<td class=\"column-1\">0,3l</td><td
+        class=\"column-2\">A: 1</td>\n</tr>\n<tr class=\"row-5\">\n\t<td class=\"column-1\">Ku\u0159ec\xED
+        v\xFDvar s masem a nudlemi</td><td class=\"column-2\">29 K\u010D</td>\n</tr>\n<tr
+        class=\"row-6\">\n\t<td class=\"column-1\">0,3l</td><td class=\"column-2\">A:
+        1,3,9</td>\n</tr>\n<tr class=\"row-7\">\n\t<td class=\"column-1\"><h3>Hlavn\xED
+        j\xEDdla</h3></td><td class=\"column-2\"></td>\n</tr>\n<tr class=\"row-8\">\n\t<td
+        class=\"column-1\"></td><td class=\"column-2\"></td>\n</tr>\n<tr class=\"row-9\">\n\t<td
+        class=\"column-1\">Chilli con carne s du\u0161enou jasm\xEDnovou r\xFD\u017E\xED</td><td
+        class=\"column-2\">129 K\u010D</td>\n</tr>\n<tr class=\"row-10\">\n\t<td class=\"column-1\">150g</td><td
+        class=\"column-2\">A: 1,6</td>\n</tr>\n<tr class=\"row-11\">\n\t<td class=\"column-1\">Seged\xEDnsk\xFD
+        gul\xE1\u0161 s houskov\xFDm knedl\xEDkem</td><td class=\"column-2\">125 K\u010D</td>\n</tr>\n<tr
+        class=\"row-12\">\n\t<td class=\"column-1\">150g</td><td class=\"column-2\">A:
+        1,3,7</td>\n</tr>\n<tr class=\"row-13\">\n\t<td class=\"column-1\">Ku\u0159ec\xED
+        \u0161p\xEDz se zeleninou a \u017Eampiony, \u0161\u0165ouchan\xE9 brambory</td><td
+        class=\"column-2\">129 K\u010D</td>\n</tr>\n<tr class=\"row-14\">\n\t<td class=\"column-1\">200g</td><td
+        class=\"column-2\">A: 1</td>\n</tr>\n<tr class=\"row-15\">\n\t<td class=\"column-1\">\u0160pagety
+        carbonara sypan\xE9 parmez\xE1nem</td><td class=\"column-2\">119 K\u010D</td>\n</tr>\n<tr
+        class=\"row-16\">\n\t<td class=\"column-1\">350g</td><td class=\"column-2\">A:
+        1,3,7</td>\n</tr>\n<tr class=\"row-17\">\n\t<td class=\"column-1\"><h3>Menu</h3></td><td
+        class=\"column-2\"></td>\n</tr>\n<tr class=\"row-18\">\n\t<td class=\"column-1\"></td><td
+        class=\"column-2\"></td>\n</tr>\n<tr class=\"row-19\">\n\t<td class=\"column-1\">Pol\xE9vka
+        dle denn\xED nab\xEDdky</td><td class=\"column-2\"></td>\n</tr>\n<tr class=\"row-20\">\n\t<td
+        class=\"column-1\">0,3l</td><td class=\"column-2\"></td>\n</tr>\n<tr class=\"row-21\">\n\t<td
+        class=\"column-1\">Seged\xEDnsk\xFD gul\xE1\u0161 s houskov\xFDm knedl\xEDkem</td><td
+        class=\"column-2\">139 K\u010D</td>\n</tr>\n<tr class=\"row-22\">\n\t<td class=\"column-1\">150g</td><td
+        class=\"column-2\">A: 1,3,7</td>\n</tr>\n</tbody>\n</table>\n<!-- #tablepress-49
+        from cache --></div>\n<div class=\"menu-right\">\n<table id=\"tablepress-52-no-3\"
+        class=\"tablepress tablepress-id-52\">\n<tbody>\n<tr class=\"row-1\">\n\t<td
+        class=\"column-1\"><h3>J\xEDdla t\xFDdne</h3></td><td class=\"column-2\"></td>\n</tr>\n<tr
+        class=\"row-2\">\n\t<td class=\"column-1\"></td><td class=\"column-2\"></td>\n</tr>\n<tr
+        class=\"row-3\">\n\t<td class=\"column-1\">Medailonky z vep\u0159ov\xE9 panenky
+        s restovan\xFDmi \u017Eampiony, parmez\xE1nov\xFDm p\u0159elivem a hranolky</td><td
+        class=\"column-2\">145 K\u010D</td>\n</tr>\n<tr class=\"row-4\">\n\t<td class=\"column-1\">150g</td><td
+        class=\"column-2\">A: 1,3,7</td>\n</tr>\n<tr class=\"row-5\">\n\t<td class=\"column-1\">Twister
+        s ku\u0159ec\xEDm masem, anglickou slaninou. ledov\xFDm sal\xE1tem, zeleninou,
+        \u010Dedarem a zakysanou smetanou</td><td class=\"column-2\">135 K\u010D</td>\n</tr>\n<tr
+        class=\"row-6\">\n\t<td class=\"column-1\">1ks</td><td class=\"column-2\">A:
+        1,3,7</td>\n</tr>\n<tr class=\"row-7\">\n\t<td class=\"column-1\">Pln\u011Bn\xE9
+        bramborov\xE9 knedl\xEDky uzen\xFDm masem, \u010Derven\xE9 zel\xED, cibulka</td><td
+        class=\"column-2\">125 K\u010D</td>\n</tr>\n<tr class=\"row-8\">\n\t<td class=\"column-1\">3ks</td><td
+        class=\"column-2\">A: 1,3,7</td>\n</tr>\n<tr class=\"row-9\">\n\t<td class=\"column-1\">Sma\u017Een\xE9
+        \u017Eampiony, pa\u017Eitkov\xFD brambor, tatarsk\xE1 om\xE1\u010Dka</td><td
+        class=\"column-2\">125 K\u010D</td>\n</tr>\n<tr class=\"row-10\">\n\t<td class=\"column-1\">200g</td><td
+        class=\"column-2\">A: 1,3,7</td>\n</tr>\n<tr class=\"row-11\">\n\t<td class=\"column-1\"><h3>Specialita
+        t\xFDdne</h3></td><td class=\"column-2\"></td>\n</tr>\n<tr class=\"row-12\">\n\t<td
+        class=\"column-1\"></td><td class=\"column-2\"></td>\n</tr>\n<tr class=\"row-13\">\n\t<td
+        class=\"column-1\">Grilovan\xE1 kachn\xED prs\xED\u010Dka s medem, \u010Derstv\xFDmi
+        bylinkami a zeleninov\xFDm ratatouille</td><td class=\"column-2\">239 K\u010D</td>\n</tr>\n<tr
+        class=\"row-14\">\n\t<td class=\"column-1\">200g</td><td class=\"column-2\">A:
+        8</td>\n</tr>\n<tr class=\"row-15\">\n\t<td class=\"column-1\"><h3>Dezert
+        t\xFDdne</h3></td><td class=\"column-2\"></td>\n</tr>\n<tr class=\"row-16\">\n\t<td
+        class=\"column-1\"></td><td class=\"column-2\"></td>\n</tr>\n<tr class=\"row-17\">\n\t<td
+        class=\"column-1\">O\u0159echov\xE1 b\xE1bovka s cukrem</td><td class=\"column-2\">25
+        K\u010D</td>\n</tr>\n<tr class=\"row-18\">\n\t<td class=\"column-1\">1ks</td><td
+        class=\"column-2\">A: 1,3,7</td>\n</tr>\n</tbody>\n</table>\n<!-- #tablepress-52-no-3
+        from cache --></div>\n</div>\n</div><div class=\"nav fusion-mobile-tab-nav\"><ul
+        class=\"nav-tabs nav-justified\"><li><a class=\"tab-link\" data-toggle=\"tab\"
+        id=\"mobile-fusion-tab-\u010Ctvrtek\" href=\"#tab-d5f531db3a86b3cbe50\"><h4
+        class=\"fusion-tab-heading\">\u010Ctvrtek</h4></a></li></ul></div><div class=\"tab-pane
+        fade fusion-clearfix\" id=\"tab-d5f531db3a86b3cbe50\">\n<div class=\"menu-cont\">\n<div
+        class=\"menu-left\">\n<table id=\"tablepress-50\" class=\"tablepress tablepress-id-50\">\n<tbody>\n<tr
+        class=\"row-1\">\n\t<td class=\"column-1\"><h3>Pol\xE9vky</h3></td><td class=\"column-2\"></td>\n</tr>\n<tr
+        class=\"row-2\">\n\t<td class=\"column-1\"></td><td class=\"column-2\"></td>\n</tr>\n<tr
+        class=\"row-3\">\n\t<td class=\"column-1\">Brokolicov\xFD kr\xE9m</td><td
+        class=\"column-2\">29 K\u010D</td>\n</tr>\n<tr class=\"row-4\">\n\t<td class=\"column-1\">0,3l</td><td
+        class=\"column-2\">A: 1,3,7</td>\n</tr>\n<tr class=\"row-5\">\n\t<td class=\"column-1\">Ku\u0159ec\xED
+        v\xFDvar s masem a nudlemi</td><td class=\"column-2\">29 K\u010D</td>\n</tr>\n<tr
+        class=\"row-6\">\n\t<td class=\"column-1\">0,3l</td><td class=\"column-2\">A:
+        1,3,9</td>\n</tr>\n<tr class=\"row-7\">\n\t<td class=\"column-1\"><h3>Hlavn\xED
+        j\xEDdla</h3></td><td class=\"column-2\"></td>\n</tr>\n<tr class=\"row-8\">\n\t<td
+        class=\"column-1\"></td><td class=\"column-2\"></td>\n</tr>\n<tr class=\"row-9\">\n\t<td
+        class=\"column-1\">Rozl\xEDtan\xFD hov\u011Bz\xED pt\xE1\u010Dek s du\u0161enou
+        jasm\xEDnovou r\xFD\u017E\xED</td><td class=\"column-2\">129 K\u010D</td>\n</tr>\n<tr
+        class=\"row-10\">\n\t<td class=\"column-1\">150g</td><td class=\"column-2\">A:
+        1,3,6,10</td>\n</tr>\n<tr class=\"row-11\">\n\t<td class=\"column-1\">P\u0161tros\xED
+        vejce z mlet\xE9ho masa s pa\u017Eitkov\xFDm bramborem, raj\u010Datov\xFD
+        sal\xE1t</td><td class=\"column-2\">125 K\u010D</td>\n</tr>\n<tr class=\"row-12\">\n\t<td
+        class=\"column-1\">200g</td><td class=\"column-2\">A: 1,3,10</td>\n</tr>\n<tr
+        class=\"row-13\">\n\t<td class=\"column-1\">Kr\u016Ft\xED steak caprese s
+        bazalkovou om\xE1\u010Dkou a hranolky</td><td class=\"column-2\">129 K\u010D</td>\n</tr>\n<tr
+        class=\"row-14\">\n\t<td class=\"column-1\">150g</td><td class=\"column-2\">A:
+        1,3,7</td>\n</tr>\n<tr class=\"row-15\">\n\t<td class=\"column-1\">Sal\xE1t
+        Caesar s ku\u0159ec\xEDm masem a parmez\xE1nem</td><td class=\"column-2\">125
+        K\u010D</td>\n</tr>\n<tr class=\"row-16\">\n\t<td class=\"column-1\">350g</td><td
+        class=\"column-2\">A: 3,7,10</td>\n</tr>\n<tr class=\"row-17\">\n\t<td class=\"column-1\"><h3>Menu</h3></td><td
+        class=\"column-2\"></td>\n</tr>\n<tr class=\"row-18\">\n\t<td class=\"column-1\"></td><td
+        class=\"column-2\"></td>\n</tr>\n<tr class=\"row-19\">\n\t<td class=\"column-1\">Pol\xE9vka
+        dle denn\xED nab\xEDdky</td><td class=\"column-2\"></td>\n</tr>\n<tr class=\"row-20\">\n\t<td
+        class=\"column-1\">0,3l</td><td class=\"column-2\"></td>\n</tr>\n<tr class=\"row-21\">\n\t<td
+        class=\"column-1\">Rozl\xEDtan\xFD hov\u011Bz\xED pt\xE1\u010Dek s du\u0161enou
+        jasm\xEDnovou r\xFD\u017E\xED</td><td class=\"column-2\">139 K\u010D</td>\n</tr>\n<tr
+        class=\"row-22\">\n\t<td class=\"column-1\">150g</td><td class=\"column-2\">A:
+        1,3,6,10</td>\n</tr>\n</tbody>\n</table>\n<!-- #tablepress-50 from cache --></div>\n<div
+        class=\"menu-right\">\n<table id=\"tablepress-52-no-4\" class=\"tablepress
+        tablepress-id-52\">\n<tbody>\n<tr class=\"row-1\">\n\t<td class=\"column-1\"><h3>J\xEDdla
+        t\xFDdne</h3></td><td class=\"column-2\"></td>\n</tr>\n<tr class=\"row-2\">\n\t<td
+        class=\"column-1\"></td><td class=\"column-2\"></td>\n</tr>\n<tr class=\"row-3\">\n\t<td
+        class=\"column-1\">Medailonky z vep\u0159ov\xE9 panenky s restovan\xFDmi \u017Eampiony,
+        parmez\xE1nov\xFDm p\u0159elivem a hranolky</td><td class=\"column-2\">145
+        K\u010D</td>\n</tr>\n<tr class=\"row-4\">\n\t<td class=\"column-1\">150g</td><td
+        class=\"column-2\">A: 1,3,7</td>\n</tr>\n<tr class=\"row-5\">\n\t<td class=\"column-1\">Twister
+        s ku\u0159ec\xEDm masem, anglickou slaninou. ledov\xFDm sal\xE1tem, zeleninou,
+        \u010Dedarem a zakysanou smetanou</td><td class=\"column-2\">135 K\u010D</td>\n</tr>\n<tr
+        class=\"row-6\">\n\t<td class=\"column-1\">1ks</td><td class=\"column-2\">A:
+        1,3,7</td>\n</tr>\n<tr class=\"row-7\">\n\t<td class=\"column-1\">Pln\u011Bn\xE9
+        bramborov\xE9 knedl\xEDky uzen\xFDm masem, \u010Derven\xE9 zel\xED, cibulka</td><td
+        class=\"column-2\">125 K\u010D</td>\n</tr>\n<tr class=\"row-8\">\n\t<td class=\"column-1\">3ks</td><td
+        class=\"column-2\">A: 1,3,7</td>\n</tr>\n<tr class=\"row-9\">\n\t<td class=\"column-1\">Sma\u017Een\xE9
+        \u017Eampiony, pa\u017Eitkov\xFD brambor, tatarsk\xE1 om\xE1\u010Dka</td><td
+        class=\"column-2\">125 K\u010D</td>\n</tr>\n<tr class=\"row-10\">\n\t<td class=\"column-1\">200g</td><td
+        class=\"column-2\">A: 1,3,7</td>\n</tr>\n<tr class=\"row-11\">\n\t<td class=\"column-1\"><h3>Specialita
+        t\xFDdne</h3></td><td class=\"column-2\"></td>\n</tr>\n<tr class=\"row-12\">\n\t<td
+        class=\"column-1\"></td><td class=\"column-2\"></td>\n</tr>\n<tr class=\"row-13\">\n\t<td
+        class=\"column-1\">Grilovan\xE1 kachn\xED prs\xED\u010Dka s medem, \u010Derstv\xFDmi
+        bylinkami a zeleninov\xFDm ratatouille</td><td class=\"column-2\">239 K\u010D</td>\n</tr>\n<tr
+        class=\"row-14\">\n\t<td class=\"column-1\">200g</td><td class=\"column-2\">A:
+        8</td>\n</tr>\n<tr class=\"row-15\">\n\t<td class=\"column-1\"><h3>Dezert
+        t\xFDdne</h3></td><td class=\"column-2\"></td>\n</tr>\n<tr class=\"row-16\">\n\t<td
+        class=\"column-1\"></td><td class=\"column-2\"></td>\n</tr>\n<tr class=\"row-17\">\n\t<td
+        class=\"column-1\">O\u0159echov\xE1 b\xE1bovka s cukrem</td><td class=\"column-2\">25
+        K\u010D</td>\n</tr>\n<tr class=\"row-18\">\n\t<td class=\"column-1\">1ks</td><td
+        class=\"column-2\">A: 1,3,7</td>\n</tr>\n</tbody>\n</table>\n<!-- #tablepress-52-no-4
+        from cache --></div>\n</div>\n</div><div class=\"nav fusion-mobile-tab-nav\"><ul
+        class=\"nav-tabs nav-justified\"><li><a class=\"tab-link\" data-toggle=\"tab\"
+        id=\"mobile-fusion-tab-p\xE1tek\" href=\"#tab-3362370a209dbd0a6e3\"><h4 class=\"fusion-tab-heading\">P\xE1tek</h4></a></li></ul></div><div
+        class=\"tab-pane fade fusion-clearfix\" id=\"tab-3362370a209dbd0a6e3\">\n<div
+        class=\"menu-cont\">\n<div class=\"menu-left\">\n<table id=\"tablepress-51\"
+        class=\"tablepress tablepress-id-51\">\n<tbody>\n<tr class=\"row-1\">\n\t<td
+        class=\"column-1\"><h3>Pol\xE9vky</h3></td><td class=\"column-2\"></td>\n</tr>\n<tr
+        class=\"row-2\">\n\t<td class=\"column-1\"></td><td class=\"column-2\"></td>\n</tr>\n<tr
+        class=\"row-3\">\n\t<td class=\"column-1\">\u010C\xEDnsk\xE1 s ku\u0159ec\xEDm
+        masem a r\xFD\u017Eov\xFDmi nudlemi</td><td class=\"column-2\">29 K\u010D</td>\n</tr>\n<tr
+        class=\"row-4\">\n\t<td class=\"column-1\">0,3l</td><td class=\"column-2\">A:
+        1</td>\n</tr>\n<tr class=\"row-5\">\n\t<td class=\"column-1\">Ku\u0159ec\xED
+        v\xFDvar s masem a nudlemi</td><td class=\"column-2\">29 K\u010D</td>\n</tr>\n<tr
+        class=\"row-6\">\n\t<td class=\"column-1\">0,3l</td><td class=\"column-2\">A:
+        1,3,9</td>\n</tr>\n<tr class=\"row-7\">\n\t<td class=\"column-1\"><h3>Hlavn\xED
+        j\xEDdla</h3></td><td class=\"column-2\"></td>\n</tr>\n<tr class=\"row-8\">\n\t<td
+        class=\"column-1\"></td><td class=\"column-2\"></td>\n</tr>\n<tr class=\"row-9\">\n\t<td
+        class=\"column-1\">V\xEDde\u0148sk\xE1 hov\u011Bz\xED ro\u0161t\u011Bn\xE1
+        s du\u0161enou jasm\xEDnovou r\xFD\u017E\xED</td><td class=\"column-2\">139
+        K\u010D</td>\n</tr>\n<tr class=\"row-10\">\n\t<td class=\"column-1\">150g</td><td
+        class=\"column-2\">A: 1,6</td>\n</tr>\n<tr class=\"row-11\">\n\t<td class=\"column-1\">Fil\xEDrovan\xE1
+        vep\u0159ov\xE1 panenka s bylinkami a fazolov\xFDmi lusky se slaninou</td><td
+        class=\"column-2\">139 K\u010D</td>\n</tr>\n<tr class=\"row-12\">\n\t<td class=\"column-1\">150g</td><td
+        class=\"column-2\">A: 1,9</td>\n</tr>\n<tr class=\"row-13\">\n\t<td class=\"column-1\">Cmunda
+        po kaplicku s uzen\xFDm masem a sma\u017Eenou cibulkou</td><td class=\"column-2\">125
+        K\u010D</td>\n</tr>\n<tr class=\"row-14\">\n\t<td class=\"column-1\">150g</td><td
+        class=\"column-2\">A: 1,3</td>\n</tr>\n<tr class=\"row-15\">\n\t<td class=\"column-1\">Quesadilla
+        s t\u0159emi druhy s\xFDr\u016F, rukolou a zakysanou smetanou</td><td class=\"column-2\">125
+        K\u010D</td>\n</tr>\n<tr class=\"row-16\">\n\t<td class=\"column-1\">1ks</td><td
+        class=\"column-2\">A: 1,3,7</td>\n</tr>\n<tr class=\"row-17\">\n\t<td class=\"column-1\"><h3>Menu</h3></td><td
+        class=\"column-2\"></td>\n</tr>\n<tr class=\"row-18\">\n\t<td class=\"column-1\"></td><td
+        class=\"column-2\"></td>\n</tr>\n<tr class=\"row-19\">\n\t<td class=\"column-1\">Pol\xE9vka
+        dle denn\xED nab\xEDdky</td><td class=\"column-2\"></td>\n</tr>\n<tr class=\"row-20\">\n\t<td
+        class=\"column-1\">0,3l</td><td class=\"column-2\"></td>\n</tr>\n<tr class=\"row-21\">\n\t<td
+        class=\"column-1\">Cmunda po kaplicku s uzen\xFDm masem a sma\u017Eenou cibulkou</td><td
+        class=\"column-2\">139 K\u010D</td>\n</tr>\n<tr class=\"row-22\">\n\t<td class=\"column-1\">150g</td><td
+        class=\"column-2\">A: 1,3</td>\n</tr>\n</tbody>\n</table>\n<!-- #tablepress-51
+        from cache --></div>\n<div class=\"menu-right\">\n<table id=\"tablepress-52-no-5\"
+        class=\"tablepress tablepress-id-52\">\n<tbody>\n<tr class=\"row-1\">\n\t<td
+        class=\"column-1\"><h3>J\xEDdla t\xFDdne</h3></td><td class=\"column-2\"></td>\n</tr>\n<tr
+        class=\"row-2\">\n\t<td class=\"column-1\"></td><td class=\"column-2\"></td>\n</tr>\n<tr
+        class=\"row-3\">\n\t<td class=\"column-1\">Medailonky z vep\u0159ov\xE9 panenky
+        s restovan\xFDmi \u017Eampiony, parmez\xE1nov\xFDm p\u0159elivem a hranolky</td><td
+        class=\"column-2\">145 K\u010D</td>\n</tr>\n<tr class=\"row-4\">\n\t<td class=\"column-1\">150g</td><td
+        class=\"column-2\">A: 1,3,7</td>\n</tr>\n<tr class=\"row-5\">\n\t<td class=\"column-1\">Twister
+        s ku\u0159ec\xEDm masem, anglickou slaninou. ledov\xFDm sal\xE1tem, zeleninou,
+        \u010Dedarem a zakysanou smetanou</td><td class=\"column-2\">135 K\u010D</td>\n</tr>\n<tr
+        class=\"row-6\">\n\t<td class=\"column-1\">1ks</td><td class=\"column-2\">A:
+        1,3,7</td>\n</tr>\n<tr class=\"row-7\">\n\t<td class=\"column-1\">Pln\u011Bn\xE9
+        bramborov\xE9 knedl\xEDky uzen\xFDm masem, \u010Derven\xE9 zel\xED, cibulka</td><td
+        class=\"column-2\">125 K\u010D</td>\n</tr>\n<tr class=\"row-8\">\n\t<td class=\"column-1\">3ks</td><td
+        class=\"column-2\">A: 1,3,7</td>\n</tr>\n<tr class=\"row-9\">\n\t<td class=\"column-1\">Sma\u017Een\xE9
+        \u017Eampiony, pa\u017Eitkov\xFD brambor, tatarsk\xE1 om\xE1\u010Dka</td><td
+        class=\"column-2\">125 K\u010D</td>\n</tr>\n<tr class=\"row-10\">\n\t<td class=\"column-1\">200g</td><td
+        class=\"column-2\">A: 1,3,7</td>\n</tr>\n<tr class=\"row-11\">\n\t<td class=\"column-1\"><h3>Specialita
+        t\xFDdne</h3></td><td class=\"column-2\"></td>\n</tr>\n<tr class=\"row-12\">\n\t<td
+        class=\"column-1\"></td><td class=\"column-2\"></td>\n</tr>\n<tr class=\"row-13\">\n\t<td
+        class=\"column-1\">Grilovan\xE1 kachn\xED prs\xED\u010Dka s medem, \u010Derstv\xFDmi
+        bylinkami a zeleninov\xFDm ratatouille</td><td class=\"column-2\">239 K\u010D</td>\n</tr>\n<tr
+        class=\"row-14\">\n\t<td class=\"column-1\">200g</td><td class=\"column-2\">A:
+        8</td>\n</tr>\n<tr class=\"row-15\">\n\t<td class=\"column-1\"><h3>Dezert
+        t\xFDdne</h3></td><td class=\"column-2\"></td>\n</tr>\n<tr class=\"row-16\">\n\t<td
+        class=\"column-1\"></td><td class=\"column-2\"></td>\n</tr>\n<tr class=\"row-17\">\n\t<td
+        class=\"column-1\">O\u0159echov\xE1 b\xE1bovka s cukrem</td><td class=\"column-2\">25
+        K\u010D</td>\n</tr>\n<tr class=\"row-18\">\n\t<td class=\"column-1\">1ks</td><td
+        class=\"column-2\">A: 1,3,7</td>\n</tr>\n</tbody>\n</table>\n<!-- #tablepress-52-no-5
+        from cache --></div>\n</div>\n</div></div></div><div class=\"fusion-builder-row
+        fusion-builder-row-inner fusion-row \"><div  class=\"fusion-layout-column
+        fusion_builder_column fusion_builder_column_1_6  fusion-one-sixth fusion-column-first
+        fusion-spacing-no 1_6\"  style='margin-top: 0px;margin-bottom: 20px;width:16.66%;width:calc(16.66%
+        - ( ( 0 + 0 + 0 ) * 0.1666 ) );margin-right:0px;'><div class=\"fusion-column-wrapper\"
+        style=\"padding: 0px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;\"
+        \ data-bg-url=\"\"></div></div><div  class=\"fusion-layout-column fusion_builder_column
+        fusion_builder_column_1_6  fusion-one-sixth fusion-spacing-no 1_6\"  style='margin-top:
+        0px;margin-bottom: 20px;width:16.66%;width:calc(16.66% - ( ( 0 + 0 + 0 ) *
+        0.1666 ) );margin-right:0px;'><div class=\"fusion-column-wrapper\" style=\"padding:
+        0px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;\"
+        \ data-bg-url=\"\"></div></div><div  class=\"fusion-layout-column fusion_builder_column
+        fusion_builder_column_1_6  fusion-one-sixth fusion-spacing-no 1_6\"  style='margin-top:
+        0px;margin-bottom: 20px;width:16.66%;width:calc(16.66% - ( ( 0 + 0 + 0 ) *
+        0.1666 ) );margin-right:0px;'><div class=\"fusion-column-wrapper\" style=\"padding:
+        0px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;\"
+        \ data-bg-url=\"\"><div class=\"fusion-button-wrapper fusion-aligncenter\"><style
+        type=\"text/css\" scoped=\"scoped\">.fusion-button.button-3 .fusion-button-text,
+        .fusion-button.button-3 i {color:#ffffff;}.fusion-button.button-3 {border-width:0px;border-color:#ffffff;}.fusion-button.button-3
+        .fusion-button-icon-divider{border-color:#ffffff;}.fusion-button.button-3:hover
+        .fusion-button-text, .fusion-button.button-3:hover i,.fusion-button.button-3:focus
+        .fusion-button-text, .fusion-button.button-3:focus i,.fusion-button.button-3:active
+        .fusion-button-text, .fusion-button.button-3:active{color:#ffffff;}.fusion-button.button-3:hover,
+        .fusion-button.button-3:focus, .fusion-button.button-3:active{border-width:0px;border-color:#ffffff;}.fusion-button.button-3:hover
+        .fusion-button-icon-divider, .fusion-button.button-3:hover .fusion-button-icon-divider,
+        .fusion-button.button-3:active .fusion-button-icon-divider{border-color:#ffffff;}.fusion-button.button-3{width:auto;}</style><a
+        class=\"fusion-button button-flat fusion-button-square button-large button-default
+        button-3\" target=\"_self\" href=\"/jidelni-listek\"><span class=\"fusion-button-text\">J\xEDdeln\xED
+        l\xEDstek</span></a></div></div></div><div  class=\"fusion-layout-column fusion_builder_column
+        fusion_builder_column_1_5  fusion-one-fifth fusion-column-last fusion-spacing-no
+        1_5\"  style='margin-top: 0px;margin-bottom: 20px;width:20%;width:calc(20%
+        - ( ( 0 + 0 + 0 ) * 0.2 ) );'><div class=\"fusion-column-wrapper\" style=\"padding:
+        0px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;\"
+        \ data-bg-url=\"\"><div class=\"fusion-button-wrapper fusion-aligncenter\"><style
+        type=\"text/css\" scoped=\"scoped\">.fusion-button.button-4 .fusion-button-text,
+        .fusion-button.button-4 i {color:#ffffff;}.fusion-button.button-4 {border-width:0px;border-color:#ffffff;}.fusion-button.button-4
+        .fusion-button-icon-divider{border-color:#ffffff;}.fusion-button.button-4:hover
+        .fusion-button-text, .fusion-button.button-4:hover i,.fusion-button.button-4:focus
+        .fusion-button-text, .fusion-button.button-4:focus i,.fusion-button.button-4:active
+        .fusion-button-text, .fusion-button.button-4:active{color:#ffffff;}.fusion-button.button-4:hover,
+        .fusion-button.button-4:focus, .fusion-button.button-4:active{border-width:0px;border-color:#ffffff;}.fusion-button.button-4:hover
+        .fusion-button-icon-divider, .fusion-button.button-4:hover .fusion-button-icon-divider,
+        .fusion-button.button-4:active .fusion-button-icon-divider{border-color:#ffffff;}.fusion-button.button-4{width:auto;}</style><a
+        class=\"fusion-button button-flat fusion-button-square button-large button-default
+        button-4\" target=\"_self\" href=\"/napojovy-listek/\"><span class=\"fusion-button-text\">N\xE1pojov\xFD
+        l\xEDstek</span></a></div></div></div></div><div class=\"fusion-clearfix\"></div>\n\n\t\t\t\t\t</div>\n\t\t\t\t</div></div></div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t</section>\n\t\t\t\t\t\n\t\t\t\t</div>
+        \ <!-- fusion-row -->\n\t\t\t</main>  <!-- #main -->\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t<div
+        class=\"fusion-footer\">\n\t\t\t\t\t\t\n\t<footer role=\"contentinfo\" class=\"fusion-footer-widget-area
+        fusion-widget-area fusion-footer-widget-area-center\">\n\t\t<div class=\"fusion-row\">\n\t\t\t<div
+        class=\"fusion-columns fusion-columns-3 fusion-widget-area\">\n\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div
+        class=\"fusion-column col-lg-4 col-md-4 col-sm-4\">\n\t\t\t\t\t\t\t<section
+        id=\"text-2\" class=\"fusion-footer-widget-column widget widget_text\"><h4
+        class=\"widget-title\">Bernard Pub Na Kotl\xE1\u0159ce</h4>\t\t\t<div class=\"textwidget\"><p><span
+        style=\"font-weight: 300;\">D\xEDky tomu vytv\xE1\u0159\xED harmonii vyv\xE1\u017Een\xE9
+        ho\u0159kosti, lahodn\xE9 plnosti a chmelov\xE9 v\u016Fn\u011B&#8230;</span></p>\n</div>\n\t\t<div
+        style=\"clear:both;\"></div></section>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div
+        class=\"fusion-column col-lg-4 col-md-4 col-sm-4\">\n\t\t\t\t\t\t\t<section
+        id=\"media_image-2\" class=\"fusion-footer-widget-column widget widget_media_image\"><img
+        width=\"300\" height=\"34\" src=\"https://nakotlarce.cz/wp-content/uploads/2018/10/Bernard-logo-300x34.png\"
+        class=\"image wp-image-2195  attachment-medium size-medium\" alt=\"\" style=\"max-width:
+        100%; height: auto;\" srcset=\"https://nakotlarce.cz/wp-content/uploads/2018/10/Bernard-logo-200x22.png
+        200w, https://nakotlarce.cz/wp-content/uploads/2018/10/Bernard-logo-300x34.png
+        300w, https://nakotlarce.cz/wp-content/uploads/2018/10/Bernard-logo.png 304w\"
+        sizes=\"(max-width: 300px) 100vw, 300px\" /><div style=\"clear:both;\"></div></section><section
+        id=\"custom_html-3\" class=\"widget_text fusion-footer-widget-column widget
+        widget_custom_html\"><div class=\"textwidget custom-html-widget\">Na Koc\xEDnce
+        210/3<br>\r\nPraha 6\r\n</div><div style=\"clear:both;\"></div></section>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div
+        class=\"fusion-column fusion-column-last col-lg-4 col-md-4 col-sm-4\">\n\t\t\t\t\t\t\t<section
+        id=\"nav_menu-4\" class=\"fusion-footer-widget-column widget widget_nav_menu\"><div
+        class=\"menu-bernard-footer-container\"><ul id=\"menu-bernard-footer\" class=\"menu\"><li
+        id=\"menu-item-3333\" class=\"menu-item menu-item-type-post_type menu-item-object-page
+        menu-item-home menu-item-3333\"><a href=\"https://nakotlarce.cz/\">Dom\u016F</a></li>\n<li
+        id=\"menu-item-3331\" class=\"menu-item menu-item-type-post_type menu-item-object-page
+        menu-item-3331\"><a href=\"https://nakotlarce.cz/menu/\">Menu</a></li>\n<li
+        id=\"menu-item-3332\" class=\"menu-item menu-item-type-post_type menu-item-object-page
+        menu-item-3332\"><a href=\"https://nakotlarce.cz/galerie/\">Galerie</a></li>\n<li
+        id=\"menu-item-3329\" class=\"menu-item menu-item-type-post_type menu-item-object-page
+        menu-item-3329\"><a href=\"https://nakotlarce.cz/akce/\">Akce</a></li>\n<li
+        id=\"menu-item-3330\" class=\"menu-item menu-item-type-post_type menu-item-object-page
+        menu-item-3330\"><a href=\"https://nakotlarce.cz/kontakt/\">Kontakt</a></li>\n</ul></div><div
+        style=\"clear:both;\"></div></section>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t<div
+        class=\"fusion-clearfix\"></div>\n\t\t\t</div> <!-- fusion-columns -->\n\t\t</div>
+        <!-- fusion-row -->\n\t</footer> <!-- fusion-footer-widget-area -->\n\n\t\n\t<footer
+        id=\"footer\" class=\"fusion-footer-copyright-area fusion-footer-copyright-center\">\n\t\t<div
+        class=\"fusion-row\">\n\t\t\t<div class=\"fusion-copyright-content\">\n\n\t\t\t\t<div
+        class=\"fusion-copyright-notice\">\n\t\t<div>\n\t\t<div style=\"font-family:'Roboto
+        Slab',serif; margin-bottom:25px; font-color: #96652C;\">Vytvo\u0159ila digit\xE1ln\xED
+        agentura <a href=\"https://www.posunemevasvys.cz/\">4WORKS Solutions</a>  |
+        \ Bernard Pub Na Kotl\xE1\u0159ce</div> <i class=\"fas fa-lock\"></i><a href=\"/podminky-ochrany-osobnich-udaju/\">\_GDPR
+        Ready</a>\t</div>\n</div>\n\n\t\t\t</div> <!-- fusion-fusion-copyright-content
+        -->\n\t\t</div> <!-- fusion-row -->\n\t</footer> <!-- #footer -->\n\t\t\t\t</div>
+        <!-- fusion-footer -->\n\t\t\t\n\t\t\t\t\t\t\t\t</div> <!-- wrapper -->\n\n\t\t\t\t\t\t\t\t<a
+        class=\"fusion-one-page-text-link fusion-page-load-link\"></a>\n\n\t\t\t\t<script>\n\t\t(
+        function ( body ) {\n\t\t\t'use strict';\n\t\t\tbody.className = body.className.replace(
+        /\\btribe-no-js\\b/, 'tribe-js' );\n\t\t} )( document.body );\n\t\t</script>\n\t\t\t\t\t\t<script
+        type=\"text/javascript\">\n\t\t\t\tjQuery( document ).ready( function() {\n\t\t\t\t\tvar
+        ajaxurl = 'https://nakotlarce.cz/wp-admin/admin-ajax.php';\n\t\t\t\t\tif (
+        0 < jQuery( '.fusion-login-nonce' ).length ) {\n\t\t\t\t\t\tjQuery.get( ajaxurl,
+        { 'action': 'fusion_login_nonce' }, function( response ) {\n\t\t\t\t\t\t\tjQuery(
+        '.fusion-login-nonce' ).html( response );\n\t\t\t\t\t\t});\n\t\t\t\t\t}\n\t\t\t\t});\n\t\t\t\t</script>\n\t\t\t\t<script>
+        /* <![CDATA[ */var tribe_l10n_datatables = {\"aria\":{\"sort_ascending\":\"aktivujte
+        pro vzestupn\\u00e9 \\u0159azen\\u00ed sloupc\\u016f\",\"sort_descending\":\"aktivujte
+        pro sestupn\\u00e9 \\u0159azen\\u00ed sloupc\\u016f\"},\"length_menu\":\"Zobrazit
+        z\\u00e1znamy _MENU_\",\"empty_table\":\"V tabulce nejsou dostupn\\u00e1 \\u017e\\u00e1dn\\u00e1
+        data\",\"info\":\"Zobrazeno _START_ - _END_ z celkem _TOTAL_ z\\u00e1znam\\u016f\",\"info_empty\":\"Zobrazeno
+        0 - 0 z 0 z\\u00e1znam\\u016f\",\"info_filtered\":\"(filtrov\\u00e1no z _MAX_
+        celkov\\u00e9ho po\\u010dtu polo\\u017eek)\",\"zero_records\":\"Nebyly nalezeny
+        \\u017e\\u00e1dn\\u00e9 odpov\\u00eddaj\\u00edc\\u00ed z\\u00e1znamy\",\"search\":\"Hledat:\",\"all_selected_text\":\"All
+        items on this page were selected. \",\"select_all_link\":\"Select all pages\",\"clear_selection\":\"Clear
+        Selection.\",\"pagination\":{\"all\":\"V\\u0161e\",\"next\":\"Dal\\u0161\\u00ed\",\"previous\":\"P\\u0159edchoz\\u00ed\"},\"select\":{\"rows\":{\"0\":\"\",\"_\":\":
+        Vybr\\u00e1no %d \\u0159\\u00e1dk\\u016f\",\"1\":\": Vybr\\u00e1n 1 \\u0159\\u00e1dek\"}},\"datepicker\":{\"dayNames\":[\"Ned\\u011ble\",\"Pond\\u011bl\\u00ed\",\"\\u00dater\\u00fd\",\"St\\u0159eda\",\"\\u010ctvrtek\",\"P\\u00e1tek\",\"Sobota\"],\"dayNamesShort\":[\"Ne\",\"Po\",\"\\u00dat\",\"St\",\"\\u010ct\",\"P\\u00e1\",\"So\"],\"dayNamesMin\":[\"Ne\",\"Po\",\"\\u00dat\",\"St\",\"\\u010ct\",\"P\\u00e1\",\"So\"],\"monthNames\":[\"Leden\",\"\\u00danor\",\"B\\u0159ezen\",\"Duben\",\"Kv\\u011bten\",\"\\u010cerven\",\"\\u010cervenec\",\"Srpen\",\"Z\\u00e1\\u0159\\u00ed\",\"\\u0158\\u00edjen\",\"Listopad\",\"Prosinec\"],\"monthNamesShort\":[\"Leden\",\"\\u00danor\",\"B\\u0159ezen\",\"Duben\",\"Kv\\u011bten\",\"\\u010cerven\",\"\\u010cervenec\",\"Srpen\",\"Z\\u00e1\\u0159\\u00ed\",\"\\u0158\\u00edjen\",\"Listopad\",\"Prosinec\"],\"nextText\":\"Dal\\u0161\\u00ed\",\"prevText\":\"P\\u0159edchoz\\u00ed\",\"currentText\":\"Dnes\",\"closeText\":\"Hotovo\"}};var
+        tribe_system_info = {\"sysinfo_optin_nonce\":\"1b20186c0f\",\"clipboard_btn_text\":\"Kop\\u00edrovat
+        do schr\\u00e1nky\",\"clipboard_copied_text\":\"Informace o syst\\u00e9mu
+        byly zkop\\u00edrov\\u00e1ny\",\"clipboard_fail_text\":\"Pro kop\\u00edrov\\u00e1n\\u00ed
+        stiskn\\u011bte \\u201eCmd + C\\u201c\"};/* ]]> */ </script><div class=\"fusion-privacy-bar
+        fusion-privacy-bar-bottom\">\n\t<div class=\"fusion-privacy-bar-main\">\n\t\t<span>Webov\xE9
+        str\xE1nky ukl\xE1daj\xED v souladu se z\xE1kony na va\u0161e za\u0159\xEDzen\xED
+        soubory, obecn\u011B naz\xFDvan\xE9 cookies, pot\u0159ebn\xE9 pro fungov\xE1n\xED
+        webov\xFDch str\xE1nek a pro analytick\xE9 \xFA\u010Dely a v p\u0159\xEDpad\u011B
+        va\u0161eho souhlasu tak\xE9 pro mo\u017En\xFD retargeting. Pou\u017E\xEDv\xE1n\xEDm
+        t\u011Bchto str\xE1nek s t\xEDm vyjad\u0159ujete souhlas. <a href=\"https://cs.wikipedia.org/wiki/HTTP_cookie\"
+        target=\"_blank\">V\xEDce informac\xED</a>\t\t\t\t\t</span>\n\t\t<a href=\"#\"
+        class=\"fusion-privacy-bar-acceptance fusion-button fusion-button-default
+        fusion-button-default-size\" data-alt-text=\"Update Settings\" data-orig-text=\"Ok\">\n\t\t\tOk\t\t</a>\n\t</div>\n\t</div>\n<script
+        type='text/javascript' src='https://nakotlarce.cz/wp-content/plugins/contact-form-7-style/js/frontend-min.js?ver=3.1.7'></script>\n<script
+        type='text/javascript'>\n/* <![CDATA[ */\nvar wpcf7 = {\"apiSettings\":{\"root\":\"https:\\/\\/nakotlarce.cz\\/wp-json\\/contact-form-7\\/v1\",\"namespace\":\"contact-form-7\\/v1\"},\"recaptcha\":{\"messages\":{\"empty\":\"Please
+        verify that you are not a robot.\"}}};\n/* ]]> */\n</script>\n<script type='text/javascript'
+        src='https://nakotlarce.cz/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.0.4'></script>\n<!--[if
+        IE 9]>\n<script type='text/javascript' src='https://nakotlarce.cz/wp-content/themes/Avada/includes/lib/assets/min/js/general/fusion-ie9.js?ver=1'></script>\n<![endif]-->\n<script
+        type='text/javascript' src='https://nakotlarce.cz/wp-content/uploads/fusion-scripts/c07b89ec5ae0bcdcc0a53c173445ba34.min.js'></script>\n<script
+        type='text/javascript' src='https://nakotlarce.cz/wp-includes/js/wp-embed.min.js?ver=4.9.8'></script>\n\t</body>\n</html>\n"
+    headers:
+      Connection:
+      - close
+      Content-Type:
+      - text/html; charset=UTF-8
+      Date:
+      - Mon, 15 Apr 2019 14:44:57 GMT
+      Link:
+      - <https://nakotlarce.cz/wp-json/>; rel="https://api.w.org/"
+      - <https://nakotlarce.cz/?p=2266>; rel=shortlink
+      Server:
+      - nginx
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-TEC-API-ORIGIN:
+      - https://nakotlarce.cz
+      X-TEC-API-ROOT:
+      - https://nakotlarce.cz/wp-json/tribe/events/v1/
+      X-TEC-API-VERSION:
+      - v1
+    status:
+      code: 200
+      message: OK
 version: 1
