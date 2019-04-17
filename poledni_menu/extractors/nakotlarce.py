@@ -15,11 +15,11 @@ def get_name():
 def get_menu():
     doc = parsed_html_doc(get_url())
     locale.setlocale(locale.LC_TIME, 'cs_CZ.UTF8')
-    dayname = datetime.date.today().strftime("%A").lower()
-    daylink = doc.xpath('//a[@id = "fusion-tab-{}"]'.format(dayname),)
+    dayname = datetime.date.today().strftime("%A")
+    daylink = doc.xpath('//h4[text() = "{}"]/parent::a/@href'.format(dayname),)
     if len(daylink) < 1:
         raise ValueError("Jídelní lístek nenalezen")
-    daylink = daylink[0].get("href", "")[1:]
+    daylink = daylink[0][1:]
     meals = doc.findall('//*[@id="{}"]//tr'.format(daylink))
     for meal in meals:
         if len(meal) != 2:
