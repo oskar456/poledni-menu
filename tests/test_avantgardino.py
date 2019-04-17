@@ -1,9 +1,10 @@
-import pytest
 from poledni_menu.extractors import avantgardino
 
 
-@pytest.mark.vcr()
 def test_get_menu():
+    """
+    This extractor depends on current date, therefore it fails with the VCR.
+    """
     menu = list(avantgardino.get_menu())
     print(menu)
     assert len(menu) > 5
