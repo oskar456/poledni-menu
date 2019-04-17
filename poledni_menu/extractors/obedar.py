@@ -4,7 +4,7 @@ import urllib.request
 import lxml.html
 
 _PLACES = {
-    "Pod Juliskou": "http://www.podjuliskou.cz/menu/",
+    "Pod Juliskou": "https://www.podjuliskou.cz/menu/",
 }
 
 

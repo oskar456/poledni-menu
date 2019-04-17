@@ -4,7 +4,7 @@ from ..utils import parsed_html_doc
 
 
 def get_url(place_id=None):
-    return "https://www.bernardpub.cz/pub/" + (place_id or "na-kotlarce")
+    return "https://www.bernardpub.cz/pub/" + (place_id or "andel")
 
 
 def get_name(place_id=None):

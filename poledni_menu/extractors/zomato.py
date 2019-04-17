@@ -38,7 +38,7 @@ def _parsed_api_call(
 
 _PLACES = {
     "16505958": ("Pod Loubím", "http://www.podloubim.com/menu/"),
-    "18311812": ("Nad Alejí", "http://nadaleji.wixsite.com/nadaleji"),
+    "18311812": ("Nad Alejí", "https://nadaleji.wixsite.com/nadaleji"),
     "16506914": ("DAP", "http://www.daphotel.cz/"),
 }
 

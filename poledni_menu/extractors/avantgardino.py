@@ -8,7 +8,7 @@ def get_name():
 
 
 def get_url():
-    return "http://www.avantgardino.cz/"
+    return "https://www.avantgardino.cz/"
 
 
 def get_menu():
