@@ -25,9 +25,9 @@ def get_menu(place_id=None):
         tds = meal.findall('td')
         if len(tds) == 0:
             continue
-        name = tds[1].text
-        price = tds[5].text
-        place = tds[6].text_content()
+        name = tds[2].text
+        price = tds[6].text
+        place = tds[7].text_content()
         name, price, place = (killwhitespace(s) for s in (name, price, place))
         if name is "" or name is ".":
             continue
