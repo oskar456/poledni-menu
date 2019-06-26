@@ -1,4 +1,4 @@
-VERSION = "0.11"
+VERSION = "0.12"
 URL = "https://github.com/oskar456/poledni-menu"
 TAGLINE = (
     "Vygenerováno nástrojem [poledni-menu]({URL}) verze {VERSION}. "
