@@ -22,11 +22,11 @@ def get_menu():
     )
     for meal in rows:
         cols = meal.findall("td")
-        if len(cols) == 3:
-            name, alergens, price = cols
+        if len(cols) == 4:
+            num, name, alergens, price = cols
         else:
             continue
-        if price.text_content().strip() == "":
+        if num.text_content().strip() == "":
             return
         if (name is not None) and (price is not None):
             mealname = name.text_content().strip()
