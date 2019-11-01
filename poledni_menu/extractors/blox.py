@@ -17,7 +17,7 @@ def get_menu():
     locale.setlocale(locale.LC_TIME, 'cs_CZ.UTF8')
     dayname = datetime.date.today().strftime("%A")
     rows = doc.xpath(
-        '//*[@id="page_obedy"]//*[text() = "{}"]'
+        '//*[@id="page_obedy"]//*[starts-with(text(), "{}")]'
         '/ancestor::tr/following-sibling::tr'.format(dayname),
     )
     for meal in rows:
