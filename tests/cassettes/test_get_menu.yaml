@@ -3393,7 +3393,7 @@ interactions:
 
         </body></html>
 
-'
+        '
     headers:
       Connection:
       - close
@@ -10030,6 +10030,270 @@ interactions:
       - https://nakotlarce.cz/wp-json/tribe/events/v1/
       X-TEC-API-VERSION:
       - v1
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Connection:
+      - close
+      Host:
+      - www.potrefene-husy.cz
+      User-Agent:
+      - Python-urllib/3.6
+    method: GET
+    uri: https://www.potrefene-husy.cz/cz/dejvice-poledni-menu
+  response:
+    body:
+      string: "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html
+        xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"cs\" lang=\"cs\">\n<head>\n<meta
+        http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n<meta
+        http-equiv=\"Content-language\" content=\"cs\" />\n<title>Potrefen\xE9 husy:
+        Potrefen\xE1 husa Praha - Dejvice - poledn\xED menu : Andersson&amp;Grey,
+        s.r.o.</title>\n<meta name=\"description\" content=\"Poledn\xED nab\xEDdka
+        - ob\u011Bdov\xE9 menu, Potrefen\xE1 husa Dejvice, Potrefen\xE1 husa Praha
+        - Vinohrady, Dejvice a Pankr\xE1c\" />\n<meta name=\"keywords\" content=\"potrefen\xE9
+        husy, poledn\xED nab\xEDdka, denn\xED menu, ob\u011Bdov\xE9 menu, restaurace
+        v praze, praha dejvice, hotov\xE1 j\xEDdla, hotovky\" />\n<meta name=\"author\"
+        content=\"Potrefen\xE1 husa Praha - Vinohrady, Dejvice a Pankr\xE1c\" />\n<meta
+        name=\"generator\" content=\"Topinfo CMS, www.topinfocms.cz\" />\n<meta name=\"robots\"
+        content=\"index, follow\" />\n<script type=\"text/javascript\">\nvar TCO =
+        {\"lang\":\"cz\",\"page\":\"poledni-nabidka-phd\",\"dir\":\"\"}, lang = TCO.lang;\n</script>\n<link
+        href=\"/favicon.ico\" rel=\"shortcut icon\" type=\"image/x-icon\" />\n<link
+        rel=\"stylesheet\" href=\"/cms/jquery-plugins/fancybox-2.1.5/source/jquery.fancybox.min.css\"
+        type=\"text/css\" media=\"screen\" />\n<link rel=\"stylesheet\" href=\"/cms/jquery-plugins/fancybox-2.1.5/source/helpers/jquery.fancybox-buttons.min.css\"
+        type=\"text/css\" media=\"screen\" />\n<link rel=\"stylesheet\" href=\"/cms/jquery-plugins/fancybox-2.1.5/source/helpers/jquery.fancybox-thumbs.min.css\"
+        type=\"text/css\" media=\"screen\" />\n<link rel=\"stylesheet\" href=\"/print.css?14\"
+        type=\"text/css\" media=\"print\" />\n<link rel=\"stylesheet\" href=\"/project.css?14\"
+        type=\"text/css\" media=\"screen\" />\n<script type=\"text/javascript\" src=\"/cms/js/jquery-1.12.4.min.js\"></script>\n<script
+        type=\"text/javascript\" src=\"/cms/js/jquery-migrate-1.4.1.min.js\"></script>\n<script
+        type=\"text/javascript\" src=\"/cms/js/main.min.js?17.10.1\"></script>\n<script
+        type=\"text/javascript\" src=\"/cms/jquery-plugins/fancybox-2.1.5/lib/jquery.mousewheel-3.0.6.pack.js\"></script>\n<script
+        type=\"text/javascript\" src=\"/cms/jquery-plugins/fancybox-2.1.5/source/jquery.fancybox.pack.js\"></script>\n<script
+        type=\"text/javascript\" src=\"/cms/jquery-plugins/fancybox-2.1.5/source/helpers/jquery.fancybox-buttons.min.js\"></script>\n<script
+        type=\"text/javascript\" src=\"/cms/jquery-plugins/fancybox-2.1.5/source/helpers/jquery.fancybox-thumbs.min.js\"></script>\n<script
+        type=\"text/javascript\" src=\"/cms/jquery-plugins/jquery.cookie.js\"></script>\n<script
+        type=\"text/javascript\" src=\"/project.js?18\"></script>\n<script type=\"text/javascript\">\n/*
+        <![CDATA[ */\n\n        (function(){\n          var _rt;\n          function
+        _resize() {\n            if ((window.screen.availWidth && window.screen.availWidth
+        < 768) || window.innerWidth < 768) {\n              document.location = \"?mobile_version=1\";\n
+        \           }\n          }\n          function _rs() {\n            window.clearTimeout(_rt);\n
+        \           _rt = window.setTimeout(_resize, 100);\n          }\n          _resize();\n
+        \         $(window).resize(_rs);\n        })();\n/* ]]> */\n</script>\n<script
+        type=\"text/javascript\">\nvar _gaq = _gaq || [];\n_gaq.push(['_setAccount',
+        'UA-3210231-22']);\n_gaq.push(['_trackPageview']);\n</script>\n<script type=\"text/javascript\"
+        src=\"/cms/js/ga-se-async.js\"></script>\n<script type=\"text/javascript\">\n(function()
+        {\n  var ga = document.createElement('script'); ga.type = 'text/javascript';
+        ga.async = true;\n  ga.src = ('https:' == document.location.protocol ? 'https://ssl'
+        : 'http://www') + '.google-analytics.com/ga.js';\n  var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);\n})();\n</script>\n<script type=\"text/javascript\">\n!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};\nif(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;\nt.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+        document,'script','https://connect.facebook.net/en_US/fbevents.js');\n\nfbq.disablePushState
+        = true;\nfbq(\"init\", \"717209261820706\");\nfbq(\"track\", \"PageView\");\n</script>\n</head>\n<body
+        class=\"body\">\n<noscript><img height=\"1\" width=\"1\" alt=\"\" style=\"display:none\"
+        src=\"https://www.facebook.com/tr?id=717209261820706&amp;ev=PageView&amp;noscript=1\"
+        /></noscript>\n<div id=\"fb-root\"></div><div id=\"main\" class=\"dejvice
+        poledni-nabidka-phd\">\r\n<div id=\"main-in\">\r\n\r\n<div id=\"content\"><div
+        id=\"content-in\">\r\n<div id=\"navbox\">\n<div id=\"navigace\">[ <a href=\"javascript:window.print()\"
+        rel=\"nofollow\" title=\"tisk\"><span class=\"clean\"><img src=\"/img/sys/p_tisk.gif\"
+        width=\"13\" height=\"11\" class=\"noborder\" alt=\"tisk\" /> </span>tisk</a>
+        ]</div>\n<div id=\"cesta\"><a href=\"/cz/potrefena-husa-dejvice\">Potrefen\xE1
+        husa Dejvice</a></div>\n<div class=\"clear\"><!-- --></div>\n</div>\n<h1 class=\"nadpis\">Poledn\xED
+        nab\xEDdka - ob\u011Bdov\xE9 menu</h1>\n<h1 id=\"h1-poledni-nabidka\" style=\"text-align:
+        left;\">Poledn\xED nab\xEDdka - ob\u011Bdov\xE9 menu<span><br /></span></h1>\r\n<h2>od
+        28.10.2019 do 3.11.2019 plat\xED od 11:00 do vyprod\xE1n\xED nebo max. do
+        14:30</h2>\n<div class=\"poledni-nabidka\">\n              <table summary=\"\"><tr><th
+        colspan=\"3\"><h3>To\u010Den\xE1 Kofola Original 0,3l za 1 K\u010D. /p\u0159i
+        objedn\xE1n\xED denn\xED nab\xEDdky do 11.45/</h3></th></tr>\n<tr><th colspan=\"3\">&nbsp;</th></tr>\n<tr><th
+        colspan=\"3\"><h3>To\u010Den\xE1 Kofola Original 0,3l za 20 K\u010D. /p\u0159i
+        objedn\xE1n\xED denn\xED nab\xEDdky do 14.30/</h3></th></tr>\n<tr><th colspan=\"3\">&nbsp;</th></tr>\n<tr><th
+        colspan=\"3\"><h3>Pond\u011Bl\xED</h3></th></tr>\n<tr valign=\"top\"><td class=\"tdi\">Pol\xE9vka
+        dne</td><td class=\"tdii\">---</td><td align=\"right\" class=\"tdiii\">---
+        K\u010D</td></tr>\n<tr valign=\"top\"><td class=\"tdi\">I.</td><td class=\"tdii\">---</td><td
+        align=\"right\" class=\"tdiii\">--- K\u010D</td></tr>\n<tr valign=\"top\"><td
+        class=\"tdi\">II.</td><td class=\"tdii\">---</td><td align=\"right\" class=\"tdiii\">---
+        K\u010D</td></tr>\n<tr valign=\"top\"><td class=\"tdi\">III.</td><td class=\"tdii\">---</td><td
+        align=\"right\" class=\"tdiii\">--- K\u010D</td></tr>\n<tr valign=\"top\"><td
+        class=\"tdi\">IV.</td><td class=\"tdii\">---</td><td align=\"right\" class=\"tdiii\">---
+        K\u010D</td></tr>\n<tr><th colspan=\"3\">&nbsp;</th></tr>\n<tr><th colspan=\"3\"><h3>\xDAter\xFD</h3></th></tr>\n<tr
+        valign=\"top\"><td class=\"tdi\">Pol\xE9vka dne</td><td class=\"tdii\">Frankfurtsk\xE1
+        s p\xE1rkem</td><td align=\"right\" class=\"tdiii\">39 K\u010D</td></tr>\n<tr
+        valign=\"top\"><td class=\"tdi\">I.</td><td class=\"tdii\">Spaghetti s ku\u0159ec\xEDmi
+        prsn\xEDmi kousky, raj\u010Datovou om\xE1\u010Dkou, \u010Desnekem, olivami,
+        \ bazalkou a parmez\xE1nem</td><td align=\"right\" class=\"tdiii\">118 K\u010D</td></tr>\n<tr
+        valign=\"top\"><td class=\"tdi\">II.</td><td class=\"tdii\">Sma\u017Een\xE9
+        kr\u016Ft\xED \u0159\xEDze\u010Dky v sezamov\xE9 strouhance, bramborov\xE1
+        ka\u0161e, tomatov\xFD sal\xE1t</td><td align=\"right\" class=\"tdiii\">138
+        K\u010D</td></tr>\n<tr valign=\"top\"><td class=\"tdi\">III.</td><td class=\"tdii\">Gul\xE1\u0161
+        z vykost\u011Bn\xFDch kr\u016Ft\xEDch stehen s paprikami a cibul\xED, houskov\xE9
+        knedl\xEDky</td><td align=\"right\" class=\"tdiii\">128 K\u010D</td></tr>\n<tr
+        valign=\"top\"><td class=\"tdi\">IV.</td><td class=\"tdii\">Tip \u0161\xE9fkucha\u0159e:
+        Roastbeef z vyzr\xE1l\xE9ho hov\u011Bz\xEDho pupku, listov\xFD sal\xE1t s
+        raj\u010Daty, hranolky *</td><td align=\"right\" class=\"tdiii\">148 K\u010D</td></tr>\n<tr><th
+        colspan=\"3\">&nbsp;</th></tr>\n<tr><th colspan=\"3\"><h3>St\u0159eda</h3></th></tr>\n<tr
+        valign=\"top\"><td class=\"tdi\">Pol\xE9vka dne</td><td class=\"tdii\">Frankfurtsk\xE1
+        s p\xE1rkem</td><td align=\"right\" class=\"tdiii\">39 K\u010D</td></tr>\n<tr
+        valign=\"top\"><td class=\"tdi\">I.</td><td class=\"tdii\">Bramborov\xE9 noky
+        s uzen\xFDm kachn\xEDm prsem, lilkov\xFDm pestem s paprikami a parmez\xE1nem</td><td
+        align=\"right\" class=\"tdiii\">118 K\u010D</td></tr>\n<tr valign=\"top\"><td
+        class=\"tdi\">II.</td><td class=\"tdii\">Sma\u017Een\xE9 telec\xED karban\xE1tky
+        s gorgonzolou, ma\u010Dkan\xE9 brambory s m\xE1slem, okurkov\xFD sal\xE1t</td><td
+        align=\"right\" class=\"tdiii\">138 K\u010D</td></tr>\n<tr valign=\"top\"><td
+        class=\"tdi\">III.</td><td class=\"tdii\">V\xFDpe\u010Dky z vep\u0159ov\xE9
+        krkovice, bramborov\xE9 knedl\xEDky, \u0161pen\xE1t </td><td align=\"right\"
+        class=\"tdiii\">128 K\u010D</td></tr>\n<tr valign=\"top\"><td class=\"tdi\">IV.</td><td
+        class=\"tdii\">Tip \u0161\xE9fkucha\u0159e: Chicken cheddar burger /grilovan\xE9
+        ku\u0159ec\xED prso zape\u010Den\xE9 s cheddarem,  anglick\xE1 slanina, rukola
+        a jalape\u0148os, hranolky, sweet chilli majon\xE9za/</td><td align=\"right\"
+        class=\"tdiii\">148 K\u010D</td></tr>\n<tr><th colspan=\"3\">&nbsp;</th></tr>\n<tr><th
+        colspan=\"3\"><h3>\u010Ctvrtek</h3></th></tr>\n<tr valign=\"top\"><td class=\"tdi\">Pol\xE9vka
+        dne</td><td class=\"tdii\">Rusk\xFD bor\u0161\u010D s masem</td><td align=\"right\"
+        class=\"tdiii\">39 K\u010D</td></tr>\n<tr valign=\"top\"><td class=\"tdi\">I.</td><td
+        class=\"tdii\">Risotto s kr\u016Ft\xEDmi prsn\xEDmi kousky, hr\xE1\u0161kem,
+        cuketou a lilkem, parmez\xE1n *</td><td align=\"right\" class=\"tdiii\">128
+        K\u010D</td></tr>\n<tr valign=\"top\"><td class=\"tdi\">II.</td><td class=\"tdii\">Sma\u017Een\xFD
+        s\xFDr eidam, hranolky, tatarsk\xE1 om\xE1\u010Dka</td><td align=\"right\"
+        class=\"tdiii\">128 K\u010D</td></tr>\n<tr valign=\"top\"><td class=\"tdi\">III.</td><td
+        class=\"tdii\">Bramborov\xE9 halu\u0161ky s ov\u010D\xED brynzou a ope\u010Denou
+        slaninou</td><td align=\"right\" class=\"tdiii\">118 K\u010D</td></tr>\n<tr
+        valign=\"top\"><td class=\"tdi\">IV.</td><td class=\"tdii\">Tip \u0161\xE9fkucha\u0159e:
+        Hov\u011Bz\xED l\xED\u010Dka na v\xEDn\u011B, zeleninov\xE9 pyr\xE9, rukola
+        *</td><td align=\"right\" class=\"tdiii\">148 K\u010D</td></tr>\n<tr><th colspan=\"3\">&nbsp;</th></tr>\n<tr><th
+        colspan=\"3\"><h3>P\xE1tek</h3></th></tr>\n<tr valign=\"top\"><td class=\"tdi\">Pol\xE9vka
+        dne</td><td class=\"tdii\">Rusk\xFD bor\u0161\u010D s masem</td><td align=\"right\"
+        class=\"tdiii\">39 K\u010D</td></tr>\n<tr valign=\"top\"><td class=\"tdi\">I.</td><td
+        class=\"tdii\">Risotto s kousky vep\u0159ov\xE9 panenky, pestem z pe\u010Den\xFDch
+        paprik, koz\xEDm s\xFDrem a rukolou *</td><td align=\"right\" class=\"tdiii\">128
+        K\u010D</td></tr>\n<tr valign=\"top\"><td class=\"tdi\">II.</td><td class=\"tdii\">Sma\u017Een\xE9
+        \u017Eampiony, va\u0159en\xE9 brambory, tatarsk\xE1 om\xE1\u010Dka</td><td
+        align=\"right\" class=\"tdiii\">118 K\u010D</td></tr>\n<tr valign=\"top\"><td
+        class=\"tdi\">III.</td><td class=\"tdii\">Kr\u016Ft\xED stroganov se \u017Eampiony,
+        smetanou a kysel\xFDmi okurkami, hranolky *</td><td align=\"right\" class=\"tdiii\">138
+        K\u010D</td></tr>\n<tr valign=\"top\"><td class=\"tdi\">IV.</td><td class=\"tdii\">Tip
+        \u0161\xE9fkucha\u0159e: Grilovan\xFD filet cand\xE1ta marinovan\xFD v \u010Desneku
+        a km\xEDnu, listov\xFD sal\xE1t,  \u0161\u0165ouchan\xE9 brambory *</td><td
+        align=\"right\" class=\"tdiii\">158 K\u010D</td></tr>\n<tr><th colspan=\"3\">&nbsp;</th></tr>\n<tr><th
+        colspan=\"3\"><h3>D\u011ATSK\xC9 V\xCDKENDOV\xC9 MENU</h3></th></tr>\n<tr
+        valign=\"top\"><td class=\"tdi\">Sobota</td><td class=\"tdii\">D\u011ATSK\xC9
+        V\xCDKENDOV\xC9 MENU za 1 K\u010D - info u obsluhy</td><td align=\"right\"
+        class=\"tdiii\">1 K\u010D</td></tr>\n<tr valign=\"top\"><td class=\"tdi\">Ned\u011Ble</td><td
+        class=\"tdii\">D\u011ATSK\xC9 V\xCDKENDOV\xC9 MENU za 1 K\u010D - info u obsluhy</td><td
+        align=\"right\" class=\"tdiii\">1 K\u010D</td></tr>\n<tr><th colspan=\"3\">&nbsp;</th></tr>\n<tr><th
+        colspan=\"3\"><h3>* BEZLEPKOV\xC9</h3></th></tr>\n<tr><th colspan=\"3\">&nbsp;</th></tr>\n<tr><th
+        colspan=\"3\"><h3>Masov\xE9 pokrmy, kter\xE9 pro V\xE1s p\u0159ipravujeme,
+        jsou v\xFDhradn\u011B z mas od \u010Desk\xFDch farem \u2013 Farma Vyso\u010Dina
+        /vep\u0159ov\xE9/, Farma Krucemburk /hov\u011Bz\xED/, Farma Sedl\u010Dany
+        /kr\u016Ft\xED/, Farma \u010Cesk\xE9 Mezi\u0159\xED\u010D\xED /ku\u0159ec\xED/.</h3></th></tr>\n<tr><th
+        colspan=\"3\">&nbsp;</th></tr>\n<tr><th colspan=\"3\"><h3>ZM\u011ANA NAB\xCDDKY
+        A CEN VYHRAZENA!</h3></th></tr>\n</table>\n            </div>\r\n<div class=\"clear\">&nbsp;</div>\r\n</div></div><!--/content-->\r\n\r\n<hr
+        class=\"no-css\" />\r\n\r\n<div id=\"panel\"><div id=\"panel-in\">\r\n<div
+        class=\"submenu cz\"><span class=\"submenu-left\"><!-- --></span><span class=\"submenu-right\"><!--
+        --></span>\n<ul class=\"menu-items-7\"><li class=\"m-first m1\"><a href=\"/cz/potrefena-husa-praha-dejvice\"
+        title=\"Z\xE1kladn\xED informace\"><span>Z\xE1kladn\xED informace</span></a></li>\n<li
+        class=\"m2\"><a href=\"/cz/dejvice-jidelni-listek\" title=\"J\xEDdeln\xED
+        l\xEDstek - v\xFDb\u011Br\"><span>J\xEDdeln\xED l\xEDstek - v\xFDb\u011Br</span></a></li>\n<li
+        class=\"m3\"><a href=\"/cz/dejvice-napojovy-listek\" title=\"N\xE1pojov\xFD
+        l\xEDstek - v\xFDb\u011Br\"><span>N\xE1pojov\xFD l\xEDstek - v\xFDb\u011Br</span></a></li>\n<li
+        class=\"m4 active\"><a href=\"/cz/dejvice-poledni-menu\" class=\"active\"
+        title=\"Poledn\xED nab\xEDdka - ob\u011Bdov\xE9 menu\"><span>Poledn\xED nab\xEDdka
+        - ob\u011Bdov\xE9 menu</span></a></li>\n<li class=\"m5\"><a href=\"/cz/darkove-poukazy-dejvice\"
+        title=\"D\xE1rkov\xE9 poukazy\"><span>D\xE1rkov\xE9 poukazy</span></a></li>\n<li
+        class=\"m6\"><a href=\"/cz/dejvice-fotogalerie\" title=\"Fotogalerie - restaurace
+        Potrefen\xE1 husa Praha - Dejvice\"><span>Fotogalerie - restaurace Potrefen\xE1
+        husa Praha - Dejvice</span></a></li>\n<li class=\"m-last m7\"><a href=\"/cz/dejvice-kontakty\"
+        title=\"Kontakty a rezervace\"><span>Kontakty a rezervace</span></a></li></ul></div>\n\n\r\n\r\n<div
+        id=\"langs\">\r\n<ul>\n<li id=\"l1\" class=\"active\"><a href=\"/cz/dejvice-poledni-menu\"
+        title=\"cz\">cz</a></li>\n<li id=\"l2\"><a href=\"/en/dejvice-lunch-menu\"
+        title=\"en\">en</a></li>\n<li id=\"l3\"><a href=\"/ru/dejvice-obedennoe-menyu\"
+        title=\"ru\">ru</a></li>\n</ul>\n\r\n</div>\r\n\r\n<div id=\"flash_panel\">\r\n
+        \ <div id=\"flash\"></div>\r\n</div>\r\n\r\n<script src=\"/cms/js/swfobject.js\"
+        type=\"text/javascript\"></script>\r\n<script type=\"text/javascript\">\r\n<!--
+        <![CDATA[\r\nvar so = new SWFObject(\"/img/flash/husy_akce_maminka3.swf\",\"banner-1\",
+        \"240\", \"162\", \"8\");\r\nso.addParam(\"wmode\", \"transparent\");\r\n//so.addVariable(\"clickthru\",
+        \"http://www.potrefene-husy.cz/cz/dejvice-poledni-menu\");\r\nso.write(\"flash\");\r\n//--></script>\r\n\r\n<div
+        class=\"restu-btn-container restu-size-medium\"><script type=\"text/javascript\"
+        src=\"https://www.restu.cz/js/resbtn.js\"></script> <a href=\"https://www.restu.cz//widget-beta/?source=http://www.potrefene-husy.cz/cz/potrefena-husa-praha-dejvice&restaurant_id=23930\"
+        class=\"restu-btn\" target=\"_blank\" title=\"Vytvo\u0159it rezervaci p\u0159es
+        RESTU.cz\"><img src=\"/img/sys/husy_cz_restuIT.png\" /></a><br /><small>Rezervujte
+        si st\u016Fl zdarma, pohodln\u011B a spolehliv\u011B s <a href=\"https://www.restu.cz/\"
+        style=\"color:#1fc36a\" title=\"On-line rezerva\u010Dn\xED syst\xE9m\">Restu.cz</a></small>
+        </div>\r\n<a href=\"https://www.facebook.com/pages/Potrefen%C3%A1-husa-Dejvice/807543875954451\"
+        target=\"_blank\"><div class=\"facebook-link\"><!-- --></div></a>\r\n<div
+        class=\"clear\"><!-- --></div>\r\n</div></div><!--/panel-->\r\n\r\n<div class=\"clear\">&nbsp;</div>\r\n<hr
+        class=\"no-css\" />\r\n\r\n<div id=\"header\"><div id=\"header-in\">\r\n<a
+        href=\"/\" id=\"logo\" title=\"Potrefen\xE1 husa [\xFAvodn\xED str\xE1nka]\">Potrefen\xE1
+        husa<span>&nbsp;</span></a>\r\n\r\n<div id=\"rozcestnik-menu\" class=\"cz\">\r\n<ul>\r\n\t<li
+        id=\"rm1\"><a href=\"/cz/potrefena-husa-praha-vinohrady\" title=\"Vinohrady\">Vinohrady</a></li>\r\n\t<li
+        id=\"rm2\"><a href=\"/cz/potrefena-husa-praha-dejvice\" title=\"Dejvice\">Dejvice</a></li>\r\n\t<li
+        id=\"rm3\"><a href=\"/cz/potrefena-husa-praha-pankrac\" title=\"Pankr\xE1c\">Pankr\xE1c</a></li>\r\n</ul>\r\n</div>\r\n\r\n<a
+        href=\"http://instinkt.tyden.cz/rubriky/styl/do-dejvic-na-carpaccio_24851.html\"
+        id=\"carpaccio\" target=\"_blank\"></a>\r\n</div></div><!--/header-->\r\n\r\n</div><!--/main-in-->\r\n\r\n<hr
+        class=\"no-css\" />\r\n\r\n<div id=\"footer\">\r\n<span id=\"copyright\">&copy;
+        2013 ANDERSSON&amp;GREY s.r.o.<br /><a href=\"https://www.topinfo.cz/\" class=\"cmslink\"
+        onclick=\"return!window.open(this.href);\" title=\"Redak\u010Dn\xED syst\xE9m
+        Topinfo CMS\">Topinfo CMS</a></span>\r\n<p>Odkazy: <a href=\"/cz/odkazy-gastro\">gastro</a>
+        | <a href=\"/cz/odkazy-restaurace\">restaurace</a> | <a href=\"/cz/odkazy-praha\">Praha</a></p>\r\n\r\n<p>\r\n
+        \ <a href=\"http://www.classiccars.cz\"><strong>Classic Cars</strong></a>&nbsp;&nbsp;\r\n
+        \ <span>\r\n    <a href=\"http://www.ceskyarchivvin.cz/\" title=\"\u010Cesk\xFD
+        arch\xEDv v\xEDn: \u010Desk\xE9 i sv\u011Btov\xE9 v\xEDno - online prodej
+        v\xEDna a dopl\u0148k\u016F, novinky ze sv\u011Bta v\xEDna\">Prodej v\xEDna</a>
+        &nbsp; <a href=\"http://www.kuchyne-postl.cz/\" title=\"Kuchyn\u011B\">Kuchyn\u011B</a>\r\n
+        \ </span>\r\n  <span>\r\n    <a href=\"http://cz.prague-stay.com/hotely/\"
+        title=\"Hotely Praha\">Hotely Praha</a> &nbsp; <a href=\"http://www.liebherr.sk/\"
+        title=\"Liebherr.sk - chladni\u010Dky, mrazni\u010Dky a dal\u0161ie dom\xE1cie
+        aj komer\u010Dn\xE9 spotrebi\u010De\">Chladni\u010Dky</a> &nbsp; <a href=\"http://www.amonit.cz/\"
+        title=\"Vestav\u011Bn\xE9 sk\u0159\xEDn\u011B AMONIT\">Vestav\u011Bn\xE9 sk\u0159\xEDn\u011B</a>
+        &nbsp; <a href=\"http://www.reklamnipredmety.cz/\" title=\"Reklamn\xED p\u0159edm\u011Bty
+        a reklamn\xED d\xE1rky pro va\u0161i spole\u010Dnost\">Reklamn\xED p\u0159edm\u011Bty</a>
+        &nbsp; <a href=\"http://www.kvalitnikavovary.cz/\" title=\"K\xE1vovary, espressa,
+        p\u0159ekap\xE1va\u010De, ml\xFDnky | McTREE\">K\xE1vovary</a> &nbsp; <a href=\"http://www.albertov.eu/\"
+        title=\"Pron\xE1jem byt\u016F v Praze: byty Praha 2 | ALBERTOV RENTAL APARTMENTS\">Pron\xE1jem
+        bytu Praha</a> &nbsp; <a href=\"http://www.diseven.cz/sluzby/uklidove-sluzby.html\"
+        title=\"\xDAklid objekt\u016F, \xFAklidov\xE9 slu\u017Eby | agentura D.I.Seven\">\xDAklidov\xE9
+        slu\u017Eby</a> &nbsp; <a href=\"http://praha-hotel.eu/cs/levne-hotely-praha.html\"
+        title=\"Hotely v Praze - levn\xE9 ubytov\xE1n\xED Praha : Prague Hotels Online.eu\">Levn\xFD
+        hotel v Praze</a> &nbsp; <a href=\"http://www.alfatourist.cz/apartmany-praha\"
+        title=\"Apartm\xE1ny v Praze - levn\xE9 apartm\xE1ny Praha : Alfa Tourist
+        Service\">Apartm\xE1ny Praha</a> &nbsp; <a href=\"http://www.pracky-susicky.cz/\"
+        title=\"Pra\u010Dky Su\u0161i\u010Dky\">Pra\u010Dky a su\u0161i\u010Dky</a>
+        &nbsp; <a href=\"http://www.anena.cz/\" title=\"Restaurace Brno, \u0158eck\xE1
+        restaurace\">Restaurace Brno, \u0158eck\xE1 restaurace</a> &nbsp; <a href=\"http://www.vranov-nad-dyji.eu/\"
+        title=\"Vranov nad Dyj\xED ubytov\xE1n\xED, vranovsk\xE1 p\u0159ehrada\">Vranov
+        nad Dyj\xED virtu\xE1ln\u011B</a> &nbsp; <a href=\"http://www.radicestujeme.eu/\"
+        title=\"V\u0161e o cestov\xE1n\xED - levn\xE9 letenky,cestopisy, rady, evropsk\xE1
+        m\u011Bsta\">Radicestujeme.eu</a> &nbsp; <a href=\"http://www.eseta.cz\" title=\"Eseta.cz\">Eseta.cz
+        - Gastronomie</a>\r\n  </span>\r\n</p>\r\n</div><!--/footer-->\r\n\r\n</div><!--/main-->\n<script
+        type=\"text/javascript\"><!--\n$(function(){(function(){var sets={minWidth:50,minHeight:50},clAL=function(current,previous){console.log(current.content);current.content.data('ready',0);},clAS=function(current,previous){this.content[0].contentWindow.document.location.hash+='';};sets.live=false;$('a.fancybox').each(function(){var
+        $obj=$(this),fset={},fdset=$obj.data('fancybox');if(window.TCO&&TCO.gallery_id&&$obj.data('gpic-id')){var
+        $gobj=$('#'+TCO.gallery_id+' a[data-pic-id=\"'+$obj.data('gpic-id')+'\"]');if($gobj.length){$obj.on('click',function(){$gobj.trigger('click.ext');return
+        false;});return;}}\n$.extend(fset,sets);if(typeof(fdset)==='object'){$.extend(fset,fdset);}\nif($obj.hasClass('iframe')){fset.type='iframe';}\nif(fset.type==='iframe'&&$obj.attr('href').indexOf('#')>=0){fset.afterLoad=clAL;fset.afterShow=clAS;}\n$obj.fancybox(fset);});})();$('#searchword').each(function(){var
+        text_alert='Nebyl zad\xE1n v\xFDraz pro vyhled\xE1v\xE1n\xED!';var search_input=$(this);search_input.parents('form').bind('submit',function(){if(search_input.val()==''||search_input.val()==search_input.attr('title')){alert(text_alert);return
+        false;}\nreturn true;});search_input.bind('focus',function(){var obj=$(this);if(obj.val()==obj.attr('title')){obj.val('');}});search_input.bind('blur',function(){var
+        obj=$(this);if(obj.val()==''){obj.val(obj.attr('title'));}});})});\n// --></script>\n</body>\n</html>\n"
+    headers:
+      Cache-Control:
+      - private
+      Connection:
+      - close
+      Content-Type:
+      - text/html; charset=utf-8
+      Date:
+      - Fri, 01 Nov 2019 13:07:38 GMT
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache/2.4.29 (Ubuntu)
+      Set-Cookie:
+      - id=1IqwErUWYE53aeb093mX; expires=Sat, 31 Oct 2020 13:07:39 GMT; Path=/; secure
+      - sid=; expires=Thu, 01 Nov 2018 13:07:39 GMT; httponly; Path=/; secure
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-UA-Compatible:
+      - ie=edge
     status:
       code: 200
       message: OK
