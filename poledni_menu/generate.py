@@ -1,5 +1,5 @@
 
-
+from urllib.error import URLError
 import importlib
 
 import click
@@ -29,7 +29,7 @@ def generate_menu(
         yield "Cannot import {extractor}: {err}".format(
             extractor=extractor, err=err,
         )
-    except (AttributeError, ValueError) as err:
+    except (AttributeError, ValueError, TimeoutError, URLError) as err:
         yield "Error: {err}".format(err=err)
     yield ""
 
