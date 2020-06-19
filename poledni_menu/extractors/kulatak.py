@@ -17,8 +17,8 @@ def get_menu():
     locale.setlocale(locale.LC_TIME, 'cs_CZ.UTF8')
     dayname = datetime.date.today().strftime("%A")
     for meal in doc.xpath('//div[@id="daily_menu"]/table/tbody/tr/td'
-                          '/strong[contains(.,"{}")]/../..'
-                          '/../*'.format(dayname)):
+                        'strong[contains(.,"{}")]/ancestor::tr/'
+                        'following-sibling::tr[position()<5]'.format(dayname)):
         cells = meal.findall('td')
         if len(cells) != 3:
             continue
