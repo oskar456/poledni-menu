@@ -5,11 +5,11 @@ from ..utils import parsed_html_doc
 
 
 def get_name():
-    return "Restaurant & Café BLOX"
+    return "Telehouse Canteen"
 
 
 def get_url():
-    return "http://www.blox-restaurant.cz/#!/page_obedy"
+    return "https://telehouse-canteen.cz/#!/page_obedy"
 
 
 def get_menu():
@@ -20,10 +20,10 @@ def get_menu():
         '//*[@id="page_obedy"]//*[starts-with(text(), "{}")]'
         '/ancestor::tr/following-sibling::tr'.format(dayname),
     )
-    for meal in rows[0:8]:
-        cols = meal.findall("td")
-        if len(cols) == 4:
-            num, name, alergens, price = cols
+    for meal in rows[0:6]:
+        cols = meal.findall('td')
+        if len(cols) == 3:
+            name, alergens, price = cols
         else:
             continue
         if (name is not None) and (price is not None):
