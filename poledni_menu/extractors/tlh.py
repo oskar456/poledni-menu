@@ -20,10 +20,10 @@ def get_menu():
         '//*[@id="page_obedy"]//*[starts-with(text(), "{}")]'
         '/ancestor::tr/following-sibling::tr'.format(dayname),
     )
-    for meal in rows[0:6]:
+    for meal in rows[0:7]:
         cols = meal.findall('td')
-        if len(cols) == 3:
-            name, alergens, price = cols
+        if len(cols) == 4:
+            _, name, _, price = cols
         else:
             continue
         if (name is not None) and (price is not None):
