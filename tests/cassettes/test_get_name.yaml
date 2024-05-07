@@ -2,13 +2,17 @@ interactions:
 - request:
     body: null
     headers:
-      Connection: [close]
-      Host: [agata.suz.cvut.cz]
-      User-Agent: [Python-urllib/3.6]
+      Connection:
+      - close
+      Host:
+      - agata.suz.cvut.cz
+      User-Agent:
+      - Python-urllib/3.6
     method: GET
     uri: https://agata.suz.cvut.cz/jidelnicky/index.php?clPodsystem=5
   response:
-    body: {string: "<!DOCTYPE html>\n<html lang=\"cs\">\n  <head>    \n    <meta http-equiv=\"Content-Type\"
+    body:
+      string: "<!DOCTYPE html>\n<html lang=\"cs\">\n  <head>    \n    <meta http-equiv=\"Content-Type\"
         content=\"text/html; charset=UTF-8\">  \n    <title>J\xEDdeln\xED\u010Dky
         menz \u010CVUT</title>\n    <meta name=\"viewport\" content=\"width=device-width,
         initial-scale=1.0\">\n    <meta name=\"description\" content=\"Webov\xE9 j\xEDdeln\xED\u010Dky
@@ -378,25 +382,37 @@ interactions:
         /></p></noscript>\nEnd Piwik Code -->\n\n<!--\n================================================================================\n-->\n<script
         type=\"text/javascript\">\n  var ID = 5;\n  var PodSys = parseInt(ID);  \n
         \ \nif (PodSys > 0 && PodSys < 16){\n  ShowJidelnicek(ID);\n}\n</script>\n\n
-        \ </body>\n</html>\n"}
+        \ </body>\n</html>\n"
     headers:
-      Connection: [close]
-      Content-Length: ['29125']
-      Content-Type: [text/html]
-      Date: ['Mon, 26 Nov 2018 08:26:55 GMT']
-      Server: [Microsoft-IIS/7.5]
-      X-Powered-By: [ASP.NET]
-    status: {code: 200, message: OK}
+      Connection:
+      - close
+      Content-Length:
+      - '29125'
+      Content-Type:
+      - text/html
+      Date:
+      - Mon, 26 Nov 2018 08:26:55 GMT
+      Server:
+      - Microsoft-IIS/7.5
+      X-Powered-By:
+      - ASP.NET
+    status:
+      code: 200
+      message: OK
 - request:
     body: null
     headers:
-      Connection: [close]
-      Host: [agata.suz.cvut.cz]
-      User-Agent: [Python-urllib/3.6]
+      Connection:
+      - close
+      Host:
+      - agata.suz.cvut.cz
+      User-Agent:
+      - Python-urllib/3.6
     method: GET
     uri: https://agata.suz.cvut.cz/jidelnicky/index.php?clPodsystem=1
   response:
-    body: {string: "<!DOCTYPE html>\n<html lang=\"cs\">\n  <head>    \n    <meta http-equiv=\"Content-Type\"
+    body:
+      string: "<!DOCTYPE html>\n<html lang=\"cs\">\n  <head>    \n    <meta http-equiv=\"Content-Type\"
         content=\"text/html; charset=UTF-8\">  \n    <title>J\xEDdeln\xED\u010Dky
         menz \u010CVUT</title>\n    <meta name=\"viewport\" content=\"width=device-width,
         initial-scale=1.0\">\n    <meta name=\"description\" content=\"Webov\xE9 j\xEDdeln\xED\u010Dky
@@ -881,25 +897,37 @@ interactions:
         /></p></noscript>\nEnd Piwik Code -->\n\n<!--\n================================================================================\n-->\n<script
         type=\"text/javascript\">\n  var ID = 1;\n  var PodSys = parseInt(ID);  \n
         \ \nif (PodSys > 0 && PodSys < 16){\n  ShowJidelnicek(ID);\n}\n</script>\n\n
-        \ </body>\n</html>\n"}
+        \ </body>\n</html>\n"
     headers:
-      Connection: [close]
-      Content-Length: ['37802']
-      Content-Type: [text/html]
-      Date: ['Mon, 26 Nov 2018 08:26:55 GMT']
-      Server: [Microsoft-IIS/7.5]
-      X-Powered-By: [ASP.NET]
-    status: {code: 200, message: OK}
+      Connection:
+      - close
+      Content-Length:
+      - '37802'
+      Content-Type:
+      - text/html
+      Date:
+      - Mon, 26 Nov 2018 08:26:55 GMT
+      Server:
+      - Microsoft-IIS/7.5
+      X-Powered-By:
+      - ASP.NET
+    status:
+      code: 200
+      message: OK
 - request:
     body: null
     headers:
-      Connection: [close]
-      Host: [agata.suz.cvut.cz]
-      User-Agent: [Python-urllib/3.6]
+      Connection:
+      - close
+      Host:
+      - agata.suz.cvut.cz
+      User-Agent:
+      - Python-urllib/3.6
     method: GET
     uri: https://agata.suz.cvut.cz/jidelnicky/index.php?clPodsystem=blah
   response:
-    body: {string: "<!DOCTYPE html>\n<html lang=\"cs\">\n  <head>    \n    <meta http-equiv=\"Content-Type\"
+    body:
+      string: "<!DOCTYPE html>\n<html lang=\"cs\">\n  <head>    \n    <meta http-equiv=\"Content-Type\"
         content=\"text/html; charset=UTF-8\">  \n    <title>J\xEDdeln\xED\u010Dky
         menz \u010CVUT</title>\n    <meta name=\"viewport\" content=\"width=device-width,
         initial-scale=1.0\">\n    <meta name=\"description\" content=\"Webov\xE9 j\xEDdeln\xED\u010Dky
@@ -1001,13 +1029,390 @@ interactions:
         prou\u017Ekem a chcete se u n\xE1s stravovat, za\u0159i\u010Fte si pros\xEDm
         v\xFDm\u011Bnu karty.<BR></p>   \r\n  </div>\r\n</div>\r\n</div><br><div class=\"row-fluid\"></div>
         \r\n  \r\n</div>\n\n<div id=\"jidelnicek\" style=\"display:block; max-width:800px;
-        padding-left:10px;\">\n\n\r\n\r\n"}
+        padding-left:10px;\">\n\n\r\n\r\n"
     headers:
-      Connection: [close]
-      Content-Length: ['8078']
-      Content-Type: [text/html]
-      Date: ['Mon, 26 Nov 2018 08:41:57 GMT']
-      Server: [Microsoft-IIS/7.5]
-      X-Powered-By: [ASP.NET]
-    status: {code: 200, message: OK}
+      Connection:
+      - close
+      Content-Length:
+      - '8078'
+      Content-Type:
+      - text/html
+      Date:
+      - Mon, 26 Nov 2018 08:41:57 GMT
+      Server:
+      - Microsoft-IIS/7.5
+      X-Powered-By:
+      - ASP.NET
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Connection:
+      - close
+      Host:
+      - agata.suz.cvut.cz
+      User-Agent:
+      - Python-urllib/3.12
+    method: GET
+    uri: https://agata.suz.cvut.cz/jidelnicky/index.php?clPodsystem=5
+  response:
+    body:
+      string: "<!DOCTYPE html>\n\r\n\r\n\r\n  \n<html lang=\"cs\">\n  <head>    \n
+        \   <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">
+        \ \n    <title>J\xEDdeln\xED\u010Dky menz \u010CVUT</title>\n    <meta name=\"viewport\"
+        content=\"width=device-width, initial-scale=1.0\">\n    <meta name=\"description\"
+        content=\"Webov\xE9 j\xEDdeln\xED\u010Dky menz \u010CVUT\">\n    <meta name=\"keywords\"
+        content=\"Menzy, j\xEDdeln\xED\u010Dky, \u010CVUT, Restaurace, Strahov, Kladno,
+        Dejvice, Technick\xE1\">\n    <meta name=\"author\" content=\"Ka\u0148ovsk\xFD
+        Tom\xE1\u0161\">\n    <!-- stylesheet --> \n    <link rel=\"stylesheet\" title=\"styl\"
+        type=\"text/css\" href=\"css/bootstrap.css\" media=\"screen\">\n    <link
+        rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css\">
+        \   \n    \n    <link rel=\"stylesheet\" title=\"styl\" type=\"text/css\"
+        href=\"css/truncatetext.css\" media=\"screen\">\n    <link rel=\"stylesheet\"
+        title=\"styl\" type=\"text/css\" href=\"css/flag-icons.css\" media=\"screen\">\n
+        \   <!-- favicons -->\n    <link rel=\"shortcut icon\" href=\"favicon.ico\">\n
+        \   <link rel=\"icon\" href=\"favicon.ico\">\n    <link rel=\"shortcut icon\"
+        href=\"favicon.png\" type=\"image/png\">\n    <!-- javascript -->\n    <script
+        src=\"js/jquery-3.6.0.min.js\"></script>\n    <!-- Bootstrap Bundle with Popper
+        -->\n    <script src=\"js/bootstrap.bundle.min.js\"></script>   \n</head>\n<!--
+        javascript vlastni kody ================================================================================
+        -->\n<script>\nfunction SetLang(link,IDlink,Lang){\n  var J = Lang; \n  var
+        section = document.getElementById(\"PodsysActive\").value;\n  if (section
+        != 0){ \n    document.getElementById(IDlink).href = link + \"?clPodsystem=\"
+        +  section + \"&lang=\"+J;\n  }else{\n    document.getElementById(IDlink).href
+        = link + \"?lang=\"+J;\n  }\n\n}\nfunction ShowJidelnicek(PodSid){\n  var
+        \ OldPodSid = document.getElementById('PodsysActiveID').value;  \n  var PodSysN
+        = parseInt(PodSid);  \n  if (PodSysN > 0 && PodSysN < 16){\n    document.getElementById(OldPodSid).className
+        = \"btn btn-light btn-sm\";\n    document.getElementById('podS'+ PodSid).className
+        = \"btn btn-primary-menzy btn-sm\";\n  \n    document.getElementById('PodsysActive').value
+        = PodSid;\n    document.getElementById('PodsysActiveID').value = \"podS\"+
+        PodSid;\n  }\n}\n\nfunction SendSection(IDlink){\n  var link = document.getElementById(IDlink).href;\n
+        \ var J = document.getElementById('Jaz').value;\n  var section = document.getElementById(\"PodsysActive\").value;\n
+        \ if (section != 0){  \n  if (IDlink == \"litydenh\"){\n    document.getElementById(IDlink).href
+        = link + \"?clPodsystem=\" +  section + \"&lang=\"+J; \n  }else{\n   document.getElementById(IDlink).href
+        = link +\"?lang=\" +J+ \"#section\" +  section;\n  }\n  }else{\n    if (IDlink
+        == \"litydenh\"){\n    document.getElementById(IDlink).href = link + \"?lang=\"+J;
+        \n  }else{\n   document.getElementById(IDlink).href = link +\"?lang=\" +J;\n
+        \ }\n  }\n}\n\nfunction ShowFoto(imgID)\n{\n  var modal = document.getElementById(\"FotoModal\");\n
+        \ var modalImg = document.getElementById(\"img01\");\n  var link = document.getElementById(imgID+'x').value;\n
+        \n  \n  modal.style.display = \"block\";\n  modalImg.src = link;\n  //modalImg.src
+        = Img.alt;\n  //captionText.innerHTML = Img.alt;\n}\n\nfunction ShowFotoSDKam()\n{\n
+        \ var modal = document.getElementById(\"FotoModalSDCam\");\n  var modalImg
+        = document.getElementById(\"imgCam\");\n  var link = 'sd-cam-img.php?x='+Date.now();\n
+        \n  \n  modal.style.display = \"block\";\n  modalImg.src = link;\n  //modalImg.src
+        = Img.alt;\n  //captionText.innerHTML = Img.alt;\n}\n\nfunction CloseFotoSDKam()\n{\n
+        \ var modal = document.getElementById(\"FotoModalSDCam\");\n  var modalImg
+        = document.getElementById(\"imgCam\");  \n  modal.style.display = \"none\";\n
+        \ modalImg.src = 'img/photo_camera_24.png';\n}\n\nfunction ShowAlergeny(xID){\n
+        \ var A = document.getElementById(xID+'x');\n  var J = document.getElementById('Jaz').value;\n
+        \ var alergeny = A.value;   \n  $('#AlergenyData').load('alergeny.php?lang='+J+'&alergeny='+alergeny);\n
+        \ //document.getElementById(\"AlergenyModalN\").style.display = \"block\";\n}\n\n\nfunction
+        GaleryLoad(Podsys){\n var J = document.getElementById('Jaz').value; \n $('#CaruselGaleryFoto').load('galerie.php?clPodsystem='+Podsys+'&lang='+J);\n
+        \n}\n\nfunction ShowMore(ID){\n  var TextElement = document.getElementById('P'+ID);\n
+        \n   TextElement.classList.remove('line-clamp-4');\n   document.getElementById('MP'+ID).style.visibility
+        = \"hidden\";\n   document.getElementById('LP'+ID).style.visibility = \"visible\";\n
+        //TextElement.addClass(\"myClass yourClass\");\n}\nfunction ShowLess(ID){\n
+        \ var TextElement = document.getElementById('P'+ID);\n \n   TextElement.classList.add('line-clamp-4');
+        \  \n   document.getElementById('MP'+ID).style.visibility = \"visible\";\n
+        \  document.getElementById('LP'+ID).style.visibility = \"hidden\";\n}\n\nfunction
+        ShowInfoProvoz(){\n if (document.getElementById('infoProvoz').style.display
+        == 'block'){\n   document.getElementById('infoProvoz').style.display = \"none\";\n
+        \  document.getElementById('globalInfo1').style.display = \"block\";\n }else{\n
+        document.getElementById('infoProvoz').style.display = \"block\";\n document.getElementById('globalInfo1').style.display
+        = \"none\";\n }\n}\n\nfunction CloseInfoProvoz(){\n  document.getElementById('infoProvoz').style.display
+        = \"none\";\n  document.getElementById('globalInfo1').style.display = \"block\";\n
+        \n}\n\n\n</script>\n<style>       \n.navbar-tabs>.active>a {\n  background-color:
+        #264c6f;\n  color: white;\n}\n\n.read-more {\n    visibility: hidden;\n}\n\n.read-less
+        {\n    visibility: hidden;\n }\n    </style>\n\n<!--\n================================================================================\nend
+        of javascript code  -->\n\n \n  <body onload=\"ShowJidelnicek(5)\">\n\n<input
+        type='hidden' id='Jaz' value='cs'>\n<input type='hidden' id='PodsysActive'
+        value='5'>\n<input type='hidden' id='ActivePage' value='lihome'>\n<input type='hidden'
+        id='PodsysActiveID' value='podS5'>\n<header>\n  <nav class=\"navbar navbar-expand-lg
+        navbar-dark fixed-top\" style=\"background-color: #002d56;\">\n    <div class=\"container\">
+        \      \n      <div class=\"collapse navbar-collapse\" id=\"navbarCollapse\">\n
+        \       <!--<ul class=\"navbar-nav me-auto mb-2 mb-md-0\">-->\n        <ul
+        class=\"navbar-nav nav-tabs\">\n          <li id=\"lihome\" class=\"nav-item\"><a
+        id=\"lihomeh\" class=\"nav-link active\" aria-current=\"page\" href=\"#\">J\xEDdeln\xED\u010Dky</a></li>\n
+        \         <li id=\"lityden\" class=\"nav-item\"><a id=\"litydenh\" class=\"nav-link\"
+        href=\"indexTyden.php\" onclick=\"SendSection('litydenh');\">T\xFDdenn\xED</a></li>\n
+        \         <li id=\"liot\" class=\"nav-item\"><a id=\"lioth\" class=\"nav-link\"
+        href=\"oteviraci-doby.php\" onclick=\"SendSection('lioth');\">Otev\xEDrac\xED
+        doby</a></li>\n          <li id=\"likontakt\" class=\"nav-item\"><a id=\"likontakth\"
+        class=\"nav-link\" href=\"kontakty.php\" onclick=\"SendSection('likontakth');\">Kontakty</a></li>\n
+        \         <li id=\"lismart\" class=\"nav-item\"><a id=\"lismarth\" class=\"nav-link\"
+        href=\"aplikace.php?lang=cs\">Aplikace</a></li>\n          <li id=\"listravnik\"
+        class=\"nav-item\"><a id=\"listravnikh\" class=\"nav-link\" href=\"stravnik.php?lang=cs\">Str\xE1vn\xEDk</a></li>\n
+        \         <li id=\"liinformace\" class=\"nav-item\"><a id=\"liinformaceh\"
+        class=\"nav-link\" href=\"informace.php?lang=cs\">Informace</a></li>\n          <li
+        class=\"nav-item dropdown\">\n            <a class=\"nav-link dropdown-toggle\"
+        href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">Jazyk
+        <span class=\"fi fi-cz\"></span></a>\n            <ul class=\"dropdown-menu\">\n
+        \             <li><a id=\"liLangEn\" class=\"dropdown-item\" href=\"#\" onclick=\"SetLang('index.php','liLangEn','en');\"><span
+        class=\"fi fi-gb\"></span> English</a></li>\n              <li><a id=\"liLangCs\"
+        class=\"dropdown-item\" href=\"#\" onclick=\"SetLang('index.php','liLangCs','cs');\"
+        ><span class=\"fi fi-cz\"></span> \u010Cesky</a></li>           \n            </ul>\n
+        \         </li>               \n        </ul>        \n      </div>      \n
+        \     <a class=\"navbar-brand\" href=\"index.php?lang=cs\"><i class=\"bi bi-house\"></i>
+        J\xEDdeln\xED\u010Dky menz \u010CVUT</a>\n      <button class=\"navbar-toggler\"
+        type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarCollapse\"
+        aria-controls=\"navbarCollapse\" aria-expanded=\"false\" aria-label=\"Toggle
+        navigation\">\n        <span class=\"navbar-toggler-icon\"></span>\n      </button>\n
+        \     <img src=\"img/Lev.png\" class=\"lev_image\" style=\"margin-right: 15px;\"
+        height='40' alt=\"...\"> \n    </div>\n  </nav>\n</header>\n\n<div class=\"container
+        shadow p-3 mb-5 bg-body rounded\" style=\"background-color: #ffffff;\"> <!--
+        start conteiner 3 -->\n  <div class=\"row\"> <!-- start row 1 -->    \n    <div
+        class=\"col-md-2\"> <!-- start col 1 -->\n      <div class=\"d-grid gap-2\"
+        style=\"position: sticky; top: 58px;\"> <!-- start left panel -->\n\n    <a
+        id=\"podS1\" href=\"?clPodsystem=1&lang=cs\"  class=\"btn btn-light btn-sm\"
+        style=\"text-align:left;\" onclick=\"ShowJidelnicek(1);\"><img src='img/OtevrenoX1.png'
+        alt='...' width='15' height='15' class='d-inline-block align-text-top' data-bs-toggle='tooltip'
+        data-bs-placement='top' data-bs-title='Provoz otev\u0159en dle otev\xEDrac\xED
+        doby.'> Menza Strahov</a><a id=\"podS2\" href=\"?clPodsystem=2&lang=cs\"  class=\"btn
+        btn-light btn-sm\" style=\"text-align:left;\" onclick=\"ShowJidelnicek(2);\"><img
+        src='img/OtevrenoX1.png' alt='...' width='15' height='15' class='d-inline-block
+        align-text-top' data-bs-toggle='tooltip' data-bs-placement='top' data-bs-title='Provoz
+        otev\u0159en dle otev\xEDrac\xED doby.'> Menza Studentsk\xFD d\u016Fm</a><a
+        id=\"podS3\" href=\"?clPodsystem=3&lang=cs\"  class=\"btn btn-light btn-sm\"
+        style=\"text-align:left;\" onclick=\"ShowJidelnicek(3);\"><img src='img/OtevrenoX1.png'
+        alt='...' width='15' height='15' class='d-inline-block align-text-top' data-bs-toggle='tooltip'
+        data-bs-placement='top' data-bs-title='Provoz otev\u0159en dle otev\xEDrac\xED
+        doby.'> Technick\xE1 menza</a><a id=\"podS9\" href=\"?clPodsystem=9&lang=cs\"
+        \ class=\"btn btn-light btn-sm\" style=\"text-align:left;\" onclick=\"ShowJidelnicek(9);\"><img
+        src='img/OtevrenoX1.png' alt='...' width='15' height='15' class='d-inline-block
+        align-text-top' data-bs-toggle='tooltip' data-bs-placement='top' data-bs-title='Provoz
+        otev\u0159en dle otev\xEDrac\xED doby.'> Menza Kladno</a><a id=\"podS6\" href=\"?clPodsystem=6&lang=cs\"
+        \ class=\"btn btn-light btn-sm\" style=\"text-align:left;\" onclick=\"ShowJidelnicek(6);\"><img
+        src='img/OtevrenoX1.png' alt='...' width='15' height='15' class='d-inline-block
+        align-text-top' data-bs-toggle='tooltip' data-bs-placement='top' data-bs-title='Provoz
+        otev\u0159en dle otev\xEDrac\xED doby.'> V\xFDdejna Horsk\xE1</a><a id=\"podS8\"
+        href=\"?clPodsystem=8&lang=cs\"  class=\"btn btn-light btn-sm\" style=\"text-align:left;\"
+        onclick=\"ShowJidelnicek(8);\"><img src='img/OtevrenoX1.png' alt='...' width='15'
+        height='15' class='d-inline-block align-text-top' data-bs-toggle='tooltip'
+        data-bs-placement='top' data-bs-title='Provoz otev\u0159en dle otev\xEDrac\xED
+        doby.'> V\xFDdejna Karlovo n\xE1m\u011Bst\xED</a><a id=\"podS5\" href=\"?clPodsystem=5&lang=cs\"
+        \ class=\"btn btn-light btn-sm\" style=\"text-align:left;\" onclick=\"ShowJidelnicek(5);\"><img
+        src='img/ZavrenoX1.png' alt='...' width='15' height='15' class='d-inline-block
+        align-text-top' data-bs-toggle='tooltip' data-bs-placement='top' data-bs-title='Provoz
+        uzav\u0159en.'> Masarykova kolej</a><a id=\"podS12\" href=\"?clPodsystem=12&lang=cs\"
+        \ class=\"btn btn-light btn-sm\" style=\"text-align:left;\" onclick=\"ShowJidelnicek(12);\"><img
+        src='img/OtevrenoX1.png' alt='...' width='15' height='15' class='d-inline-block
+        align-text-top' data-bs-toggle='tooltip' data-bs-placement='top' data-bs-title='Provoz
+        otev\u0159en dle otev\xEDrac\xED doby.'> MEGA BUF FAT</a><a id=\"podS11\"
+        href=\"?clPodsystem=11&lang=cs\"  class=\"btn btn-light btn-sm\" style=\"text-align:left;\"
+        onclick=\"ShowJidelnicek(11);\"><img src='img/OtevrenoX1.png' alt='...' width='15'
+        height='15' class='d-inline-block align-text-top' data-bs-toggle='tooltip'
+        data-bs-placement='top' data-bs-title='Provoz otev\u0159en dle otev\xEDrac\xED
+        doby.'> Snack bar Strahov</a><a id=\"podS13\" href=\"?clPodsystem=13&lang=cs\"
+        \ class=\"btn btn-light btn-sm\" style=\"text-align:left;\" onclick=\"ShowJidelnicek(13);\"><img
+        src='img/OtevrenoX1.png' alt='...' width='15' height='15' class='d-inline-block
+        align-text-top' data-bs-toggle='tooltip' data-bs-placement='top' data-bs-title='Provoz
+        otev\u0159en dle otev\xEDrac\xED doby.'> Bistro M\xDAVS</a>      </div> <!--
+        end left panel -->\n    </div> <!-- end col 1 -->  \n    <div class=\"col-md-10\"
+        > <!-- start col 2 -->      \n      <!--\n      <div style=\"margin-bottom:
+        10px; text-align: center;\">\n      <a target=\"_blank\" href=\"https://agata.suz.cvut.cz/jidelnicky/files/Vanoce2022.pdf\">\n
+        \       <h5><span class=\"badge rounded-pill text-bg-success\">Provozn\xED
+        doby gastroprovoz\u016F S\xDAZ V\xE1noce 2022 - st\xE1hnout zde</span></h5>
+        \      \n      </a>\n            </div>\n      -->  \n      <div id=\"aktuality\"
+        style=\"display:none;  \"><div class=\"card mb-3\">  <img src=\"img/provoz/indextest2.png\"
+        class=\"card-img-top\" alt=\"...\">  <div class=\"card-body\">    <h5 class=\"card-title\">J\xEDdeln\xED\u010Dky
+        menz \u010CVUT</h5>    <p class=\"card-text\"></p>    <p class=\"card-text\"><small
+        class=\"text-muted\"></small></p>    <div style=\"margin-bottom: 10px; text-align:
+        center;\">      </div>  </div></div><div class='row'><div class='col-4'> <div
+        class=\"card alert alert-danger text-bg-light shadow p-3 mb-1 bg-body position-relative\"
+        style=\"max-width: 25rem;\"><div class=\"card-header\">Technick\xE1 menza</div><p
+        id=\"P0\" class=\"card-text line-clamp-4\">\r\nZ d\u016Fvodu nemoci n\u011Bkolika
+        kucha\u0159\u016F nebudeme v pond\u011Bl\xED 6.5.24 p\u0159ipravovat tepl\xE9
+        sn\xEDdan\u011B.<BR>\r\nPrioritou bude zajistit v pln\xE9 m\xED\u0159e p\u0159\xEDpravu
+        a v\xFDdej ob\u011Bd\u016F.<BR>\r\nOd \xFAter\xFD 7.5. u\u017E by se m\u011Bl
+        po nemoci vr\xE1tit kucha\u0159 kter\xFD sn\xEDdan\u011B p\u0159ipravuje.<BR>\r\nOmlouv\xE1me
+        se a d\u011Bkujeme za pochopen\xED. <BR>\r\nV\xE1\u017Een\xED host\xE9, ve
+        dnech  1.5 a 8.5.2024 je Technick\xE1 menza zav\u0159en\xE1 - ST\xC1TN\xCD
+        SV\xC1TEK<BR>\r\nPr\xE1zdninov\xFD re\u017Eim :<BR>\r\nTechnick\xE1 menza
+        bude otev\u0159en\xE1 v \u010Dervenci 2024<BR>\r\nV srpnu budeme m\xEDt zav\u0159eno
+        - \u010Derp\xE1me dovolenou.<BR></p><a id=\"MP0\" class= \"position-absolute
+        bottom-0 start-10 read-more\" href=\"javascript:void(0)\" onclick=\"ShowMore(0);\"><i
+        class=\"bi bi-chevron-double-down\"></i> V\xEDce</a><a id=\"LP0\" class= \"position-absolute
+        bottom-0 start-10 read-less\" href=\"javascript:void(0)\" onclick=\"ShowLess(0);\"><i
+        class=\"bi bi-chevron-double-up\"></i> M\xE9n\u011B</a>  </div></div><div
+        class='col-4'> <div class=\"card alert alert-danger text-bg-light shadow p-3
+        mb-1 bg-body position-relative\" style=\"max-width: 25rem;\"><div class=\"card-header\">Menza
+        Strahov</div><p id=\"P1\" class=\"card-text line-clamp-4\">\r\nZ d\u016Fvodu
+        do\u010Dasn\xE9ho uzav\u0159en\xED restaurace jsme pro v\xE1s roz\u0161\xED\u0159ili
+        denn\xED nab\xEDdku specialit.<BR>\r\nV n\xE1vaznosti na p\u0159edchoz\xED
+        krok upravujeme od 15. 4. 2024 otevirac\xED dobu menzy v PO - \u010CT 11.00
+        - 20.30, P\xC1 11.00 - 19.30 a v nep\u0159etr\u017Eit\xE9m provozu tak, <BR>\r\njak
+        jste zvykl\xED z provozu restaurace.<BR>\r\nOd pond\u011Bl\xED 29.4. 2024
+        vrac\xEDme do odpoledn\xED nab\xEDdky r\u016Fzn\xE9 druhy neapolsk\xE9 pizzy,
+        za pouh\xFDch 129,- K\u010D <BR>\r\nLetn\xED posezen\xED na na\u0161\xED terase
+        je pro v\xE1s op\u011Bt nachyst\xE1no.<BR>\r\nT\u011B\u0161\xEDme se na V\xE1s<BR>\r\n
+        8.5. ZAV\u0158ENO - ST\xC1TN\xCD SV\xC1TEK<BR></p><a id=\"MP1\" class= \"position-absolute
+        bottom-0 start-10 read-more\" href=\"javascript:void(0)\" onclick=\"ShowMore(1);\"><i
+        class=\"bi bi-chevron-double-down\"></i> V\xEDce</a><a id=\"LP1\" class= \"position-absolute
+        bottom-0 start-10 read-less\" href=\"javascript:void(0)\" onclick=\"ShowLess(1);\"><i
+        class=\"bi bi-chevron-double-up\"></i> M\xE9n\u011B</a>  </div></div><div
+        class='col-4'> <div class=\"card alert alert-danger text-bg-light shadow p-3
+        mb-1 bg-body position-relative\" style=\"max-width: 25rem;\"><div class=\"card-header\">Masarykova
+        kolej</div><p id=\"P2\" class=\"card-text line-clamp-4\">\r\nV\xC1\u017DEN\xCD
+        HOST\xC9<BR>\r\nAKADEMICK\xC1 RESTAURACE JE ZAV\u0158EN\xC1.<BR>\r\nNeplat\xED
+        pro po\u0159\xE1d\xE1n\xED soukrom\xFDch, firemn\xEDch a spole\u010Densk\xFDch
+        akc\xED. <BR></p><a id=\"MP2\" class= \"position-absolute bottom-0 start-10
+        read-more\" href=\"javascript:void(0)\" onclick=\"ShowMore(2);\"><i class=\"bi
+        bi-chevron-double-down\"></i> V\xEDce</a><a id=\"LP2\" class= \"position-absolute
+        bottom-0 start-10 read-less\" href=\"javascript:void(0)\" onclick=\"ShowLess(2);\"><i
+        class=\"bi bi-chevron-double-up\"></i> M\xE9n\u011B</a>  </div></div></div><br><div
+        class=\"row\"><div class='col-4'> <div class=\"card alert alert-danger text-bg-light
+        shadow p-3 mb-1 bg-body position-relative\" style=\"max-width: 25rem;\"><div
+        class=\"card-header\">V\xFDdejna Horsk\xE1</div><p id=\"P3\" class=\"card-text
+        line-clamp-4\">\r\nDne 1.5.2024 Zav\u0159eno<BR>\r\nDne 8.5.2024 Zav\u0159eno<BR></p><a
+        id=\"MP3\" class= \"position-absolute bottom-0 start-10 read-more\" href=\"javascript:void(0)\"
+        onclick=\"ShowMore(3);\"><i class=\"bi bi-chevron-double-down\"></i> V\xEDce</a><a
+        id=\"LP3\" class= \"position-absolute bottom-0 start-10 read-less\" href=\"javascript:void(0)\"
+        onclick=\"ShowLess(3);\"><i class=\"bi bi-chevron-double-up\"></i> M\xE9n\u011B</a>
+        \ </div></div><div class='col-4'> <div class=\"card alert alert-danger text-bg-light
+        shadow p-3 mb-1 bg-body position-relative\" style=\"max-width: 25rem;\"><div
+        class=\"card-header\">V\xFDdejna Karlovo n\xE1m\u011Bst\xED</div><p id=\"P4\"
+        class=\"card-text line-clamp-4\">\r\nDne 1.5.2024 Zav\u0159eno<BR>\r\nDne
+        8.5.2024 Zav\u0159eno     <BR></p><a id=\"MP4\" class= \"position-absolute
+        bottom-0 start-10 read-more\" href=\"javascript:void(0)\" onclick=\"ShowMore(4);\"><i
+        class=\"bi bi-chevron-double-down\"></i> V\xEDce</a><a id=\"LP4\" class= \"position-absolute
+        bottom-0 start-10 read-less\" href=\"javascript:void(0)\" onclick=\"ShowLess(4);\"><i
+        class=\"bi bi-chevron-double-up\"></i> M\xE9n\u011B</a>  </div></div><div
+        class='col-4'> <div class=\"card alert alert-danger text-bg-light shadow p-3
+        mb-1 bg-body position-relative\" style=\"max-width: 25rem;\"><div class=\"card-header\">MEGA
+        BUF FAT</div><p id=\"P5\" class=\"card-text line-clamp-4\">\r\nSt\u0159eda
+        \ 1.5.2024     St\xE1tn\xED sv\xE1tek      ZAV\u0158ENO<BR>\r\nSt\u0159eda
+        \ 8.5.2024     St\xE1tn\xED sv\xE1tek      ZAV\u0158ENO<BR></p><a id=\"MP5\"
+        class= \"position-absolute bottom-0 start-10 read-more\" href=\"javascript:void(0)\"
+        onclick=\"ShowMore(5);\"><i class=\"bi bi-chevron-double-down\"></i> V\xEDce</a><a
+        id=\"LP5\" class= \"position-absolute bottom-0 start-10 read-less\" href=\"javascript:void(0)\"
+        onclick=\"ShowLess(5);\"><i class=\"bi bi-chevron-double-up\"></i> M\xE9n\u011B</a>
+        \ </div></div></div><br><div class=\"row\"><div class='col-4'> <div class=\"card
+        alert alert-danger text-bg-light shadow p-3 mb-1 bg-body position-relative\"
+        style=\"max-width: 25rem;\"><div class=\"card-header\">Menza Studentsk\xFD
+        d\u016Fm</div><p id=\"P6\" class=\"card-text line-clamp-4\">\r\n   Ve st\u0159edu
+        1. 5. 2024 ZAV\u0158ENO, 8. 5. 2024 ZAV\u0158ENO, p\u0159ejeme hezk\xE9 sv\xE1tky.
+        Pr\xE1zdninov\xFD provoz 2024: v m\u011Bs\xEDci \u010CERVENCI ZAV\u0158ENO,
+        v SRPNU OTEV\u0158ENO.                                                                                                                                                                                                            <BR></p><a
+        id=\"MP6\" class= \"position-absolute bottom-0 start-10 read-more\" href=\"javascript:void(0)\"
+        onclick=\"ShowMore(6);\"><i class=\"bi bi-chevron-double-down\"></i> V\xEDce</a><a
+        id=\"LP6\" class= \"position-absolute bottom-0 start-10 read-less\" href=\"javascript:void(0)\"
+        onclick=\"ShowLess(6);\"><i class=\"bi bi-chevron-double-up\"></i> M\xE9n\u011B</a>
+        \ </div></div><div class='col-4'> <div class=\"card alert alert-danger text-bg-light
+        shadow p-3 mb-1 bg-body position-relative\" style=\"max-width: 25rem;\"><div
+        class=\"card-header\">Menza Kladno</div><p id=\"P7\" class=\"card-text line-clamp-4\">\r\n14.5.
+        2024 bude zav\u0159eno. Rektorsk\xFD den<BR></p><a id=\"MP7\" class= \"position-absolute
+        bottom-0 start-10 read-more\" href=\"javascript:void(0)\" onclick=\"ShowMore(7);\"><i
+        class=\"bi bi-chevron-double-down\"></i> V\xEDce</a><a id=\"LP7\" class= \"position-absolute
+        bottom-0 start-10 read-less\" href=\"javascript:void(0)\" onclick=\"ShowLess(7);\"><i
+        class=\"bi bi-chevron-double-up\"></i> M\xE9n\u011B</a>  </div></div><div
+        class=\"col-4\">&nbsp;</div><div class=\"col-4\">&nbsp;</div></div><input
+        type='hidden' id='PocetAktualit' value='8'> \r\n \r\n</div>\n      <div id=\"jidelnicek\"
+        style=\"display:block;\">\n        \r\n\r\n<div class='container position-relative'><div
+        id=\"infoProvoz\" class=\"card mb-3\" style=\"display:block\">  <img src=\"img/provoz/MK.png\"
+        class=\"card-img-top\" alt=\"...\">  <div class=\"card-body position-relative\">
+        \   <h5 class=\"card-title\" style=\"color: #264c6f\">Masarykova kolej - AKADEMICK\xC1
+        RESTAURACE</h5>    <p class=\"card-text\">Restaurace se nach\xE1z\xED v p\u0159\xEDzem\xED
+        budovy Masarykovy koleje a m\xE1 kapacitu 120 m\xEDst. Klimatizace je samoz\u0159ejmost\xED.
+        Nab\xEDz\xED \u0161irokou nab\xEDdku j\xEDdel, kter\xE1 se vyb\xEDraj\xED
+        z denn\xED nab\xEDdky nebo st\xE1l\xE9ho j\xEDdeln\xEDho l\xEDstku za p\u0159ijateln\xE9
+        ceny. Nab\xEDdka je dopln\u011Bn\xE1 o sal\xE1tov\xFD bar a mou\u010Dn\xEDky.</p>
+        \   <p class=\"card-text\"><small class=\"text-muted\">V bl\xEDzkosti restaurace
+        se nach\xE1z\xED sal\xF3nek o kapacit\u011B 15 - 20 m\xEDst k sezen\xED pro
+        ty, kte\u0159\xED necht\u011Bj\xED b\xFDt ru\u0161eni.</small></p><a href=\"stravnik.php?lang=cs\"
+        \  style=\"margin-right:4px;\"><span class=\"badge text-bg-success\" data-bs-html=\"true\"
+        data-bs-toggle=\"popover\" data-bs-trigger=\"hover focus\" data-bs-placement=\"bottom\"
+        data-bs-custom-class=\"custom-popover\" data-bs-title=\"GoPay\" data-bs-content=\"Mo\u017Enost
+        dob\xEDjen\xED konta pomoc\xED platebn\xED br\xE1ny GoPay - naleznete v menu
+        Str\xE1vn\xEDk\">GoPay</span></a><div class=\"position-absolute top-0 end-0\"><button
+        type=\"button\" class=\"btn btn-danger\" data-bs-toggle=\"modal\" data-bs-target=\"#infoModal\"
+        \       style=\"--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size:
+        .75rem;\"> D\u016Fle\u017Eit\xE9 informace!</button></div>     <div style=\"margin-bottom:
+        10px; text-align: center;\">     </div><h5><span class=\"badge rounded-pill
+        text-bg-warning\">Provoz uzav\u0159en.</span></h5> </div></div></div><div
+        id=\"infoModal\" class=\"modal\" tabindex=\"-1\">  <div class=\"modal-dialog\">
+        \   <div class=\"modal-content\">      <div class=\"modal-header\">        <h5
+        class=\"modal-title\">Masarykova kolej - AKADEMICK\xC1 RESTAURACE</h5>        <button
+        type=\"button\" onclick=\"CloseAktuality()\" class=\"btn-close\" data-bs-dismiss=\"modal\"
+        aria-label=\"Close\"></button>      </div>      <div class=\"modal-body\"><P
+        ALIGN=\"LEFT\">\r\n<SPAN style=\"color: #000000; font-size: 8pt; font-family:
+        Tahoma;\">\r\n</SPAN><SPAN style=\"color: #000000; font-size: 11pt; font-family:
+        Arial;\"><B><I>V\xC1\u017DEN\xCD HOST\xC9\r\n<BR>AKADEMICK\xC1 RESTAURACE
+        JE ZAV\u0158EN\xC1.\r\n<BR>\r\n<BR></I></B></SPAN><SPAN style=\"color: #FF0F0F;
+        font-size: 11pt; font-family: Calibri;\">Neplat\xED pro po\u0159\xE1d\xE1n\xED
+        soukrom\xFDch, firemn\xEDch a spole\u010Densk\xFDch akc\xED. \r\n</SPAN>\r\n</P>\r\n\r\n
+        \     </div>    </div>  </div></div> \n\n        <noscript>\n        <div><b>Pro
+        spr\xE1vnou funkci j\xEDdeln\xED\u010Dk\u016F, mus\xEDte m\xEDt zapnutou podporu
+        JavaScriptu.</b></div>\n        </noscript>\n      </div> \n    </div>  <!--
+        end col 2 -->  \n  </div> <!-- end row 1 -->\n</div> <!-- end container 3
+        -->\n\n\n\n\n\n\n\n<!-- pati\u010Dka ================================================================================-->\n<div
+        class=\"container position-relative\">   \r\n  <footer>\r\n    <hr>\r\n    <p><small>&copy;
+        Spr\xE1va \xFA\u010Delov\xFDch za\u0159\xEDzen\xED \u010CVUT v Praze 2023.</small></p>\r\n
+        \   <a href=\"mailto:&#106;&#105;&#100;&#101;&#108;&#110;&#105;&#099;&#107;&#121;&#064;&#099;&#118;&#117;&#116;&#046;&#099;&#122;\"
+        class=\"btn btn-secondary btn-sm\">\r\n      <i class=\"bi bi-envelope-fill\"></i>&nbsp;Spr\xE1va
+        webu, p\u0159ipom\xEDnky, dotazy</a>\r\n    <a href=\"https://www.suz.cvut.cz/\"
+        target=\"_blank\" class=\"btn btn-secondary btn-sm\"><i class=\"bi bi-globe\"></i>&nbsp;Spr\xE1va
+        \xFA\u010Delov\xFDch za\u0159\xEDzen\xED \u010CVUT</a>    \r\n  </footer>\r\n
+        \ <br>\r\n</div>\r\n\r\n\r\n\r\n<!-- ========================================================================================-->\n\n<!--
+        modal window ================================================================================-->
+        \   \n\n<!-- Modal alergeny -->\n<div class=\"modal\" id=\"AlergenyModalN\"
+        tabindex=\"-1\">\n  <div class=\"modal-dialog modal-dialog-centered\">\n    <div
+        class=\"modal-content\">\n      <div class=\"modal-body position-relative\"
+        >\n        <div class=\"position-absolute top-0 end-0\"><button type=\"button\"
+        class=\"btn-close\" data-bs-dismiss=\"modal\" aria-label=\"Close\"></button></div>\n
+        \       <div id='AlergenyData'></div>\n      </div>      \n    </div>\n  </div>\n</div>\n\n<!--
+        Modal foto -->\n<div class=\"modal\" id=\"FotoModal\" tabindex=\"-1\" aria-labelledby=\"...\"
+        aria-hidden=\"true\">\n  <div class=\"modal-dialog modal-dialog-centered modal-lg
+        \">\n    <div class=\"modal-content\">      \n      <div class=\"modal-body
+        position-relative\" style='padding: 0;background-color: #000000;'>\n        <div
+        class=\"position-absolute top-0 end-0\"><button type=\"button\" class=\"btn-close
+        btn-close-white\" data-bs-dismiss=\"modal\" aria-label=\"Close\"></button></div>
+        \      \n        <img id=\"img01\" src='img/photo_camera_24.png' alt='foto'
+        class='d-block w-100' style='max-width: 800px;'>  \n      </div>      \n    </div>\n
+        \ </div>\n</div>\n\n<!-- Modal SD-Kamera -->\n<div class=\"modal\" id=\"FotoModalSDCam\"
+        tabindex=\"-1\" aria-labelledby=\"...\" aria-hidden=\"true\">\n  <div class=\"modal-dialog
+        modal-dialog-centered modal-lg \">\n    <div class=\"modal-content\">\n      <div
+        class=\"modal-header\">\n        <h1 class=\"modal-title fs-5\" id=\"exampleModalLabel\">Fronta
+        na Studentsk\xE9m dom\u011B</h1>\n        <button type=\"button\" class=\"btn-close\"
+        data-bs-dismiss=\"modal\" onClick=\"CloseFotoSDKam();\" aria-label=\"Close\"></button>\n
+        \     </div>     \n      <div class=\"modal-body position-relative\">\n         <img
+        id=\"imgCam\" src='img/photo_camera_24.png' alt='foto' class='d-block w-100'
+        style='max-width: 800px;'>  \n      </div>\n      <div class=\"modal-footer\">\n
+        \       <button type=\"button\" class=\"btn btn-primary\" onClick=\"ShowFotoSDKam();\"
+        data-bs-dismiss=\"modal\">Reload</button>        \n      </div>\n    </div>\n
+        \ </div>\n</div>\n\n\n<!-- script ================================================================================-->\n<script>\n
+        \    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle=\"tooltip\"]');\n
+        \    const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new
+        bootstrap.Tooltip(tooltipTriggerEl));\n\n     const popoverTriggerList = document.querySelectorAll('[data-bs-toggle=\"popover\"]')\n
+        \    const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new
+        bootstrap.Popover(popoverTriggerEl))\n\n\n\nvar Texty = document.querySelectorAll('.line-clamp-4'),
+        i;\nfor (i = 0; i < Texty.length; ++i) {\n  \n  document.getElementById('M'+Texty[i].id).style.visibility
+        = \"hidden\";\n  document.getElementById('L'+Texty[i].id).style.visibility
+        = \"hidden\";\n  \n  if( (Texty[i].offsetHeight < Texty[i].scrollHeight) ||
+        (Texty[i].offsetWidth < Texty[i].scrollWidth)){\n   // your element have overflow\n
+        \   document.getElementById('M'+Texty[i].id).style.visibility = \"visible\";\n
+        \  // document.getElementById('L'+Texty[i].id).style.visibility = \"hidden\";\n
+        \ }\n}\n\n$(document).bind('keyup', function(e) {\n        if(e.which == 39){\n
+        \           $('.carousel').carousel('next');\n        }\n        else if(e.which
+        == 37){\n            $('.carousel').carousel('prev');\n        }\n    });\n
+        \    \n</script> \n</body>\n</html>\n"
+    headers:
+      Connection:
+      - close
+      Content-Type:
+      - text/html; charset=UTF-8
+      Date:
+      - Tue, 07 May 2024 10:07:09 GMT
+      Server:
+      - nginx/1.10.3 (Ubuntu)
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Powered-By:
+      - PHP/7.4.3
+    status:
+      code: 200
+      message: OK
 version: 1
